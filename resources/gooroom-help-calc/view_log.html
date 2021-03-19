@@ -1,0 +1,72 @@
+<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">계산기</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="index#uer_interface">사용자 인터페이스</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="#top">기록 보기 사용법</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+   <!-- contants  -->
+
+   <!-- for align 30px -->
+   <div class="div_root">
+
+     <!--sub title-->
+     <font class="font" style="font-size:18px;line-height:3;">기록 보기 사용법</font><br>
+
+     <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font" style="font-size:14px;">
+         <pre>목록 상자 위에 제공되는 기록 보기는 이전 계산 기록을 보여주며 마우스로 클릭 또는 스크롤하거나 키보드의 화살표 키를 사용하여 내용을 확인할 수 있습니다. 기록 보기에 표시되는 계산 개수에는 제한이 없습니다.</pre>
+       </font>
+     </div>
+
+   </div>   <!-- end of div_root-->
+
+  <footer>
+  <font class="font ref">자세한 정보<br></font>
+  <a href="index#user_interface">사용자 인터페이스</a><br><br>
+  </footer>
+
+  <footer class="info">
+    <a onClick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+</BODY>
+</HTML>
+

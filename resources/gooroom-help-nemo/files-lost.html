@@ -1,0 +1,78 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+    <!--nav bar-->
+    <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">파일 관리자</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="index#file_related_task">더 많은 파일 관련 작업</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="#top">파일 찾기</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+     
+   <!-- for align 30px -->
+   <div class="div_root">
+
+    <font class="font" style="font-size:22;">파일 찾기</font><br><br>
+
+    <!-- Rectangle-->
+    <div class="Rectangle">
+        <font class="font" style="font-size:14px;">
+          <pre>생성하거나 다운로드한 파일을 찾기 힘든 경우 다음 팁을 참조합니다.
+
+ - 파일을 저장한 위치를 기억하지 못하지만 이름을 알고 있는 경우 이름으로 <a href="files-search">파일을 검색</a>합니다.
+
+ - 파일을 방금 다운로드한 경우 웹 브라우저에서 파일을 공통 폴더에 자동으로 저장했을 수 있습니다. 홈 폴더에서 데스크톱 및 다운로드 폴더를 확인합니다.
+
+ - 실수로 파일을 삭제했을 수 있습니다. 파일을 삭제하면 휴지통으로 이동하여 수동으로 휴지통을 비울 때까지 유지됩니다. 삭제된 파일을 복원하는 방법은 <a href="files-recover">휴지통에서 파일 복원</a>을 참조합니다.
+
+ - 속성을 숨김 파일로 변경하는 과정에서 . 접두사가 추가되어 파일 이름이 변경되었을 수 있습니다. 접두사 . 또는 접미사 ~가 포함된 파일은 파일 관리자에서 표시되지 않습니다. [보기 옵션]을 클릭한 다음 [숨김 파일 표시]를 선택하여 숨김 파일을 표시합니다. 자세한 내용은 <a href="files-hidden">파일 숨기기</a>를 참조합니다.</pre>
+            </div><br>
+      </div>
+   <!-- end of div_root-->
+
+  <footer>
+  <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+    <a href="index#file_related_task">더 많은 파일 관련 작업</a><br>
+    <a href="files-recover">휴지통에서 파일 복원</a> — 삭제한 파일을 원래 위치로 복원합니다.<br><br>
+  </font>
+  </footer>
+  
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+ </BODY>
+</HTML>
+

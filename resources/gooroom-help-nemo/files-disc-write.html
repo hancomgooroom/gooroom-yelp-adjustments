@@ -1,0 +1,78 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+    <!--nav bar-->
+    <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">파일 관리자</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="index#file_related_task">더 많은 파일 관련 작업</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="#top">CD 또는 DVD에 파일 쓰기</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+     
+   <!-- for align 30px -->
+   <div class="div_root">
+
+    <font class="font" style="font-size:22;">CD 또는 DVD에 파일 쓰기</font><br><br>
+    <font class="font text">
+      <pre>Brasero와 같은 디스크 굽기 애플리케이션을 사용하여 빈 디스크에 파일을 쓸 수 있습니다.</pre>
+    </font>
+
+    <br><br><br>
+    <!--sub title-->
+    <font class="font sub_title">디스크가 올바르게 생성되지 않는 경우</font><br>
+
+    <!-- Rectangle-->
+    <div class="small_rec" style="width:100%; height:fit-content;">
+        <font class="font" style="font-size:14px;">
+          <pre>데이터가 디스크에 올바르게 기록되지 않거나 디스크의 물리적인 손상으로 인해 파일을 읽지 못하는 경우가 있습니다.
+
+이 경우 디스크 굽기를 다시 시도하되 더 낮은 굽기 속도(예: 48배속 대신 12배속)를 사용합니다. 일반적으로 느린 속도를 사용하는 경우에 데이터를 더 안정적으로 기록할 수 있습니다.</pre>
+            </div><br>
+      </div>
+   </div>   
+   <!-- end of div_root-->
+
+  <footer>
+  <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+    <a href="index#file_related_task">더 많은 파일 관련 작업</a></font><br><br>
+  </footer>
+
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+ </BODY>
+</HTML>
+

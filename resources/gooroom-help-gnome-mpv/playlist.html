@@ -1,0 +1,123 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+    <!--nav bar-->
+    <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">동영상</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="index#additionals">추가 기능</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="#top">재생목록</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+      
+    <!-- for align 30px -->
+    <div class ="div_root">
+
+      <font class="font" style="font-size:22;">재생목록 사용하기</font><br><br>
+      <font class="font text"> <pre>상단 메뉴와 단축키를 통해 재생목록을 볼 수 있습니다.</pre>
+      </font>
+
+      <br><br><br>
+      <!--toggle playlist-->
+      <font class="font sub_title">재생목록 전환</font><br>
+  
+      <div class="Rectangle">
+        <font class="font" style="font-size:14px;">
+          <pre><b>재생 목록 사용하기</b><br>
+재생 목록은 기본적으로 숨겨져 있습니다.<br>
+재생 목록을 보려면:</pre>
+          <div class="discription">
+              <pre>메뉴에서 [재생목록 전환]을 클릭하거나 <span class="highlight">F9</span>를 누릅니다.</pre>
+          </div>
+          <pre>보지 않으려면 두 번 클릭하거나 해당 단축키를 두 번 누릅니다.</pre>
+        </div>
+      <!-- end of toggle playlist-->
+
+      <!-- playlist area -->
+      <br><br><br>
+      <font class="font sub_title">재생목록 영역</font><br>
+  
+      <div class="Rectangle">
+        <font class="font text">
+        <pre><b>재생 목록에 추가하기</b>
+        
+파일을 드래그 앤 드롭하여 재생 목록에 파일을 추가하거나 <div id='discription'><span class="highlight">Ctrl</span> + <span class="highlight">Shift</span> + <span class="highlight">o</span>를 눌러 재생목록을 추가할 수 있습니다.</div>
+
+<b>재생 목록 배열하기</b>
+        
+<div id='discription'>파일을 드래그 앤 드롭하여 재생목록을 다시 배열할 수 있습니다.</div>
+
+<b>재생 목록에서 제거하기</b>
+
+<div id='discription'>재생 목록에서 항목을 제거하려면 제거하려는 파일을 선택한 다음 <span class="highlight">delete</span>를 누르거나 마우스 오른쪽 단추를 누른 다음 [삭제(D)]를 선택합니다.</div>
+        </pre>
+        </font>
+
+        <div style="width:289px; height:auto;">
+            <img src="playlist.png" style="width:100%; border-radius:10px;">
+        </div>
+      </div>
+      <!-- end of playlist area-->
+
+      <!--save playlist-->
+      <br><br><br>
+      <font class="font sub_title">재생목록 저장</font><br>
+  
+      <div class="Rectangle">
+        <font class="font" style="font-size:14px;">
+          <pre>추가된 재생목록을 저장하여 편리하게 이용할 수 있습니다. 저장된 플레이리스트는 m3u 확장자로 저장됩니다.<br>
+<b>재생목록 저장하기</b></pre>
+          <div class="discription">
+              <pre>1. 재생목록에 저장할 동영상을 추가합니다.
+
+2. <span class="highlight">Ctrl</span> + <span class="highlight">Shift</span> + <span class="highlight">s</span>를 누릅니다.
+
+3. 저장하고 싶은 위치와 재생목록의 이름을 정하고 재생목록을 저장합니다.</pre>
+          </div><br>
+        </div>
+      <!-- end of save playlist-->
+
+   </div>
+   <!-- end of div_root-->
+   
+  <footer>
+  <font class ="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+    <a href="index#additionals">추가 기능</a><br>
+  </font><br><br>
+  </footer>
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+ </BODY>
+</HTML>

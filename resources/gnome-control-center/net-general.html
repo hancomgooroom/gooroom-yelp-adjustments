@@ -1,0 +1,113 @@
+<html>
+
+  <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+
+  <body>
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">설정</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="net#top">네트워크</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">네트워크 용어 및 팁</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->  
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+    <!-- contants  -->
+
+    <!-- for align 30px -->
+    <div class="div_root">
+
+      <!--sub title-->
+      <font class="font sub_title">네트워크 용어 및 팁</font><br>
+
+      <!--display-->
+      <div class="small_rec left">
+        <font class="font text">
+          <pre><a href="net-proxy">프록시 설정</a>
+
+프록시는 웹 트래픽이 발생할 때 서버와 클라이언트 사이에서 자원 요청을 중계합니다. 이는 제어 또는 보안 목적으로 웹 서비스에 익명으로 접근하기 위해 사용할 수 있습니다.
+          </pre>
+        </font>
+
+      </div>
+
+      <!--keyboard-->
+      <div class="small_rec right">
+        <font class="font text">
+          <pre><a href="net-macaddress">MAC 주소란?</a>
+
+네트워크 하드웨어에 할당된 고유한 식별자입니다.
+          </pre>
+        </font>
+        
+      </div>
+
+      <!--display-->
+      <div class="small_rec left">
+        <font class="font text">
+          <pre><a href="net-what-is-ip-address">IP 주소란?</a>
+
+네트워크에 연결된 컴퓨터에 할당된 고유한 번호입니다.
+          </pre>
+        </font>
+
+      </div>
+
+      <!--keyboard-->
+      <div class="small_rec right">
+        <font class="font text">
+          <pre><a href="net-findip">IP 주소 찾기</a>
+
+IP 주소를 알고 있으면 네트워크 문제를 해결하는 데 도움이 됩니다.
+          </pre>
+        </font>
+        
+      </div>
+
+    </div>  <!-- end of div_root-->
+
+    <footer>
+      <font class="font ref">추가 정보</font><br>
+      <a href="net">네트워크</a><br><br>
+
+      <font class="font ref">참고 항목</font><br>
+      <a href="net-wireless">와이파이</a></font>
+    </footer>
+
+    <footer class="info">
+      <a onClick="showMore('name')"
+     class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+     onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+      <div id=name style="display:none; width:90%;">
+        <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+          <tr>
+            <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+          </tr>
+          <tr>
+            <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+          </tr>
+          <tr>
+            <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+          </tr>
+        </table>
+      </div><!--end of name-->
+    </footer>
+
+  </body>
+</html>

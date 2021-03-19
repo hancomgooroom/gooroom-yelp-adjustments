@@ -1,0 +1,138 @@
+<HTML>
+ <HEAD>
+   <script src="script.js"></script>
+   <link rel="stylesheet" href="style.css" type="text/css">
+ </HEAD>
+ <BODY>
+   <!--nav bar-->
+   <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+     <ul>
+       <li><img class="img" src="help.svg">
+       <li><a href="index">설정</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="prefs-details">자세히 보기</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="#top">사용자 계정</a>
+     </ul>
+    </nav> <!--end of navbar-->
+   <!-- header -->
+   <header><a name="top"></a></header>
+   <!-- contants  -->
+   <!-- for align 30px -->
+   <div class="div_root">
+     <!--TiTle -->
+     <font class="font title">사용자 계정</font><br>
+     <font class="font text"><pre>컴퓨터를 사용하는 사람마다 다른 사용자 계정이 있어야 합니다. 이를 통해 본인의 파일을 다른 사람의 파일과 구분하고 본인만의 설정을 선택할 수 있으며 보안을 유지할 수 있습니다. 다른 사용계정에 접근하려면 반드시 암호가 필요합니다.</pre></font>
+     <br><br>
+     <!--manage user accounts-->
+     <a name="manage"></a>
+     <font class="font sub_title">사용자 계정 관리</font>
+     <br>
+     <div class="small_rec left">
+       <font class="font text">
+       <pre><a href="user-add">새 사용자 계정 추가</a>
+       
+다른 사람이 컴퓨터에 로그인할 수 있도록 새 사용자를 추가합니다.</pre>
+       </font>
+     </div>
+     <div class="small_rec right">
+       <font class="font text">
+       <pre><a href="user-delete">사용자 계정 삭제</a>
+       
+더 이상 컴퓨터를 사용하지 않는 사용자 계정을 삭제합니다.</pre>
+       </font>
+     </div>
+     <div class="small_rec left">
+       <font class="font text">
+       <pre><a href="user-changepicture">로그인 화면 사진 변경</a>
+       
+로그인 및 사용자 화면에 사진을 추가합니다.</pre>
+       </font>
+     </div>
+     <div class="small_rec right">
+       <font class="font text">
+       <pre><a href="user-autologin">자동으로 로그인</a>
+       
+컴퓨터를 켤 때 자동 로그인되도록 설정합니다.</pre>
+       </font>
+     </div>
+     <!--end of manage user accoounts-->
+     <br><br>
+     <!--password-->
+     <a name="passwords"></a>
+     <font class="font sub_title">암호</font>
+     <br>
+     <div class="small_rec left">
+       <font class="font text">
+       <pre><a href="user-changepassword">암호 변경</a>
+       
+계정 설정에서 암호를 주기적으로 변경하여 계정을 안전하게 유지합니다.</pre>
+       </font>
+     </div>
+     <div class="small_rec right">
+       <font class="font text">
+       <pre><a href="user-goodpassword">안전한 암호 선택</a>
+       
+더 길고 복잡한 암호로 변경합니다.</pre>
+       </font>
+     </div>
+     <!--end of password-->
+     <br><br>
+     <!--privileges-->
+     <a name="privileges"></a>
+     <font class="font sub_title">사용자 권한</font>
+     <br>
+     <div class="small_rec left">
+       <font class="font text">
+       <pre><a href="user-admin-change">관리자 권한이 있는 사용자 변경</a>
+       
+사용자에게 관리자 권한을 부여하여 시스템을 변경하도록 허용합니다.</pre>
+       </font>
+     </div>
+     <div class="small_rec right">
+       <font class="font text">
+       <pre><a href="user-admin-problems">관리자 제한으로 인한 문제</a>
+       
+관리자 권한이 있는 경우에만 애플리케이션 설치와 같은 작업을 수행할 수 있습니다.</pre>
+       </font>
+     </div>
+     <div class="small_rec left">
+       <font class="font text">
+       <pre><a href="user-admin-explain">관리자 권한은 어떻게 사용되나요?</a>
+       
+시스템의 중요한 부분을 변경하려면 관리자 권한이 필요합니다.</pre>
+       </font>
+     </div>
+     <!--end of privileges-->
+   </div> <!-- end of div_root-->
+   <br><br>
+   <footer>
+     <font class="font ref">추가 정보</font><br>
+     <font class="font text"><a href="index">설정</a> - <a class="none" href="keyboard">키보드</a>,<a class="none" href="mouse">마우스 및 터치패드</a>, <a class="none" href="prefs-display">디스플레이</a>,<a class="none" href="prefs-language"> 언어</a>, <a class="none" href="user-accounts">사용자 계정</a></font>
+     <br><br>
+   </footer>
+   <footer class="info">
+    <a onClick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+ </BODY>
+</HTML>

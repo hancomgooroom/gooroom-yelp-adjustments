@@ -1,0 +1,84 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">텍스트 편집기</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="index#plugins">플러그인</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="plugins">플러그인 구성 및 사용</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="plugins#add">플러그인 추가 편집</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">코드 주석</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+   <!-- contants  -->
+
+   <!-- for align 30px -->
+   <div class="div_root">
+
+     <!--TiTle -->
+     <font class="font title">코드 주석</font><br>
+     <font class="font text">코드 주석은 프로그램의 코드를 쉽게 이해할 수 있도록 설명하는 텍스트입니다. 프로그램의 작동에는 영향을 주지 않습니다.
+	<br/>코드 주석은 특수 문자로 구분됩니다.</font><br>
+     <br><br>
+     <div class="Rectangle">
+       <pre>코드 주석 플러그인을 사용하면 코드 주석을 더 쉽게 만들거나 제거할 수 있습니다. 코드 주석 플러그인을 사용하려면 메뉴 ▸ 기본설정 ▸ 플러그인 탭 ▸ 코드 주석을 선택합니다.
+
+주석을 작성하거나 삭제하려면 다음을 수행합니다.
+
+<div class="discription">1. 설명을 추가하거나 삭제할 텍스트 영역을 강조 표시합니다.
+
+2. 설명을 추가하려면 gedit ▸ Comment Code를 클릭하거나 <span class="highlight">Ctrl</span> + <span class="highlight">M</span>을 누릅니다.
+
+3. 주석을 제거하려면 gedit ▸ Uncontent Code를 클릭하거나 <span class="highlight">Shift</span> + <span class="highlight">Ctrl</span> + <span class="highlight">M</span>을 누릅니다.</div>
+
+편집 지점을 모두 삽입했으면 원하는 내용을 편집할 수 있습니다.
+
+
+편집 지점을 제거하려면 Esc를 누릅니다. 이렇게 하면 모든 편집 지점이 제거됩니다. Esc를 다시 누르면 다중 편집 모드가 해제되고 일반 편집 모드로 돌아갑니다.</pre>
+     </div><!-- end of Rectangle-->
+   </div>   <!-- end of div_root-->
+
+  <footer>
+  <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+  <a href="plugins#add">플러그인 추가 편집</a><br><br></font>
+  </footer>
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+</BODY>
+</HTML>

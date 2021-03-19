@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">설정</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="net#top">네트워크</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="net-wired#top">유선 네트워크</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">수동 네트워크 설정</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->  
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+    <!-- contants  -->
+
+    <!-- for align 30px -->
+    <div class="div_root">
+
+      <!--sub title-->
+      <font class="font sub_title">수동 네트워크 설정</font><br>
+
+      <!-- Rectangle-->
+      <div class="Rectangle">
+        <font class="font text">
+          <pre>사용자 네트워크가 자동으로 설정되도록 구성되지 않은 경우 사용자가 직접 네트워크 설정 정보를 입력해야 합니다. 이 경우 사용자가 네트워크 사용을 위해 필요한 설정을 알고 있어야 합니다. 만약 이 설정에 대해 모른다면 네트워크 관리자에게 문의하거나 라우터 또는 네트워크 스위치 설정을 확인해야 합니다.
+
+다음 단계를 수행하여 수동으로 네트워크를 설정합니다.
+
+<div class="discription">1. 좌측 하단의 [시작] <img class="img" src="rest.png" style="background-color:#252525"> 아이콘을 클릭하고 검색 창에 "설정"을 입력한 후 [설정] 애플리케이션을 실행합니다.</div>
+
+          <img class="img border" src="start_default.jpeg" width="700" height="502"><br>
+          <img class="img border" src="start_search_setting.jpeg" width="700" height="502">
+
+<div class="discription">2. [설정] 애플리케이션 사이드 바에서 [네트워크]를 클릭합니다.</div>
+
+          <img class="img border" src="setting_network.jpeg" width="700" height="511"><br>
+          <img class="img border" src="network_default.jpeg" width="700" height="462">
+
+<div class="discription">3. 연결된 네트워크 옆 [설정] 아이콘을 클릭하여 [IPv4] 또는 [IPv6] 탭을 선택합니다.</div>
+
+          <img class="img border" src="network_wire.jpeg" width="700" height="467">
+
+<div class="discription">4. [수동] 방식을 선택한 후 적절한 IP 주소, 게이트웨이, 네트워크 마스크 정보를 입력합니다.
+
+5. [네임서버(DNS)]에서 [자동] 설정을 끄고 사용자가 원하는 DNS 서버의 IP 주소를 입력합니다. 추가 DNS 서버 주소가 필요한 경우 + 단추를 누릅니다.
+
+6. [라우팅]에서 [자동] 설정을 끄고 사용자가 원하는 라우팅의 주소, 네트워크 마스크, 게이트웨이 및 계측 정보를 입력합니다. 추가 라우팅이 필요한 경우 + 단추를 누릅니다.
+
+7. [적용]을 누릅니다. 이제 네트워크에 연결할 때 고정 IP 주소가 사용됩니다.</div></pre>
+        </font>
+      </div>  <!-- end of Rectangle-->
+    </div>  <!-- end of div_root-->
+
+    <footer>
+      <font class="font ref">추가 정보</font><br>
+      <a href="net-wired#top">유선 네트워크</a><br>
+      <a href="net-wireless">와이파이</a>
+    </footer>
+    <footer class="info">
+      <a onClick="showMore('name')"
+     class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+     onMouseOut="this.className='Options';"><B>정보</B></a><br>
+      <div id=name style="display:none; width:90%;">
+        <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+          <tr>
+            <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+          </tr>
+          <tr>
+            <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+          </tr>
+          <tr>
+            <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+          </tr>
+        </table>
+      </div><!--end of name-->
+    </footer>
+  </body>
+</html>

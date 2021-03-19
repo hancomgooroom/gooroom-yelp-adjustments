@@ -1,0 +1,108 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+    <!--nav bar-->
+    <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">파일 관리자</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="index#file_related_task">더 많은 파일 관련 작업</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="#top">파일 속성</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+     
+   <!-- for align 30px -->
+   <div class="div_root">
+
+    <font class="font" style="font-size:22;">파일 속성</font><br><br>
+    <font class="font text">
+      <pre>파일 또는 폴더에 대한 정보를 보려면 마우스 오른쪽 버튼으로 클릭하고 [속성]을 선택합니다. 또는 파일을 선택하고 <span class="highlight">Alt</span>+<span class="highlight">Enter</span>를 누릅니다.
+
+파일 속성 창에는 파일 유형, 파일 크기 및 마지막으로 수정한 시간 등의 정보가 표시됩니다. 이 정보를 자주 참조하는 경우 <a href="nautilus-list">목록 보기 열</a> 또는 <a href="nautilus-display#icon-captions">아이콘 캡션</a>에 표시하도록 설정할 수 있습니다.
+
+기본 탭에서 제공하는 정보는 아래에 설명되어 있습니다. 이미지 및 비디오와 같은 특정 파일 유형의 경우 크기, 재생 시간 및 코덱과 같은 정보가 포함된 추가 탭을 제공합니다.</pre>
+    </font>
+
+    <br><br><br>
+    <!--sub title-->
+    <font class="font sub_title">기본 속성</font><br>
+
+    <!-- Rectangle-->
+    <div class="Rectangle">
+        <font class="font" style="font-size:14px;">
+          <pre><b>이름</b>
+이 필드를 변경하여 파일 이름을 바꿀 수 있습니다. 속성 외부에서 파일 이름을 바꿀 수도 있습니다. 이름 변경 방법은 <a href="files-rename">파일 또는 폴더 이름 바꾸기</a>를 참조합니다.
+
+<b>형식</b>
+PDF 문서, OpenDocument 텍스트 또는 JPEG 이미지와 같은 파일 유형을 식별하는 데 도움이 됩니다. 형식에 따라 파일을 여는 데 사용하는 애플리케이션이 달라집니다. 
+예를 들어 음악 플레이어로는 사진을 열 수 없습니다. 자세한 내용은 <a href="files-open">다른 애플리케이션으로 파일 열기</a>를 참조합니다.
+
+파일의 MIME 유형은 괄호 안에 표시됩니다. MIME 유형은 컴퓨터가 파일 유형을 참조하는 데 사용하는 표준 방식입니다.
+
+<b>내용</b>
+이 필드는 폴더의 속성을 볼 때 표시됩니다. 폴더의 항목 수를 확인하는 데 도움이 됩니다. 폴더에 다른 폴더가 포함된 경우 각 하위 폴더는 추가 항목이 포함되어 있어도 하나의 항목으로 계산됩니다. 각 파일도 하나의 항목으로 계산됩니다. 폴더가 비어 있으면 이 필드에 아무것도 표시되지 않습니다.
+
+<b>크기</b>
+이 필드는 파일을 보고 있는 경우 표시됩니다. 파일 크기는 사용하는 디스크 공간의 크기를 나타냅니다. 
+크기 정보는 파일을 다운로드하거나 이메일에 첨부하여 보내는 데 걸리는 시간을 예측하는 지표로 사용할 수도 있습니다(파일 크기가 큰 경우 보내거나 받는 데 더 많은 시간 필요).
+
+크기는 Byte, KB, MB 또는 GB 단위로 표시될 수 있습니다. Byte 이외의 단위인 경우 괄호 안에 Byte 크기도 표시됩니다. 참고로 1KB는 1024Byte, 1MB는 ​​1024KB입니다.
+
+<b>상위 폴더</b>
+컴퓨터에서 각 파일의 위치는 절대 경로로 제공됩니다. 이는 파일의 고유한 "주소"이며 파일을 찾기 위해 이동해야 하는 폴더 목록으로 구성됩니다. 예를 들어 Jim의 Home 폴더에 Resume.pdf라는 파일이 있는 경우 상위 폴더는 /home/jim이고 위치는 /home/jim/Resume.pdf입니다.
+
+<b>빈 공간</b>
+폴더에 대해서만 표시됩니다. 폴더가 있는 디스크에서 사용할 수 있는 디스크 공간의 양을 제공합니다. 하드 디스크가 가득 찼는지 확인하는 데 유용합니다.
+
+<b>접근 시각</b>
+파일을 마지막으로 연 날짜 및 해당 시간입니다.
+
+<b>바뀐 시각</b>
+파일을 마지막으로 변경하고 저장한 날짜 및 해당 시간입니다.</pre>
+            <br>
+      </div>
+   </div>   
+   <!-- end of div_root-->
+
+  <footer>
+  <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+    <a href="index#file_related_task">더 많은 파일 관련 작업</a><br>
+    <a href="nautilus-file-properties-permissions">파일 권한 설정</a> - 파일 및 폴더를 보거나 편집할 수 있는 사용자를 제어합니다.</font><br><br>
+  </footer>
+
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+ </BODY>
+</HTML>

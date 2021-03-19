@@ -1,0 +1,96 @@
+<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+    <!--nav bar-->
+    <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index">설정</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="bluetooth">블루투스</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="#top">블루투스 장치에 컴퓨터 연결</a>
+      </ul>
+    </nav>
+    <!--end of navbar -->
+
+  <!-- header -->
+  <header><a name="top"></a></header>
+     
+  <!-- for align 30px -->
+  <div class="div_root">
+    <font class="font title">블루투스 장치에 컴퓨터 연결</font><br><br>
+    <font class="font text">
+      <pre>마우스나 헤드셋과 같은 블루투스 장치를 사용하려면 먼저 컴퓨터를 장치에 연결해야 합니다. 이를 블루투스 장치 페어링이라고 합니다.</pre>
+    </font>
+
+    <br><br><br>
+
+    <!-- Rectangle -->
+    <div class="Rectangle">
+      <font class="font" style="font-size:14px;">
+        <pre><b>페어링 하려면:</b></pre>
+        <div class="discription">
+          <pre>1. [설정]에서 [블루투스] 패널을 엽니다.
+
+2. 상단의 스위치가 켜져 있고 블루투스가 활성화되어 있는지 확인합니다. 컴퓨터가 장치 검색을 시작합니다.
+
+3. 다른 장치를 문제 없이 검색하고 인식할 수 있도록 컴퓨터에서 5-10 미터(약 16-33 피트) 이내에 놓아두세요.
+
+4. 장치 목록에서 장치를 클릭합니다. 장치 패널이 열립니다.
+
+5. 필요한 경우 다른 장치에서 PIN을 확인합니다. 컴퓨터 화면에 표시되는 PIN이 장치에 표시되어야 합니다. 장치에서 PIN을 확인한 다음 ([페어링] 또는 [확인]을 클릭해야 할 수 있음) 컴퓨터에서 [확인]을 클릭합니다.
+
+6. 대부분의 장치에서 약 20초 이내에 PIN을 입력해야 합니다. 그렇지 않으면 연결이 완료되지 않습니다. 이 경우 장치 목록으로 돌아가 다시 시작해야 합니다.
+
+7. 장치 목록의 장치 항목에 '연결됨' 상태가 표시됩니다.
+
+8. 장치를 변경하려면 장치 목록에서 해당 장치를 클릭합니다. 해당 장치에 대한 패널이 표시됩니다. 연결 중인 장치 유형에 적용할 수 있는 추가 옵션이 표시될 수 있습니다.
+
+9. 설정을 변경한 다음 패널을 닫습니다.</pre>
+        </div>
+        <pre>하나 이상의 블루투스 장치가 연결되면 블루투스 아이콘이 시스템 상태 영역에 나타납니다.</pre>
+      </font>
+    </div>
+  </div>   
+  <!-- end of div_root -->
+
+  <footer>
+    <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+      <a href="bluetooth">블루투스</a><br>
+      <a href="sharing-bluetooth">블루투스를 통한 공유 제어</a> - 블루투스를 통해 컴퓨터에 파일을 업로드할 수 있습니다.<br>
+      <a href="bluetooth-remove-connection">블루투스 장치 연결 해제</a> - 블루투스 장치 목록에서 장치를 제거합니다.<br>
+    </font>
+  </footer>
+
+  <footer class="info">
+      <a onClick="showMore('name')"
+      class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+      onMouseOut="this.className='Options';"><B>정보</B></a><br>
+  
+      <div id=name style="display:none; width:90%;">
+        <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+          <tr>
+            <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+          </tr>
+          <tr>
+            <td style="text-align:center;"><pre><B>번역자</B>
+  조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+  조성호</pre></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+          </tr>
+          <tr>
+            <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+          </tr>
+        </table>
+      </div><!--end of name-->
+    </footer>
+ </BODY>
+</HTML>
+

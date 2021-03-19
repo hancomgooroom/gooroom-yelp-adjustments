@@ -1,0 +1,99 @@
+<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">계산기</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="index#equation">방정식</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">변수</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+   <!-- contants  -->
+
+   <!-- for align 30px -->
+   <div class="div_root">
+
+     <!--sub title-->
+     <font class="font" style="font-size:18px;line-height:3;">변수</font><br>
+
+     <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font" style="font-size:14px;">
+         <pre>변수에 값을 할당하려면 = 기호를 사용하거나 <a href='mouse_usage'>고급</a> 모드에서 x 단추를 눌러 할당할 변수를 선택합니다. 변수 이름에는 대소문자만 사용해야 합니다.
+
+<div class="discription">x=5
+value=82</div>
+
+변수는 어떤 수식에도 사용할 수 있으며 할당 값 대신 사용할 수 있습니다. x 단추를 활용하여 변수를 넣을 수 있습니다.
+
+<div class="discription">6x+3
+xy−3x+7y−21</div>
+
+다음은 항상 정의한 변수입니다.
+
+<table class="font text" style="width:80%; border-spacing:10px;">
+ <tr>
+   <td>_</td><td>이전 계산 결과</td>
+ </tr>
+ <tr>
+   <td>e</td><td><a href='log'>오일러 수</a></td>
+ </tr>
+ <tr>
+   <td>π</td><td><a href='pi'>Pi</a></td>
+ </tr>
+ <tr>
+   <td>rand</td><td>[0,1] 범위의 임의의 수(읽을 때마다 달라짐)</td>
+ </tr>
+</table></pre>
+
+       </font>
+     </div>
+
+   </div>   <!-- end of div_root-->
+
+  <footer>
+  <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+  <a href="index#equation">방정식</a></font> <br><br>
+  </footer>
+
+  <footer class="info">
+    <a onClick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+  
+</BODY>
+</HTML>
+

@@ -1,0 +1,126 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+    <!--nav bar-->
+    <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">파일 관리자</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="index#common_task">일반적인 작업</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="#top">파일 또는 폴더 이름 바꾸기</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+     
+   <!-- for align 30px -->
+   <div class="div_root">
+
+    <font class="font" style="font-size:22;">파일 또는 폴더 이름 바꾸기</font><br><br>
+    <font class="font text"> 
+      <pre>파일 또는 폴더 이름을 변경할 수 있습니다.</pre>
+    </font>
+
+    <!-- Rectangle-->
+    <div class="Rectangle">
+      <font class="font" style="font-size:14px;">
+        <pre><b>파일 또는 폴더 이름 바꾸기</b></pre>
+        <div class="discription">
+          <pre>1. 항목을 마우스 오른쪽 버튼으로 클릭하고 [이름 바꾸기]를 선택하거나 파일을 선택하고 <span class="highlight">F2</span>를 누릅니다.
+
+2. 이름을 입력하고 <span class="highlight">Enter</span>를 누릅니다.</pre>
+        </div><br>
+        <pre>
+[<a href="nautilus-file-properties-basic">속성</a>] 창에서 파일 이름을 바꿀 수도 있습니다.
+
+
+파일 이름 바꾸기를 시도하면 이름 영역만 선택됩니다(확장자 영역 선택 안 됨). 확장자는 파일 유형(예: file.pdf인 경우 PDF 문서)을 나타내며 일반적으로 변경하지 않습니다. 
+확장자를 변경하려는 경우 전체 영역을 선택합니다.
+
+파일 이름을 잘못 지정한 경우 작업을 취소할 수 있습니다. 작업을 되돌리려면 [편집(E)] 메뉴를 클릭하고 [이름 바꾸기 실행 취소]를 선택하거나 <span class="highlight">Ctrl</span>+<span class="highlight">Z</span>를 눌러 이전 이름으로 되돌립니다.
+</pre>
+</font>
+    </div>
+    <!-- end of Rectangle-->
+
+    <br><br><br>
+    <!--sub title-->
+    <font class="font sub_title">파일 이름에 사용 가능한 문자</font><br>
+
+    <!-- small box -->
+    <div class="small_rec" style="width:100%; height:fit-content;">
+      <font class="font" style="font-size:14px;">
+        <pre>파일 이름에는 /(슬래시)를 제외한 모든 문자를 사용할 수 있습니다. 그러나 일부 장치에서는 입력할 수 있는 문자에 제한이 있을 수 있습니다. 
+따라서 | , \ , ? , * , < , " , : , > , / .와 같은 일부 문자는 사용하지 않는 것이 좋습니다.
+        
+파일 이름에 .(마침표)를 접두사로 사용하면 파일이 <a href="files-hidden">숨김</a> 처리됩니다.</pre>
+    </div>
+    <!-- end of small box-->
+
+    <br><br><br>
+    <!--sub title-->
+    <font class="font sub_title">일반적인 문제</font><br>
+
+    <!-- Rectangle-->
+    <div class="Rectangle">
+      <font class="font" style="font-size:14px;">
+        <pre><b>이미 사용 중인 파일 이름</b></pre>
+        <div class="discription">
+          <pre>한 폴더에 이름이 같은 파일 또는 폴더를 두 개 이상 포함할 수 없습니다. 이미 있는 파일 이름은 허용되지 않습니다.
+
+파일 및 폴더 이름은 대소문자를 구분하므로 File.txt은 FILE.txt와 동일한 파일로 간주하지 않습니다. 그러나 혼선이 있을 수 있으므로 이와 같은 파일 이름 사용을 권장하지는 않습니다.</pre>
+        </div><br>
+
+        <pre><b>너무 긴 파일 이름</b></pre>
+        <div class="discription">
+          <pre>일부 파일 시스템에서는 파일 이름이 255자 이하여야 합니다. 이 제한에는 파일 이름 뿐만 아니라 파일 경로(예: /home/wanda/Documents/work/business-proposals/… )까지 포함되므로 파일 및 폴더 이름을 가능한 한 짧게 사용하는 것이 좋습니다.</pre>
+        </div><br>
+
+        <pre><b>이름 바꾸기 옵션 비활성화</b></pre>
+        <div class="discription">
+          <pre>파일 이름 변경 권한이 없는 경우 이름 바꾸기가 회색으로 표시됩니다. 일부 보호된 파일의 이름을 변경하면 예기치 않은 시스템 오류가 발생할 수 있으므로 해당 파일의 이름을 변경할 때는 주의해야 합니다. 자세한 내용은 <a href="nautilus-file-properties-permissions">파일 권한 설정</a>을 참조하십시오.</pre>
+        </div><br>
+      </font>
+    </div>
+    <!-- end of Rectangle-->
+
+   </div>
+   <!-- end of div_root-->
+
+  <footer>
+  <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+  <a href="index#common_task">일반적인 작업</a></font> <br><br>
+  </footer>
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+ </BODY>
+</HTML>

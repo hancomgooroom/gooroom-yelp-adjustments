@@ -1,0 +1,70 @@
+﻿<html>
+  <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">소프트웨어 센터</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="index#software">소프트웨어</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">앱 상세화면</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+    <!-- header -->
+    <header><a name="top"></a></header>
+    <!-- contants  -->
+    <!-- for align 30px -->
+    <div class="div_root">
+      <!--sub title-->
+      <font class="font sub_title">앱 상세화면</font><br>
+      <!--Rectangle-->
+      <div class="Rectangle">
+        <font class="font text">
+          <pre><div class="discription">소프트웨어 센터에서 앱을 클릭하여 해당 앱의 정보를 확인할 수 있습니다. 앱 개발자가 작성한 소프트웨어 설명(1)과 소프트웨어 센터에서 제공하는 업데이트 날짜, 설치 용량, 카테고리, 개발자 등의 앱 정보(2)를 확인할 수 있습니다.</div>
+
+          <img class="img border" src="software-center_app_information.jpeg" width="700" height="525"></pre><br>
+        </font>
+      </div>  <!-- end of Rectangle-->
+    </div>  <!-- end of div_root-->
+    <footer>
+      <font class="font ref">추가 정보</font><br>
+      <a href="index#software">소프트웨어</a><br><br>
+      <font class="font ref">참고 항목</font><br>
+      <a href="start">시작하기 & 홈</a><br>
+      <a href="search">검색</a><br>
+      <a href="related_apps">관련 앱</a><br>
+      <a href="install">설치</a><br>
+      <a href="update">업데이트</a><br>
+      <a href="delete">삭제</a></font>
+    </footer>
+    <footer class="info">
+      <a onclick="showMore('name')" 
+     class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+     onMouseOut="this.className='Options';"><B>정보</B></a><br>
+      <div id=name style="display:none; width:90%;">
+        <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+          <tr>
+            <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+          </tr>
+          <tr>
+            <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+          </tr>
+          <tr>
+            <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+          </tr>
+        </table>
+      </div><!--end of name-->
+    </footer>
+  </body>
+</html>

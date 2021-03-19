@@ -1,0 +1,143 @@
+﻿<HTML>
+ <HEAD>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+   <link rel="stylesheet" href="style.css" type="text/css">
+   <script src="script.js"></script>
+ </HEAD>
+ <BODY>
+  <!--nav bar-->
+  <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+    <ul>
+      <li><img class="img" src="help.svg">
+      <li><a href="#top">동영상</a>
+    </ul>
+  </nav> 
+  <!--end of navbar-->
+
+  <!-- header -->
+  <header><a name="top"></a></header>
+
+  <!-- for align 30px -->
+  <div class="div_root">
+
+    <!--TiTle -->
+    <img class="img" src="movies.svg">
+    <font class="font title" id="title">동영상</font>
+    <br><br>
+
+    <font class = "font text">
+      <pre>동영상은 Mplayer 기반 멀티미디어 플레이어입니다.<br>
+시스템의 자원을 적게 사용하면서도 높은 성능으로 동영상을 재생합니다.</pre>
+    </font>
+
+    <!--playing_video-->
+    <a name="playing_video"></a>
+    <br><br><br>
+
+    <!-- sub title-->
+    <font class= "font sub_title">동영상 재생하기</font><br>
+
+    <!-- small box -->
+    <div class="small_rec left">
+      <font class="font text">
+        <pre><a href='open'>동영상 열기</a></pre>
+      </font>
+    </div>
+    
+    <div class="small_rec right">
+      <font class="font text">
+        <pre>종료
+      
+컨트롤 바의 종료 버튼을 클릭하여 동영상을 종료시킬 수 있습니다.</pre>
+      </font>
+    </div>
+
+    <div class="small_rec left">
+      <font class="font text">
+        <pre><a href='fullscreen'>전체화면 전환</a></pre>
+      </font>
+    </div>
+    
+    <!--additionals-->
+    <a name="additionals"></a>
+    <br><br><br>
+
+    <!-- sub title-->
+    <font class= "font sub_title">추가 기능</font><br>
+    
+    <div class="small_rec left">
+      <font class="font text">
+        <pre><a href='toggle-control'>컨트롤 전환</a></pre>
+      </font>
+    </div>
+    
+    <div class="small_rec right">
+      <font class="font text">
+        <pre><a href='playlist'>재생목록</a></pre>
+      </font>
+    </div>
+    
+    <div class="small_rec left">
+      <font class="font text">
+        <pre><a href='subtitle'>자막 트랙</a></pre>
+      </font>
+    </div>
+    
+    <div class="small_rec right">
+      <font class="font text">
+        <pre>동영상 크기
+        
+메뉴에서 보통 크기, 두배 크기, 절반 크기로 동영상의 크기를 조절할 수 있습니다.</pre>
+      </font>
+    </div>
+
+    <div class="small_rec left">
+      <font class="font text">
+        <pre><a href="shortcut">키보드 단축키</a></pre>
+      </font>
+    </div>
+    <!--end of additionals-->
+
+    <!--settings-->
+    <a name="settings"></a>
+    <br><br><br>
+
+    <!-- sub title-->
+    <font class= "font sub_title">설정</font><br>
+
+    <div class="small_rec left">
+      <font class="font text">
+        <pre><a href="settings">환경설정</a></pre>
+      </font>
+    </div>
+    <!--end of settings-->
+
+
+  </div>
+
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+ </BODY>
+</HTML>

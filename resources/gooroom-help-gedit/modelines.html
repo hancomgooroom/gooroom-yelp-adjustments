@@ -1,0 +1,149 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">텍스트 편집기</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="index#plugins">플러그인</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="plugins">플러그인 구성 및 사용</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="plugins#default">기본 플러그인</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">Modelines</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+   <!-- contants  -->
+
+   <!-- for align 30px -->
+   <div class="div_root">
+
+     <!--TiTle -->
+     <font class="fon title">Modelines</font><br>
+     <font class="font text">Modelines 플러그인을 사용하면 gedit에서 파일의 시작과 끝에 있는 텍스트 행을 분석하여 환경 설정을 일괄 적용할 수 있습니다. Modelines 플러그인은 Emacs, Kate 및 Vim 텍스트 편집기에서 사용되는 옵션의 하위 집합을 지원합니다.
+Modelines 플러그인을 사용하도록 설정하려면 gedit edit Preferences ▸ Plugins ▸ Modelines를 선택합니다.</font><br>
+
+     <br>
+
+     <font class="font sub_title">일반 옵션</font><br>
+       <div class="Rectangle">
+         <pre>gedit modelines를 사용하여 다음 옵션을 설정할 수 있습니다.
+         
+<div class="discription">- 탭 너비
+
+- 들여쓰기 너비
+
+- 탭 대신 공백 삽입
+
+- 텍스트 줄 바꿈
+
+- 오른쪽 여백 너비</div>
+
+**Modelines 설정은 [기본 설정] 대화 상자 설정보다 우선합니다.</pre>
+     </div><!-- end of Rectangle-->
+
+     <br><br>
+
+     <font class="font sub_title">Emacs Modelines</font><br>
+       <div class="Rectangle">
+         <pre>Emacs Modelines는 문서의 처음 두 행을 스캔합니다. gedit에서는 다음 Emacs Modelines 옵션을 지원합니다.
+
+<div class="discription">- 탭 너비
+
+- 들여쓰기 오프셋
+
+- Indent-tabs-mode
+
+- 텍스트 자동 줄 바꿈</div>
+
+Emacs Modelines에 대한 자세한 내용은 <a href="https://www.gnu.org/software/emacs/manual/emacs">GNU Emacs Manual</a>을 참조합니다.</pre>
+     </div><!-- end of Rectangle-->
+
+     <br><br>
+
+     <font class="font sub_title">Kate Modelines</font><br>
+       <div class="Rectangle">
+         <pre>Kate Modelines는 문서의 첫 번째 행과 마지막 행을 스캔합니다. gedit에서는 다음 Kate Modelines 옵션을 지원합니다.
+
+          
+<div class="discription">- 탭 너비
+
+- 들여쓰기 너비
+
+- space-indent
+
+- word-wrap
+
+- word-wrap-column</div>
+
+Kate Modelines에 대한 자세한 내용은 <a href=""https://kate-editor.org/>Kate Website</a>를 참조합니다.</pre>
+     </div><!-- end of Rectangle-->
+
+     <br><br>
+
+     <font class="font sub_title">Vim Modelines</font><br>
+       <div class="Rectangle">
+         <pre>Vim Modelines는 문서의 처음 행 3개와 마지막 행 3개를 스캔합니다. gedit에서는 다음 Vim Modelines 옵션을 지원합니다.
+		 
+		 
+<div class="discription">- et (expandtab)
+
+- ts(tabstop)
+
+- sw(shiftwidth)
+
+- wrap
+
+- textwidth</div>
+
+Vim Modelines에 대한 자세한 내용은 <a href="https://www.vim.org/">Vim Website</a>를 참조합니다.</pre>
+     </div><!-- end of Rectangle-->
+
+
+   </div>   <!-- end of div_root-->
+
+  <footer>
+  <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+  <a href="plugins#default">기본 플러그인</a><br><br></font>
+  </footer>
+
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+
+</BODY>
+</HTML>
+

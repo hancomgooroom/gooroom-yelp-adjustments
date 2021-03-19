@@ -1,0 +1,82 @@
+<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+    <!--nav bar-->
+    <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="prefs">설정</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="bluetooth">블루투스</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="#top">블루투스 장치 연결 해제</a>
+      </ul>
+    </nav>
+    <!--end of navbar -->
+
+  <!-- header -->
+  <header><a name="top"></a></header>
+     
+  <!-- for align 30px -->
+  <div class="div_root">
+    <font class="font title">블루투스 장치 연결 해제</font><br><br>
+    <font class="font text">
+      <pre>더 이상 블루투스 연결을 원하지 않으면 장치 연결을 해제할 수 있습니다. 마우스나 헤드셋과 같은 장치를 더 이상 사용하지 않거나 장치 간에 파일을 전송하지 않아도 되는 경우 해당 장치의 연결을 해제하면 됩니다.</pre>
+    </font>
+
+    <br><br><br>
+    <!-- small_rec -->
+    <div class="small_rec" style="width:100%; height: fit-content;">
+      <font class="font" style="font-size:14px;">
+          <div class="discription">
+            <pre>1. 블루투스 패널을 엽니다.
+
+2. 목록에서 연결 해제할 장치를 선택합니다.
+
+3. [장치] 대화 상자에서 연결 스위치를 끄거나, [장치 제거]를 클릭하여 장치 목록에서 장치를 제거합니다.</pre>
+          </div>
+        <pre>원하는 경우 나중에 블루투스 장치를 다시 연결할 수 있습니다.</pre>
+      </font>
+    </div>
+
+  </div>   
+  <!-- end of div_root -->
+
+  <footer>
+    <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+      <a href="bluetooth">블루투스</a><br>
+      <a href="bluetooth-connect-device">블루투스 장치와 컴퓨터 연결</a> - 블루투스 장치를 페어링합니다.<br><br>
+    </font>
+  </footer>
+
+  <footer class="info">
+      <a onClick="showMore('name')"
+      class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+      onMouseOut="this.className='Options';"><B>정보</B></a><br>
+  
+      <div id=name style="display:none; width:90%;">
+        <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+          <tr>
+            <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+          </tr>
+          <tr>
+            <td style="text-align:center;"><pre><B>번역자</B>
+  조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+  조성호</pre></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+          </tr>
+          <tr>
+            <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+          </tr>
+        </table>
+      </div><!--end of name-->
+    </footer>
+ </BODY>
+</HTML>
+

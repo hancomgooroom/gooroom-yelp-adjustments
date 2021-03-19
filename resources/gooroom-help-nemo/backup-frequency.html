@@ -1,0 +1,82 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+    <!--nav bar-->
+    <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">파일 관리자</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="index#backup">백업</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="#top">백업 빈도</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+     
+   <!-- for align 30px -->
+   <div class="div_root">
+
+    <font class="font" style="font-size:22;">백업 빈도</font><br><br>
+    <font class="font text">
+      <pre>백업 빈도는 백업할 데이터 유형에 따라 다릅니다. 
+예를 들어 서버에 중요한 데이터가 저장된 네트워크 환경을 실행하는 경우 야간 백업만으로는 충분하지 않을 수 있습니다. 이와 반대로 가정용 컴퓨터의 데이터를 백업하는 경우 시간별 백업(잦은 백업)이 필요하지 않을 수 있습니다.</pre>
+    </font>
+
+    <br><br><br>
+     <!-- small box -->
+     <div class="small_rec" style="width:100%; height: fit-content;">
+       <font class="font text">
+         <pre>백업 일정을 계획할 때 다음을 고려하는 것이 좋습니다.
+
+ - 컴퓨터를 사용하는 시간
+
+ - 컴퓨터의 데이터가 변경되는 주기
+
+백업하려는 데이터의 우선 순위가 낮거나 음악, 이메일 및 가족 사진과 같이 변경이 거의 없는 경우 매주 또는 매월 백업만으로도 충분할 수 있습니다. 그러나 세무 감사를 받는 것과 같이 변경이 잦고 중요한 데이터를 다루는 경우 더 자주 백업해야 할 수 있습니다.
+
+일반적으로 백업 사이의 시간은 손실된 작업을 다시 수행하는 데 필요한 시간보다 길어서는 안 됩니다. 예를 들어 손실된 문서를 다시 쓰는 데 7일 이상이 필요하다면 최소한 7일에 한 번은 백업해야 합니다.</pre>
+       </font>
+     </div>
+     <!--end of small box-->
+   </div>
+   <!-- end of div_root-->
+
+  <footer>
+  <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+  <a href="index#backup">백업</a><br><br>
+  </font>
+  </footer>
+
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+ </BODY>
+</HTML>

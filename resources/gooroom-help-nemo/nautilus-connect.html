@@ -1,0 +1,163 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+    <!--nav bar-->
+    <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">파일 관리자</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="index#file_related_task">더 많은 파일 관련 작업</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="#top">서버 또는 네트워크 공유에서 파일 찾아보기</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+     
+   <!-- for align 30px -->
+   <div class="div_root">
+
+    <font class="font" style="font-size:22;">서버 또는 네트워크 공유에서 파일 찾아보기</font><br><br>
+    <font class="font text">
+      <pre>서버 또는 네트워크 공유에 연결하여 해당 서버의 파일을 볼 수 있습니다. 이 방법을 사용하여 다른 사람과 쉽게 파일을 공유할 수 있습니다.
+
+네트워크에서 파일을 찾으려면 [활동 개요]에서 [파일 관리자]를 열고 사이드 바에서 [기타 위치]를 선택합니다. 
+이렇게 하면 파일 관리자가 로컬 영역 네트워크에서 파일 서비스 기능이 있는 모든 컴퓨터를 찾습니다. 
+인터넷의 서버에 연결하려고 하거나 시스템을 찾을 수 없는 경우 [인터넷] 또는 [네트워크 주소]를 입력하여 서버에 수동으로 연결할 수 있습니다.</pre>
+    </font>
+   
+    <!-- small box -->
+    <div class="small_rec" style="width:100%; height: fit-content;">
+        <font class="font" style="font-size:14px;">
+          <pre><b>파일 서버에 연결</b></pre>
+          <div class="discription">
+              <pre>1. 파일 관리자의 사이드 바에서 [기타 위치]를 클릭합니다.
+
+2. [서버에 연결]에서 서버 <a href=#urls>URL</a>을 입력합니다. 지원되는 URL에 대한 자세한 내용은 <a href=#types>서버 유형</a>을 참조합니다.
+  ※이전에 서버에 연결했다면 [최근 서버 목록]에서 해당 서버를 클릭하여 연결할 수 있습니다.
+
+3. [연결]을 클릭합니다. 서버의 파일이 표시됩니다. 또한 서버가 사이드 바에 추가되어 나중에 빠르게 액세스할 수 있습니다.</pre>
+        </font>
+            </div>
+      </div>
+     <!--end of small box-->
+
+    <!-- urls -->
+    <header><a name="urls"></a></header>
+
+    <!--sub title-->
+    <font class="font sub_title">URL 작성</font>
+
+    <!-- small box -->
+    <div class="small_rec" style="width:100%; height: fit-content;">
+      <font class="font text">
+        <pre>URL은 네트워크의 위치 또는 파일을 나타내는 주소 유형입니다. 다음과 같은 형식을 사용합니다.
+
+<div class="discription2">scheme://servername.example.com/folder</div>
+
+scheme 영역은 프로토콜 또는 서버 유형입니다. example.com 영역은 도메인 이름입니다. 사용자 이름의 경우 서버 이름 앞에 입력됩니다.
+
+<div class="discription2">scheme://username@servername.example.com/folder</div>
+
+일부 유형의 경우 포트 번호를 지정해야 합니다. 포트 번호는 도메인 이름 뒤에 입력합니다.
+
+<div class="discription2">scheme://servername.example.com:port/folder</div>
+
+</pre>
+      </font>
+    </div>
+    <!--end of small box-->
+
+    <!-- types -->
+    <header><a name="types"></a></header>
+
+    <!--sub title-->
+    <font class="font sub_title">서버 유형</font>
+
+    <!-- Rectangle-->
+    <div class="Rectangle">
+      <font class="font" style="font-size:14px;">
+        <pre>여러 서버 유형에 연결할 수 있습니다. 공개(Public) 서버에는 누구나 연결할 수 있습니다. 비공개(Private) 서버에 연결하려면 사용자 이름 및 암호를 입력해야 합니다.
+
+서버의 파일에 대한 작업 수행 권한이 없을 수 있습니다(예: 공개 FTP에서 파일 삭제 권한).
+
+URL은 서버가 파일을 전송하는 데 사용하는 프로토콜에 따라 다릅니다.
+
+<b>SSH</b><br>
+Secure Shell 서버인 경우 이 유형을 사용합니다. 파일을 안전하게 업로드 할 수 있도록 구성원에게 SSH 계정이 제공됩니다. SSH 서버는 항상 로그인 정보를 요구합니다.<br>
+일반적인 SSH URL은 다음과 같습니다.<br>
+<div class="discription2">ssh://username@servername.example.com/folder</div><br>
+SSH를 사용하면 전송하는 모든 데이터(암호 포함)가 암호화되어 네트워크의 다른 사용자가 볼 수 없습니다.<br>
+
+<b>FTP(로그인 사용)</b><br>
+FTP는 인터넷에서 파일을 교환하는 데 널리 사용되는 방법입니다. FTP에서는 데이터가 암호화되지 않으므로 대부분의 서버에서 SSH를 통한 액세스를 제공합니다.
+그러나 일부 서버에서는 여전히 FTP를 사용한 파일 업로드 또는 다운로드를 허용합니다. 로그인을 사용하는 FTP 서버에서는 일반적으로 파일을 업로드하고 삭제할 수 있는 권한이 부여됩니다.<br>
+일반적인 FTP URL은 다음과 같습니다.<br>
+<div class="discription2">ftp://username@ftp.example.com/path/</div><br>
+
+<b>공개 FTP</b><br>
+일부 서버에서는 공개 또는 익명 FTP 액세스를 제공합니다. 이러한 서버에 연결하는 데에는 사용자 이름과 암호가 필요하지 않으며 대부분 파일을 업로드하고 삭제할 수 있는 권한을 부여하지 않습니다.<br>
+일반적인 공개 FTP URL은 다음과 같습니다.<br>
+<div class="discription2">ftp://ftp.example.com/path/</div><br>
+일부 공개 FTP 사이트에서는 공개 사용자 이름과 암호를 사용하거나 이메일 주소를 암호로 사용하는 공개 사용자 이름으로 로그인해야 합니다. 
+이러한 서버의 경우 FTP(로그인 사용) 방법을 사용하고 FTP 사이트에서 지정한 자격 증명을 사용합니다.<br>
+
+<b>Windows 공유</b><br>
+Windows 컴퓨터는 전용 프로토콜을 사용하여 LAN을 통해 파일을 공유합니다. Windows 네트워크의 컴퓨터는 조직 및 액세스 제어를 위해 도메인으로 그룹화되는 경우가 있습니다. 원격 컴퓨터에 대한 올바른 권한이 있는 경우 파일 관리자에서 Windows 공유에 연결할 수 있습니다.<br>
+일반적인 Windows 공유 URL은 다음과 같습니다.<br>
+<div class="discription2">smb://서버 이름/공유</div><br>
+
+<b>WebDAV 및 보안 WebDAV</b><br>
+웹에서 사용되는 HTTP 프로토콜에 따라 로컬 네트워크에서 파일을 공유하고 인터넷에 파일을 저장하는 데 WebDAV를 사용하는 경우가 있습니다. 연결하려는 서버가 보안 연결을 지원하는 경우 이 옵션을 선택해야 합니다. Secure WebDAV는 강력한 SSL 암호화를 사용하므로 다른 사람이 내 암호를 볼 수 없습니다.<br>
+WebDAV URL은 다음과 같습니다.<br>
+<div class="discription2">dav://example.hostname.com/path</div><br>
+
+<b>NFS 공유</b><br>
+UNIX 컴퓨터는 일반적으로 네트워크 파일 시스템 프로토콜을 사용하여 로컬 네트워크를 통해 파일을 공유합니다. NFS는 공유에 액세스하는 사용자의 UID 기반 보안을 사용하므로 연결할 때 자격 증명이 필요하지 않습니다.<br>
+일반적인 NFS 공유 URL은 다음과 같습니다.<br>
+<div class="discription2">nfs://서버 이름/경로</div></pre>
+    </div>
+    <!--end of Rectangle-->
+
+   </div>   
+   <!-- end of div_root-->
+
+  <footer>
+    <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+      <a href="index#file_related_task">더 많은 파일 관련 작업</a><br><br>
+  </footer>
+
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+ </BODY>
+</HTML>
+

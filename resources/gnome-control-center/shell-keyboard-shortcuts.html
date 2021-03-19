@@ -1,0 +1,174 @@
+<html>
+
+  <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+
+  <body>
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">설정</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="prefs-device">장치</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="keyboard#top">키보드</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="keyboard#other_topics">기타 내용</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">유용한 바로 가기 확인</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->  
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+    <!-- contants  -->
+
+    <!-- for align 30px -->
+    <div class="div_root">
+
+      <!--title-->
+      <font class="font title">유용한 바로 가기 확인</font><br>
+      <font class="font text">
+        <pre>사용자가 컴퓨터와 애플리케이션을 더욱 효율적으로 사용할 수 있게 해주는 바로 가기를 확인합니다. 만약 마우스나 기타 포인팅 장치가 사용이 불가능한 경우 <a href="keyboard-nav">키보드 탐색</a>을 참고하세요.</pre></font>
+      <br>
+
+      <!-- Rectangle-->
+      <div class="Rectangle">
+        <font class="font text">
+          
+          <!--desktop-->
+          <div onClick="javascript:showThread('view1');"class="Options" 
+               onMouseOver="this.className='OptionsOnMouse';"
+               onMouseOut="this.className='Options';">
+            <div style="line-height:10px;"><br></div>
+            - 데스크탑 바로 가기
+            <div style="line-height:20px;"><br></div>
+          </div>
+          <div id="view1" name="view1">
+            <div style="margin:0 30px 0 30px;">
+            <table class="font text" style="width:99%" cellspacing="7px" cellpadding="3px">
+              <th bgcolor="#828282"width="30%">바로 가기</th><th bgcolor="#828282">설명</th>
+              <tr>
+                <td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Alt</span> + <span class="highlight">F2</span></td><td style="border-bottom: solid 1px #4a4a4a;">명령어 입력 창을 엽니다. 방향 키를 사용하여 이전에 사용했던 명령어에 빠르게 접근할 수 있습니다.</td>
+              </tr>
+              <tr>
+                <td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Alt</span> + <span class="highlight">Tab</span></td><td style="border-bottom: solid 1px #4a4a4a;">현재 창에서 다른 창으로 빠르게 전환합니다. <span class="highlight">Shift</span>을 눌러 기존 이동 방향과 반대로 이동할 수 있습니다.</td>
+              </tr>
+              <tr>
+                <td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Super</span> + <span class="highlight">O</span></td><td style="border-bottom: solid 1px #4a4a4a;">로그아웃 창을 엽니다.</td>
+              </tr>
+              <tr>
+                <td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Super</span> + <span class="highlight">L</span></td><td style="border-bottom: solid 1px #4a4a4a;">사용자의 화면을 잠급니다.</td>
+              </tr>
+            </table>
+          </div>
+
+          <div style="line-height:40px;"><br></div>
+          </div>
+          <!--end of desktop-->
+
+          <!--common-edit-->
+          <div onClick="javascript:showThread('view2');"class="Options" 
+               onMouseOver="this.className='OptionsOnMouse';"
+               onMouseOut="this.className='Options';">
+            <div style="line-height:10px;"><br></div>
+            - 공통적인 편집 바로 가기
+            <div style="line-height:20px;"><br></div>
+          </div>
+          <div style="display:none;" id="view2" name="view2">
+            <div style="margin:0 30px 0 30px;">
+            <table class="font text" style="width:99%" cellspacing="7px" cellpadding="3px">
+              <th bgcolor="#828282"width="30%">바로 가기</th><th bgcolor="#828282">설명</th>
+              <tr>
+                <td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">A</span></td><td style="border-bottom: solid 1px #4a4a4a;">편집 화면의 모든 내용을 선택합니다.</td>
+              </tr>
+              <tr>
+                <td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">X</span></td><td style="border-bottom: solid 1px #4a4a4a;">편집 화면에서 선택한 내용을 잘라냅니다.</td>
+              </tr>
+              <tr>
+                <td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">C</span></td><td style="border-bottom: solid 1px #4a4a4a;">편집 화면에서 선택한 내용을 복사합니다.</td>
+              </tr>
+              <tr>
+                <td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">V</span></td><td style="border-bottom: solid 1px #4a4a4a;">클립보드에 저장된 내용을 편집 화면에 붙여 넣습니다.</td>
+              </tr>
+              <tr>
+                <td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">Z</span></td><td style="border-bottom: solid 1px #4a4a4a;">가장 마지막에 한 행동을 하기 이전으로 되돌립니다.</td>
+              </tr>
+            </table>
+          </div>
+
+          <div style="line-height:40px;"><br></div>
+          </div>
+          <!--end of common-edit-->
+
+          <!--capture-screen-->
+          <div onClick="javascript:showThread('view3');"class="Options" 
+               onMouseOver="this.className='OptionsOnMouse';"
+               onMouseOut="this.className='Options';">
+            <div style="line-height:10px;"><br></div>
+            - 화면 캡쳐
+            <div style="line-height:20px;"><br></div>
+          </div>
+          <div style="display:none;" id="view3" name="view3">
+            <div style="margin:0 30px 0 30px;">
+            <table class="font text" style="width:99%" cellspacing="7px" cellpadding="3px">
+              <th bgcolor="#828282"width="30%">바로 가기</th><th bgcolor="#828282">동작</th>
+              <tr>
+                <td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Print Screen</span></td><td style="border-bottom: solid 1px #4a4a4a;">현재 화면의 스크린샷 이미지를 캡처합니다. 자세한 내용은 <a href="screen-shot-record#screenshot">화면 캡쳐</a> 를 참고하세요.</td>
+              </tr>
+              <tr>
+                <td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight"><a href="keyboard-key-super">Alt</a></span> + <span class="highlight">Print Screen</span></td><td style="border-bottom: solid 1px #4a4a4a;">현재 창의 스크린샷 이미지를 캡처합니다. 자세한 내용은 <a href="screen-shot-record#screenshot">화면 캡쳐</a>를 참고하세요.</td>
+              </tr>
+              <tr>
+                <td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Shift</span> + <span class="highlight">Print Screen</span></td><td style="border-bottom: solid 1px #4a4a4a;">사용자가 지정한 영역의 스크린샷 이미지를 캡처합니다. 마우스 포인터가 십자 모양으로 바뀌면 마우스 단추를 누른 상태에서 드래그하여 영역을 지정할 수 있습니다. 자세한 내용은 <a href="screen-shot-record#screenshot">화면 캡쳐</a>를 참조하세요.</td>
+              </tr>
+            </table>
+          </div>
+          <div style="line-height:40px;"><br></div>
+          </div>
+          <!--end of capture-screen-->
+        </font>
+      </div>  <!-- end of Rectangle-->
+    </div>  <!-- end of div_root-->
+
+    <footer>
+      <font class="font ref">추가 정보</font><br>
+      <a href="shell-introduction">구름 패널</a><br>
+      <a href="keyboard">키보드</a><br>
+      <a href="tips">팁과 요령</a><br><br>
+      <font class="font ref">참고 항목</font><br>
+      <a href="keyboard-nav">키보드 탐색</a><br>
+      <a href="keyboard-shortcuts-set">키보드 바로 가기 설정</a><br>
+      <a href="keyboard-key-menu"><span class="highlight">Menu</span> 키란?</a><br>
+      <a href="keyboard-key-super"><span class="highlight">Super</span> 키란?</a></font>
+    </footer>
+    <footer class="info">
+      <a onClick="showMore('name')"
+     class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+     onMouseOut="this.className='Options';"><B>정보</B></a><br>
+      <div id=name style="display:none; width:90%;">
+        <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+          <tr>
+            <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+          </tr>
+          <tr>
+            <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+          </tr>
+          <tr>
+            <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+          </tr>
+        </table>
+      </div><!--end of name-->
+    </footer>
+  </body>
+</html>

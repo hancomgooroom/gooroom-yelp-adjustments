@@ -1,0 +1,96 @@
+<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+   <!--nav bar-->
+   <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+     <ul>
+       <li><img class="img" src="help.svg">
+       <li><a href="index">설정</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="prefs-details">자세히 보기</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="user-accounts">사용자 계정</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="user-accounts#privileges">사용자 권한</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="#top">관리자 권한</a>
+     </ul>
+    </nav> <!--end of navbar-->
+    <!-- header -->
+    <header><a name="top"></a></header>
+   <!-- contants  -->
+   <!-- for align 30px -->
+   <div  class="div_root">
+     <font class="font title">관리 권한은 어떻게 사용되나요?</font>
+     <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+<pre>시스템이 올바르게 작동하는 데 필요한 파일이 잘못 변경되면 시스템에 문제가 발생하기 때문에 관리자 권한을 사용하여 무단으로 변경되는 것을 보호해야 합니다. 또한 일부 애플리케이션은 시스템에 필요한 필수 요소를 변경하기 때문에 보호되어야 합니다.
+
+시스템을 보호할 수 있는 방법은 관리자 권한이 있는 사용자만 파일을 변경하거나 애플리케이션을 사용할 수 있도록 하는 것입니다. 일반적으로는 시스템 파일을 변경하거나 중요 애플리케이션을 사용할 필요가 없으므로 관리 권한이 없어도 됩니다. 
+
+하지만 이런 애플리케이션을 사용해야 하는 경우 변경 작업을 수행할 수 있도록 일시적으로 관리자 권한을 부여 받아야 합니다. 애플리케이션에 관리자 권한이 필요한 경우 암호 입력을 요청합니다. 예를 들어 일부 새 소프트웨어를 설치하려는 경우 소프트웨어 설치 관리자(패키지 관리자)가 새 응용 프로그램을 시스템에 추가할 수 있도록 관리자 암호를 요청합니다. 작업이 완료되면 관리자 권한이 다시 없어집니다.
+
+관리자 권한은 사용자 계정과 연동되며 관리자 권한이 있는 사용자는 표준 사용자가 아닌 동안 이러한 권한을 가질 수 있습니다. 관리자 권한이 없으면 소프트웨어를 설치할 수 없습니다. 일부 사용자 계정(예: "root" 계정)에는 영구적인 관리 권한이 있습니다. 의도하지 않은 항목(예: 필요한 시스템 파일 삭제)을 실수로 변경할 수 있으므로 관리자 권한을 상시로 소유해서는 안 됩니다.
+
+다시 말해 관리자 권한은 필요한 경우 시스템의 중요한 부분을 변경할 수 있도록 허용하지만 실수로 변경하는 것은 방지합니다.</pre>
+         <pre><div  class="discription">'슈퍼 사용자'란 무엇인가요?
+
+관리자 권한을 가진 사용자를 '슈퍼 사용자'라고도 합니다. 슈퍼 사용자는 일반 사용자보다 더 많은 권한을 가지고 있으며 su 및 sudo와 같은 명령어를 사용합니다. 이는 일시적으로 슈퍼 사용자 권한을 부여하는 데 사용하는 명령어입니다.</div></pre>
+       </font>
+     </div><!-- end of Rectangle-->
+     <br><br>
+     <font class="font sub_title">관리 권한이 유용한 이유는 무엇입니까?</font>
+     <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+         <pre>시스템 변경 전 사용자에게 관리 권한 요구하는 것은 시스템이 의도적으로 또는 의도하지 않게 손상되는 것을 방지하는 데 도움이 됩니다.
+
+관리자 권한을 가진 사용자가 중요한 파일을 실수로 변경하거나 중요한 파일을 실수로 변경하는 응용 프로그램을 실행할 수 있습니다. 만약 관리자 권한을 필요할 때 일시적으로 부여한다면 이러한 실수를 사전에 방지할 수 있습니다.
+
+신뢰할 수 있는 특정 사용자에게만 관리자 권한을 부여해야 합니다. 이렇게 하면 다른 사용자가 컴퓨터를 무단으로 사용하거나 필요한 애플리케이션을 제거하거나 불법 애플리케이션을 설치하거나 중요한 파일을 변경하는 작업을 수행할 수 없어 강력한 보안을 유지할 수 있습니다.</pre>
+       </font>
+     </div><!-- end of Rectangle-->
+   </div>   <!-- end of div_root-->
+   <br><br>
+   <footer>
+     <font class="font ref">추가 정보<br></font>
+     <font class="font text"><a href="user-accounts#privileges">사용자 권한</a></font><br><br>
+     <font class="font ref">참고 항목<br></font>
+     <font class="font text"><a href="printing-name-location">프린터 이름 또는 위치 변경</a> — 프린터 설정에서 프린터 이름 또는 위치를 변경합니다.</font><br>
+     <font class="font text"><a href="user-admin-change">관리자 권한이 있는 사용자 변경</a> — 사용자에게 관리자 권한을 부여하여 시스템을 변경하도록 허용합니다.</font><br>
+     <font class="font text"><a href="user-changepicture">로그인 화면 사진 변경</a> — 로그인 및 사용자 화면에 사진을 추가합니다.</font><br>
+     <font class="font text"><a href="user-changepassword">암호 변경</a> — 계정 설정에서 암호를 자주 변경하여 계정을 안전하게 유지합니다.</font><br>
+     <font class="font text"><a href="user-delete">사용자 계정 삭제</a> — 컴퓨터를 더 이상 사용하지 않는 사용자 계정을 삭제합니다.</font><br>
+     <font class="font text"><a href="net-othersedit">다른 사용자들이 네트워크 연결을 변경할 수 없음</a> — 네트워크 연결 설정에서 모든 사용자에게 접근 가능한 옵션을 체크해야 합니다.</font><br>
+     <font class="font text"><a href="user-admin-problems">관리 제한으로 인한 문제</a> — 관리자 권한이 있는 경우에만 애플리케이션 설치와 같은 작업을 수행할 수 있습니다.</font><br>
+     <font class="font text"><a href="printing-setup-default-printer">기본 프린터 설정</a> — 가장 자주 사용하는 프린터를 선택합니다.</font><br>
+   </footer>
+   <footer class="info">
+    <a onClick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+ </BODY>
+</HTML>

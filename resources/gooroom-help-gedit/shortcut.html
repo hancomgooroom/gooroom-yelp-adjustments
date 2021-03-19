@@ -1,0 +1,343 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">텍스트 편집기</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">바로 가기 키</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+   <!-- contants  -->
+
+   <!-- for align 30px -->
+   <div class="div_root">
+     <font class="font title">바로 가기 키</font><br>
+     <font class="font text">작업을 더 빨리 수행하려면 바로 바로 가기 키를 사용합니다. 다음 표에서는 텍스트 편집기의 모든 바로 가기 키를 나열합니다.</font>
+
+     <br><br>
+
+     <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+         <!--Tab-related Shortcut-->
+         <div onClick="javascript:showThread('view1');"class="Options" 
+               onMouseOver="this.className='OptionsOnMouse';"
+               onMouseOut="this.className='Options';">
+           <div style="line-height:10px;"><br></div>
+           - 탭 관련 단축
+           <div style="line-height:20px;"><br></div>
+         </div>
+         <div id="view1" name="view1">
+           <div style="margin:0 30px 0 30px;">
+           <table class="font text" style="width:99%" cellspacing="7px" cellpadding="3px">
+             <th bgcolor="#828282"width="30%">동작</th><th bgcolor="#828282">바로 가기 키</th>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">왼쪽의 다음 탭으로 전환</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">Alt</span> + <span class="highlight">Page Up</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">오른쪽의 다음 탭으로 전환</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">Alt</span> + <span class="highlight">Page Down</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">닫기 탭</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">W</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">모든 탭 저장</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">Shift</span> + <span class="highlight">L</span></td>
+             </tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">모든 탭 닫기</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">Shift</span> + <span class="highlight">W</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">가장 최근에 닫힌 탭 다시 열기</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">Shift</span> + <span class="highlight">T</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">n번째 탭으로 이동</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Alt</span> + <span class="highlight">n</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">새 탭 그룹</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">Alt</span> + <span class="highlight">N</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">이전 탭 그룹</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Shift</span> + <span class="highlight">Ctrl</span> + <span class="highlight">Alt</span> + <span class="highlight">Page Up</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">다음 탭 그룹</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Shift</span> + <span class="highlight">Ctrl</span> + <span class="highlight">Alt</span> + <span class="highlight">Page Down</span></td>
+             </tr>
+         </table>
+         </div>
+
+         <div style="line-height:40px;"><br></div>
+         </div> <!--end of Tap-related Shortcut-->
+
+
+         <!--Shortcut keys for working with files-->
+         <div onClick="javascript:showThread('view2');"class="Options" 
+               onMouseOver="this.className='OptionsOnMouse';"
+               onMouseOut="this.className='Options';">
+           <div style="line-height:10px;"><br></div>
+           - 파일 작업을 위한 바로 가기 키
+           <div style="line-height:20px;"><br></div>
+         </div>
+         <div style="display:none;" id="view2" name="view2">
+           <div style="margin:0 30px 0 30px;">
+           <table class="font text" style="width:99%;" cellspacing="7px" cellpadding="3px">
+             <th bgcolor="#828282"width="30%">동작</th><th bgcolor="#828282">바로 가기 키</th>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">새 창에 새 문서 만들기</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">N</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">새 탭에서 새 문서 만들기</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">T</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">문서 열기</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">O</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">Quick Open 창 열기</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Alt</span> + <span class="highlight">O</span></td>
+             </tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">현재 문서 저장</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">S</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">새 파일 이름으로 현재 문서 저장</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">Shift</span> + <span class="highlight">S</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">현재 문서 인쇄</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">P</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">인쇄 미리 보기</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">Shift</span> + <span class="highlight">P</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">현재 문서 닫기</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">W</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">종료</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">Q</span></td>
+             </tr>
+         </table>
+         </div>
+         <div style="line-height:40px;"><br></div>
+         </div> <!--Shortcut keys for working with files-->
+
+         <!--Shortcut keys for editing files-->
+         <div onClick="javascript:showThread('view3');"class="Options" 
+               onMouseOver="this.className='OptionsOnMouse';"
+               onMouseOut="this.className='Options';">
+           <div style="line-height:10px;"><br></div>
+           - 파일 편집을 위한 바로 가기 키
+           <div style="line-height:20px;"><br></div>
+         </div>
+         <div style="display:none;" id="view3" name="view3">
+           <div style="margin:0 30px 0 30px;">
+           <table class="font text" style="width:99%;" cellspacing="7px" cellpadding="3px">
+             <th bgcolor="#828282"width="30%">동작</th><th bgcolor="#828282">바로 가기 키</th>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">현재 줄의 시작 부분으로 이동</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Home</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">현재 줄의 끝으로 이동</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">End</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">문서 시작 부분으로 이동</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">Home</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">문서의 끝으로 이동</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">End</span></td>
+             </tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">선택한 단어를 한 단어 오른쪽으로 이동</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Alt</span> + <span class="highlight">→</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">선택한 단어를 한 단어 왼쪽으로 이동</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Alt</span> + <span class="highlight">←</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">마지막 작업 실행 취소</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">Z</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">마지막으로 실행 취소된 작업 다시 실행</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">Shift</span> + <span class="highlight">Z</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">선택한 텍스트 또는 영역을 잘라내어 클립보드에 놓기</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">X</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">선택한 텍스트 또는 영역을 클립보드에 복사</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">C</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">클립보드의 내용 붙여넣기</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">V</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">파일의 모든 텍스트 선택</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">A</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">현재 줄 삭제</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">D</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">선택한 줄을 한 줄 위로 이동</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Alt</span> + <span class="highlight">↑</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">선택한 줄을 한 줄 아래로 이동</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Alt</span> + <span class="highlight">↓</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">선택한 텍스트를 대문자로 변환</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">U</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">선택한 텍스트를 소문자로 변환</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">L</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">선택한 텍스트의 대/소문자 전환</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">~</span></td>
+             </tr>
+           </table>
+         </div>
+         <div style="line-height:40px;"><br></div>
+         </div> <!---end of Shortcut keys for editing files-->
+
+         <!--for showing and hiding panes-->
+         <div onClick="javascript:showThread('view4');"class="Options" 
+               onMouseOver="this.className='OptionsOnMouse';"
+               onMouseOut="this.className='Options';">
+           <div style="line-height:10px;"><br></div>
+           - 창을 표시하고 숨기기 위한 바로 가기 키
+           <div style="line-height:20px;"><br></div>
+         </div>
+         <div style="display:none;" id="view4" name="view4">
+           <div style="margin:0 30px 0 30px;">
+           <table class="font text" style="width:99%;" cellspacing="7px" cellpadding="3px">
+             <th bgcolor="#828282"width="30%">동작</th><th bgcolor="#828282">바로 가기 키</th>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">측면 패널 표시/숨기기</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">F9</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">파일 메뉴 열기</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">F10</span></td>
+             </tr>
+           </table>
+         </div>
+         <div style="line-height:40px;"><br></div>
+         </div> <!---end of for showing and hiding panes-->
+
+         <!--for searching-->
+         <div onClick="javascript:showThread('view5');"class="Options" 
+               onMouseOver="this.className='OptionsOnMouse';"
+               onMouseOut="this.className='Options';">
+           <div style="line-height:10px;"><br></div>
+           - 검색을 위한 바로 가기 키
+           <div style="line-height:20px;"><br></div>
+         </div>
+         <div style="display:none;" id="view5" name="view5">
+           <div style="margin:0 30px 0 30px;">
+           <table class="font text" style="width:99%;" cellspacing="7px" cellpadding="3px">
+             <th bgcolor="#828282"width="30%">동작</th><th bgcolor="#828282">바로 가기 키</th>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">문자열 찾기</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span><span class="highlight">F</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">문자열의 다음 인스턴스 찾기</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">G</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">문자열의 이전 인스턴스 찾기</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">Shift</span> + <span class="highlight">G</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">검색 및 바꾸기</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">H</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">강조 표시 지우기</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">Shift</span> + <span class="highlight">K</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">Goto line</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">I</span></td>
+             </tr>
+           </table>
+         </div>
+         <div style="line-height:40px;"><br></div>
+         </div> <!---end of for showing and hiding panes-->
+
+         <!--for tools-->
+         <div onClick="javascript:showThread('view6');"class="Options" 
+               onMouseOver="this.className='OptionsOnMouse';"
+               onMouseOut="this.className='Options';">
+           <div style="line-height:10px;"><br></div>
+           - 도구를 위한 바로 가기 키
+           <div style="line-height:20px;"><br></div>
+         </div>
+         <div style="display:none;" id="view6" name="view6">
+           <div style="margin:0 30px 0 30px;">
+           <table class="font text" style="width:99%;" cellspacing="7px" cellpadding="3px">
+             <th bgcolor="#828282"width="30%">동작</th><th bgcolor="#828282">바로 가기 키</th>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">맞춤법 검사</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Shift</span> + <span class="highlight">F7</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">후행 공백 제거(플러그인 포함)</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Alt</span> + <span class="highlight">F12</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">현재 디렉터리(플러그인을 사용하여)에서 "만들기" 실행</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">F8</span></td>
+             </tr>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">디렉터리 목록(플러그인 포함)</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">Ctrl</span> + <span class="highlight">Shift</span> + <span class="highlight">D</span></td>
+             </tr>
+           </table>
+         </div>
+         <div style="line-height:40px;"><br></div>
+         </div> <!---end of for tools-->
+
+         <!--for tools-->
+         <div onClick="javascript:showThread('view7');"class="Options" 
+               onMouseOver="this.className='OptionsOnMouse';"
+               onMouseOut="this.className='Options';">
+           <div style="line-height:10px;"><br></div>
+           - 도움말 바로 가기 키
+           <div style="line-height:20px;"><br></div>
+         </div>
+         <div style="display:none;" id="view7" name="view7">
+           <div style="margin:0 30px 0 30px;">
+           <table class="font text" style="width:99%;" cellspacing="7px" cellpadding="3px">
+             <th bgcolor="#828282"width="30%">동작</th><th bgcolor="#828282">바로 가기 키</th>
+             <tr>
+               <td style="border-bottom: solid 1px #4a4a4a;">도움말</td><td style="border-bottom: solid 1px #4a4a4a;"><span class="highlight">F1</span></td>
+             </tr>
+           </table>
+         </div>
+         </div> <!---end of for tools-->
+
+       </font>
+     </div><!-- end of small rectangle-->
+   </div>   <!-- end of div_root-->
+
+  <footer>
+  <font class="font ref">자세한 정보</font><br>
+  <a href="index">텍스트 편집기</a><br><br>
+
+  <font class="font ref">참고</font><br>
+  <a href="grouped_tabs">그룹화된 탭으로 파일 구성</a></font>
+  </footer>
+
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+
+</BODY>
+</HTML>
+

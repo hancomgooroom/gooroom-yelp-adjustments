@@ -1,0 +1,91 @@
+<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+    <!--nav bar-->
+    <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index">설정</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="bluetooth">블루투스</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="bluetooth#problems">문제점</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="#top">블루투스 장치를 연결할 수 없습니다.</a>
+      </ul>
+    </nav>
+    <!--end of navbar -->
+
+  <!-- header -->
+  <header><a name="top"></a></header>
+     
+  <!-- for align 30px -->
+  <div class="div_root">
+    <font class="font title">블루투스 장치를 연결할 수 없습니다.</font><br><br>
+    <font class="font text">
+      <pre>다음과 같은 원인으로 인해 전화기 또는 헤드셋과 같은 블루투스 장치에 연결할 수 없습니다.</pre>
+    </font>
+    <br><br><br>
+    <!-- small box -->
+    <div class="small_rec" style="width:100%; height: fit-content;">
+      <font class="font text">
+        <pre><b>연결이 차단되었거나 신뢰할 수 없음</b>
+일부 블루투스 장치는 기본적으로 연결을 차단하기 때문에 연결을 허용하도록 사용자가 관련 설정을 변경해야 합니다. 장치가 연결을 허용하도록 설정되어 있는지 확인하시기 바랍니다.
+
+<b>블루투스 하드웨어가 인식되지 않음</b>
+블루투스 어댑터 또는 동글에 필요한 드라이버가 설치되지 않아 컴퓨터에서 인식되지 않을 수 있습니다. 
+일부 블루투스 어댑터는 Linux 환경에서 지원되지 않으므로 드라이버를 설치할 수 없습니다. 이 경우 다른 블루투스 어댑터가 필요할 수 있습니다.
+
+<b>어댑터가 켜져 있지 않습니다.</b>
+블루투스 어댑터가 켜져 있는지 확인해야 합니다. 블루투스 패널을 열어 비활성화되어 있지 않은지 확인하시기 바랍니다.
+
+<b>장치 블루투스 연결이 꺼졌습니다.</b>
+연결하려는 장치에서 블루투스가 켜져 있고 검색 또는 인식 가능한지 확인해야 합니다. 예를 들어 전화기에 연결하려는 경우 비행기 모드가 아닌지 확인하시기 바랍니다.
+
+<b>컴퓨터에 블루투스 어댑터가 없습니다.</b>
+많은 컴퓨터에 블루투스 어댑터가 없습니다. 블루투스를 사용하려면 어댑터를 구입해야 합니다.</pre>
+      </font>
+    </div>
+    <!--end of small box-->
+    
+  </div>   
+  <!-- end of div_root -->
+
+  <footer>
+    <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+      <a href="bluetooth">블루투스</a><br>
+      <a href="bluetooth#problems">문제점</a><br><br>
+    </font>
+  </footer>
+
+  <footer class="info">
+      <a onClick="showMore('name')"
+      class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+      onMouseOut="this.className='Options';"><B>정보</B></a><br>
+  
+      <div id=name style="display:none; width:90%;">
+        <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+          <tr>
+            <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+          </tr>
+          <tr>
+            <td style="text-align:center;"><pre><B>번역자</B>
+  조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+  조성호</pre></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+          </tr>
+          <tr>
+            <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+          </tr>
+        </table>
+      </div><!--end of name-->
+    </footer>
+ </BODY>
+</HTML>
+

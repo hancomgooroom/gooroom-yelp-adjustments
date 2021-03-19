@@ -1,0 +1,96 @@
+<html>
+
+  <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+
+  <body>
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">설정</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="net#top">네트워크</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="net-problem#top">네트워크 문제</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">인터넷 속도가 느림</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->  
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+    <!-- contants  -->
+
+    <!-- for align 30px -->
+    <div class="div_root">
+
+      <!--sub title-->
+      <font class="font sub_title">인터넷 속도가 느림</font><br>
+
+      <!-- Rectangle-->
+      <div class="Rectangle">
+        <font class="font text">
+          <pre>인터넷 속도를 저하시키는 여러 가지 요인이 있습니다.
+
+우선 웹 브라우저를 닫고 다시 열거나 인터넷을 다시 연결해 보세요. 이 방법만으로 인터넷 속도를 저하시키는 설정이 초기화되어 속도가 개선될 수 있습니다.
+
+<font class="font sub_title">사용량이 많음</font>
+인터넷 서비스 제공자는 인터넷 연결을 다른 가정과 공유하도록 설정합니다. 사용자가 단독 전화선 또는 케이블을 사용하여 인터넷에 연결되어 있더라도 통신사업자 측에서 다른 사람들과 인터넷을 공유하여 사용하도록 구성했을 수 있습니다. 그런 경우 사용자와 주변에 있는 가정이 동시에 인터넷을 사용하면 인터넷 속도가 느려질 수 있습니다.
+
+<font class="font sub_title">일시적으로 다운로드 용량 증가</font>
+인터넷 연결을 함께 사용하는 다른 사용자가 대용량 파일을 다운로드하거나 비디오를 시청하는 경우 인터넷 속도가 느려질 수 있습니다.
+
+<font class="font sub_title">불안정한 인터넷 연결</font>
+인터넷 연결 요청이 많은 장소에서는 일시적으로 인터넷 연결이 불안정할 수 있습니다. 커피숍 또는 회의장과 같은 사람이 많은 장소에서는 인터넷 사용량이 많거나 연결이 불안정할 가능성이 있습니다.
+
+<font class="font sub_title">무선 연결 신호 약함</font>
+무선으로 인터넷에 연결한 경우 네트워크 아이콘을 통해 무선 신호 강도가 충분히 센지 확인해야 합니다. 무선 신호 강도가 약하다면 인터넷 속도가 느려질 수 있습니다.
+
+<font class="font sub_title">느린 모바일 인터넷 연결 사용</font>
+모바일 인터넷 연결을 사용하는 동안 속도가 느려진 경우 사용자가 신호 강도가 약한 곳으로 이동했을 수 있습니다. 이 경우 3G와 같이 빠른 네트워크에서 GPRS와 같이 안정적이지만 다소 느린 네트워크로 변경되었을 수 있습니다.
+
+<font class="font sub_title">웹 브라우저 문제</font>
+가끔 웹 브라우저로 인해 인터넷 속도가 느려지는 문제가 나타납니다. 브라우저가 페이지를 불러오는 동안 문제가 발생했거나 브라우저를 오랫동안 열어 둔 상태일 수 있습니다. 그럴 경우 모든 브라우저를 닫은 다음 브라우저를 다시 실행하여 인터넷 속도가 개선되었는지 확인합니다.</pre>
+
+        </font>         
+      </div>  <!-- end of Rectangle-->
+
+    </div>  <!-- end of div_root-->
+
+    <footer>
+      <font class="font ref">추가 정보</font><br>
+      <a href="net-problem">네트워크 문제</a>
+    </footer>
+
+    <footer class="info">
+      <a onClick="showMore('name')"
+     class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+     onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+      <div id=name style="display:none; width:90%;">
+        <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+          <tr>
+            <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+          </tr>
+          <tr>
+            <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+          </tr>
+          <tr>
+            <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+          </tr>
+        </table>
+      </div><!--end of name-->
+    </footer>
+
+  </body>
+</html>

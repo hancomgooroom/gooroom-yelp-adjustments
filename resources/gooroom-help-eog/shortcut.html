@@ -1,0 +1,157 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+
+    <!--nav bar-->
+    <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index">이미지 보기</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="index#advanced">고급</a></li>
+        <li><img class="img" src="grey.svg">
+        <li><a href="#top">키보드 바로 가기</a></li>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+   <!-- contants  -->
+
+   <!-- for align 30px -->
+   <div class="div_root">
+     <!--TiTle -->
+     <font class="font" style="font-size:22px">키보드 바로 가기</font><br><br>
+
+     <!--information -->
+     <font class="font text">다음은 이미지 보기에서 사용할 수 있는 키보드 바로 가기 키 전체 목록입니다.</font>
+
+     <br><br><br>
+
+     <font class="font sub_title">열기, 닫기, 저장, 인쇄</font>
+     <!--Rectangle-->
+     <div class="Rectangle">
+       <font class="font" style="font-size:14px;">
+         <pre>- 이미지 파일 열기: <span class="highlight">Ctrl</span> + <span class="highlight">O</span>
+         
+- 이미지를 같은 파일 이름으로 저장: <span class="highlight">Ctrl</span> + <span class="highlight">S</span>
+
+- 현재 이미지의 복사본을 새 파일 이름으로 저장: <span class="highlight">Shift</span> + <span class="highlight">Ctrl</span> + <span class="highlight">S</span>
+
+- 현재 이미지 인쇄: <span class="highlight">Ctrl</span> + <span class="highlight">P</span>
+
+- 현재 창을 닫기: <span class="highlight">Ctrl</span> + <span class="highlight">W</span>
+
+- 현재 이미지를 바탕 화면 배경으로 사용: <span class="highlight">Ctrl</span> + <span class="highlight">F8</span>
+</pre>
+       </font>
+     </div>
+     <br><br><br>
+
+     <font class="font sub_title">이미지 보기</font>
+     <!--Rectangle-->
+     <div class="Rectangle">
+       <font class="font" style="font-size:14px;">
+         <pre>- 폴더의 이전 이미지로 이동: <span class="highlight">백스페이스</span> / <span class="highlight">왼쪽 화살표</span>
+         
+- 폴더의 다음 이미지로 이동: <span class="highlight">Right</span>
+
+- 폴더의 첫번째 이미지로 이동폴더의 첫번째 이미지로 이동: <span class="highlight">Alt</span> + <span class="highlight">Home</span>
+
+- 폴더의 마지막 이미지로 이동: <span class="highlight">Alt</span> + <span class="highlight">End</span>
+
+- 폴더의 임의의 이미지로 이동: <span class="highlight">Ctrl</span> + <span class="highlight">M</span>
+
+- 이미지 갤러리: <span class="highlight">Ctrl</span> + <span class="highlight">F9</span>
+
+- 전체 화면: <span class="highlight">F11</span>
+
+- 슬라이드 쇼: <span class="highlight">F5</span>
+
+- 실제 크기: <span class="highlight">Ctrl</span> + <span class="highlight">0</span>
+
+- 창에 맞춤: <span class="highlight">F</span>
+
+- 큰 이미지 스크롤: <span class="highlight">Alt</span> + <span class="highlight">화살표</span>
+
+- 이미지 복사: <span class="highlight">Ctrl</span> + <span class="highlight">C</span>
+</pre>
+       </font>
+     </div>
+     <a name="zoom"></a>
+     <br><br><br>
+
+     <font class="font sub_title">확대/축소 및 회전</font>
+     <!--Rectangle-->
+     <div class="Rectangle">
+       <font class="font" style="font-size:14px;">
+         <pre>- 확대: <span class="highlight">+</span>
+         
+- 축소: <span class="highlight">-</span>
+
+- 시계 방향 회전: <span class="highlight">Ctrl</span> + <span class="highlight">R</span>
+
+- 시계 반대 방향 회전: <span class="highlight">Shift</span> + <span class="highlight">Ctrl</span> + <span class="highlight">R</span></pre>
+         
+         <font class="font ref">참고</font><br>
+         <a href="zoom">확대/축소</a><br><br>
+       </font>
+     </div>
+
+     <br><br>
+
+     <font class="font sub_title">기타</font>
+     <!--Rectangle-->
+     <div class="Rectangle">
+       <font class="font" style="font-size:14px;">
+         <pre>- 가장자리 창 <span class="highlight">F9</span>
+
+- 이미지 속성: <span class="highlight">Alt</span> + <span class="highlight">Enter</span></span>
+
+- 실행 취소: <span class="highlight">Ctrl</span> + <span class="highlight">Z</span>
+
+- 도움말: <span class="highlight">F1</span></pre>
+
+  </div>
+</div><!--end of div_root-->
+
+  <footer>
+  <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+  <a href="index#advanced">고급</a></font> <br><br>
+  </footer>
+
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+
+ </BODY>
+</HTML>
+</BODY>
+</HTML>
+

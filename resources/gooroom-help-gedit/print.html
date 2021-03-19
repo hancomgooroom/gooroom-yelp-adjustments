@@ -1,0 +1,137 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">텍스트 편집기</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="index#print">인쇄</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">문서 인쇄</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+   <!-- contants  -->
+
+   <!-- for align 30px -->
+   <div class="div_root">
+     <font class="fon title">문서 인쇄</font><br>
+     <font class="font text">텍스트 편집기로 인쇄하려면 프린터를 연결하고 구성해야 합니다. 이 작업을 수행하지 않은 경우 GNOME 인쇄 도움말을 참조하시기 바랍니다. 텍스트 편집기를 사용하면 파일과 용지에 인쇄할 수 있습니다.</font>
+
+     <br><br><br>
+
+     <font class="font sub_title">미리 보기</font>
+     <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+        <pre>문서를 인쇄하기 전에 인쇄 미리 보기를 사용하여 인쇄될 문서의 모양을 미리 볼 수 있습니다. 문서를 미리 보려면 다음을 수행합니다.
+
+         <div class="discription">1. File ▸ Print Preview(파일 ▸ 인쇄 미리 보기)를 선택합니다. 또는 <span class="hifhlight">Shift</span> + <span class="hifhlight">Ctrl</span> + <span class="hifhlight">P</span>를 누릅니다.</div>
+
+문서 미리 보기는 파일과 동일한 탭에서 열립니다. 문서 미리 보기 탭의 맨 위에 있는 도구 모음에서 탐색 단추 및 도구를 사용하여 이 미리 보기를 확인할 수 있습니다. 문서로 돌아가려면 [미리 보기 닫기]를 누릅니다.</pre>     
+       </font>
+     </div><!-- end of Rectangle-->
+     
+     <br><br>
+     <font class="font sub_title">용지에 인쇄</font>
+    <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+       <pre>로컬 또는 원격 프린터를 사용하여 문서를 용지에 인쇄할 수 있습니다. 파일을 인쇄하려면 다음을 수행합니다.
+       
+<div class="discription">1. File ▸ Print ▸ General을 선택합니다.
+
+2. 사용 가능한 프린터 목록에서 원하는 프린터를 선택합니다.
+
+3. Print Preview(인쇄 미리 보기)를 사용하여 파일을 미리 볼 수 있으며, 설정이 완료되면 Print(인쇄)를 클릭하여 파일을 프린터로 보냅니다.</div>
+
+[페이지 설정] 탭에서 레이아웃 및 용지 옵션을 선택할 수도 있습니다. 이 설정은 GNOME 프로그램 전체에서 사용할 수 있으므로 레이아웃 및 용지 옵션 도움말을 참조하시기 바랍니다.</pre>
+       </font>
+     </div><!-- end of Rectangle-->
+
+     <a name="multiple_copies"></a>
+     <br><br>
+     <font class="font sub_title">여러 복사본과 지정된 범위 간 인쇄</font>
+     <br><font class="font text">범위 및 복사본 옵션을 설정하여 다음 작업을 수행합니다.</font><br>
+     <!--small rectangle-->
+     <div class="small_rec left">
+       <font class="font text">
+         <pre><a href="get_copies">올바른 순서로 인쇄할 복사본 가져오기</a>
+    
+인쇄할 페이지를 일정한 순서로 설정합니다.</pre>
+       </font>
+     </div>
+
+     <div class="small_rec right">
+       <font class="font text">
+         <pre><a href="certain_pages">특정 페이지만 인쇄</a>
+       
+인쇄할 페이지를 지정합니다.</pre>
+       </font>
+     </div><!--end of small rectangle-->
+
+     <br><br>
+     <font class="font sub_title">파일 인쇄</font>
+    <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+       <pre>텍스트 편집기를 사용하여 파일로 인쇄할 수도 있습니다. 문서를 다른 형식의 파일로 인쇄하려면 다음을 수행합니다.
+       
+<div class="discription">1. File ▸ Print ▸ Print to File을 선택합니다.
+
+2. 다음 파일 형식에 대해 인쇄 옵션을 선택합니다.
+
+<div style="margin-left:30px; margin-right:30px;">- Portable Document Format(.pdf)
+
+- PostScript(.ps)
+
+- Scalable Vector Graphics(.svg)</div>
+
+3. [인쇄]를 클릭하여 문서를 파일로 인쇄합니다.</div></pre>
+       </font>
+     </div><!-- end of Rectangle-->
+
+
+   </div>   <!-- end of div_root-->
+
+  <footer>
+    <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+    <a href="index#configure">구성</a></font>
+    </footer>
+
+    <footer class="info">
+      <a onclick="showMore('name')"
+      class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+      onMouseOut="this.className='Options';"><B>정보</B></a><br>
+  
+      <div id=name style="display:none; width:90%;">
+        <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+          <tr>
+            <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+          </tr>
+          <tr>
+            <td style="text-align:center;"><pre><B>번역자</B>
+  조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+  조성호</pre></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+          </tr>
+          <tr>
+            <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+          </tr>
+        </table>
+      </div><!--end of name-->
+    </footer>
+</BODY>
+</HTML>

@@ -1,0 +1,11 @@
+Source: gooroom-yelp-adjustments
+Section: admin
+Priority: optional
+Maintainer: gooroom <gooroom@gooroom.kr>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: gooroom-yelp-adjustments
+Architecture: all
+Description: gooroom yelp
+ gooroom yelp adjustments

@@ -1,0 +1,111 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+    <!--nav bar-->
+    <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">업데이트 관리자</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="#top">설정</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+     
+   <!-- for align 30px -->
+   <div class ="div_root">
+
+    <!--pref-->
+    <a name="pref"></a>
+    <br><br><br>
+
+    <!-- sub title-->
+    <font class= "font sub_title">설정</font><br>
+    <!-- small box -->
+    <div class="small_rec" style="width:100%; height: fit-content;">
+      <font class="font text">
+        <pre>[편집(E)] 메뉴에서 업데이트 관리자의 설정을 변경할 수 있습니다.</pre><br>
+        <pre>옵션
+          <div class="discription">새로운 패키지를 설치하거나 설치된 패키지를 제거하는 업데이트를 표시합니다.
+
+보안 업데이트 유형에 대한 업데이트 기록을 항상 표시합니다.
+
+보안 업데이트 유형에 대한 업데이트가 항상 선택되도록 설정합니다.</div>
+        </pre>
+
+        <pre>등급
+    <div class="discription"><table class="font text" style="width:80%; border-spacing:10px;">
+  <tr>
+    <td><img src = "level1.png">  구름 패키지</td><td>구름에서 업데이트를 제공하는 패키지입니다.</td>
+  </tr>
+  <tr>
+    <td><img src = "level2.png">  데비안 패키지</td><td>데비안에서 업데이트를 제공하는 패키지입니다.</td>
+  </tr>
+  <tr>
+    <td><img src = "level3.png">  타사 패키지</td><td>타사에서 업데이트를 제공하는 패키지입니다.</td>
+  </tr>
+</table></div>        
+        </pre>
+
+        <pre>검증
+    <div class="discription">패키지 출처에서 검증된 소프트웨어 업데이트인지 여부를 표시합니다.</div>
+        </pre>
+
+        <pre>신뢰
+            <div class="discription">업데이트를 신뢰하면 해당 등급에 대한 확인란이 자동으로 선택됩니다.<br>
+업데이트를 신뢰하지 않는 경우 해당 등급에 대한 확인란이 자동으로 해제됩니다. </div>
+        </pre>
+
+        <pre>표시
+            <div class="discription">업데이트를 표시하면 해당 등급에 대한 업데이트 항목이 표시됩니다.<br>
+업데이트를 표시하지 않으면 해당 등급에 대한 업데이트 항목이 표시되지 않습니다.</div>
+        </pre>
+
+        <pre>자동 새로 고침 & 업그레이드
+            <div class="discription">업데이트 목록을 새로 고침할 주기를 설정할 수 있습니다.<br>
+자동 업그레이드 여부 및 자동 업그레이드 시간을 설정할 수 있습니다.</div>
+        </pre>
+      </font>
+    </div>
+    <!--end of pref-->
+
+   </div>
+   <!-- end of div_root-->
+
+  <footer>
+  <font class ="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+    <a href="index">설정</a><br>
+  </font><br><br>
+  </footer>
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+ </BODY>
+</HTML>

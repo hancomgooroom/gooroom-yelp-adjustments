@@ -1,0 +1,95 @@
+<html>
+  <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+
+  <body>
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">설정</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">전원</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->  
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+    <!-- contants  -->
+
+    <!-- for align 30px -->
+    <div class="div_root">
+
+      <!--Title -->
+      <font class="font title">전원</font>
+      <br>
+
+      <!--blank-->        
+      <div class="small_rec left">
+        <font class="font text">
+          <pre><a href="display-blank">빈 화면 설정</a>
+
+화면 절전 모드를 설정하여 전원을 아낍니다.
+          </pre>
+        </font>
+
+      </div>
+
+      <!--screen-lock-->
+      <div class="small_rec right">
+        <font class="font text">
+          <pre><a href="privacy-screen-lock">자동 화면 잠금</a>
+
+사용자의 화면 잠금을 설정하여 다른 사람이 컴퓨터에 접근하는 것을 방지합니다.
+          </pre>
+        </font>
+
+      </div>
+
+      <!--click-power-->        
+      <div class="small_rec left">
+        <font class="font text">
+          <pre><a href="power-suspend">전원 단추 설정</a>
+
+컴퓨터의 전원 단추를 눌렀을 때 실행할 동작을 설정합니다.
+          </pre>
+        </font>
+
+      </div>
+    </div>   <!-- end of div_root-->
+
+    <footer>
+      <font class="font ref">추가 정보</font><br>
+      <a href="index">설정</a><br>
+      <!--a href="hardware">하드웨어 및 드라이브</a><br-->
+      <a href="power-suspend">전원 단추 설정</a>
+    </footer>
+    <footer class="info">
+      <a onClick="showMore('name')"
+     class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+     onMouseOut="this.className='Options';"><B>정보</B></a><br>
+      <div id=name style="display:none; width:90%;">
+        <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+          <tr>
+            <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+          </tr>
+          <tr>
+            <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+          </tr>
+          <tr>
+            <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+          </tr>
+        </table>
+      </div><!--end of name-->
+    </footer>
+  </body>
+</html>

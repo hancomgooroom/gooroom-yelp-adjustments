@@ -1,0 +1,102 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">텍스트 편집기</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="index#file">파일 작업</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="basic">기본</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">서버의 파일 열기</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+   <!-- contants  -->
+
+   <!-- for align 30px -->
+   <div class="div_root">
+     <font class="font title">기본: 파일 열기, 닫기 및 저장</font><br><br>
+     <font class="font sub_title">서버의 파일 열기</font>
+
+     <br><br>
+
+     <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+         <pre>텍스트 편집기에서 서버의 파일을 열려면 해당 서버의 정보를 알고 있어야 합니다. 예를 들어 서버의 IP 주소, URL 및 서버 유형(예: HTTP 또는 FTP 등) 정보가 필요합니다.
+
+또한 일부 서버 유형에서는 저장된 파일을 사용하여 수행할 수 있는 작업이 일부 제한될 수 있습니다(예: 읽기 전용. 변경 내용은 로컬 디스크에만 저장할 수 있음).
+
+서버에서 파일을 열려면 다음을 수행합니다.</pre>
+         <div class="discription">
+             <pre>1. 제목 표시줄에서 [열기]를 클릭합니다.
+
+2. [기타 문서...]를 클릭합니다.
+
+3. [열기] 대화 상자에서 Ctrl+L을 누릅니다.
+
+4. 해당 서버의 IP 주소 또는 URL을 입력합니다.
+
+</BODY>
+</HTML>
+5. 열려는 파일을 선택합니다.
+
+6. [문자 인코딩] 드롭다운 목록을 사용하여 적절한 문자 인코딩을 선택합니다.
+
+7. [열기]를 누릅니다.</pre>
+         </div>
+         <pre>
+
+
+올바른 URI 유형에는 http:, ftp:, ftp:, file: 및 gvfs에서 지원되는 모든 유형이 포함됩니다.</pre>
+         <div class="discription"><pre>일부 URI 유형에서는 파일이 읽기 전용으로 열리며 변경 내용은 다른 위치에 저장해야 합니다. 예를 들어 HTTP는 파일 읽기만 허용합니다. 
+         
+일부 FTP 서버의 경우 원격 파일 저장이 올바르게 작동하지 않을 수 있으므로 FTP의 파일은 읽기 전용으로 열립니다.</pre>
+         </div>
+       </font>
+     </div><!-- end of Rectangle-->
+   </div>   <!-- end of div_root-->
+
+  <footer>
+  <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+  <a href="basic">기본: 파일 열기, 닫기 및 저장</a> - 파일 작업 기본을 살펴봅니다.</font><br><br>
+  <font class="font" style="font-size:14px;line-height:2;"><B>참고</B><br>
+  <a href="open">파일 열기</a> - 기존 파일을 열어 편집합니다.<br></font>
+  </footer>
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+</BODY>
+</HTML>

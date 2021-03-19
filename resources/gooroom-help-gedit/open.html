@@ -1,0 +1,93 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">텍스트 편집기</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="index#file">파일 작업</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="basic">기본</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">열기</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+   <!-- contants  -->
+
+   <!-- for align 30px -->
+   <div class="div_root">
+     <font class="font title">기본: 파일 열기, 닫기 및 저장</font><br>
+     <font class="font sub_title">파일 열기</font>
+
+     <br><br>
+
+     <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+         <pre>파일을 텍스트 편집기로 열려면 [열기]를 클릭하거나 <span class="highlight">Ctrl</span> + <span class="highlight">O</span>를 누릅니다.
+
+이렇게 하면 [열기] 대화 상자가 나타납니다. 마우스 또는 키보드를 사용하여 열려는 파일을 선택한 다음 [열기]를 누르면 선택한 파일이 새 탭에서 열립니다.
+
+파일을 열지 않고 대화 상자를 닫으려면 [취소]를 클릭합니다.</pre>
+           <div class="discription">
+             <pre><span class="highlight">Ctrl</span> 및 <span class="highlight">Shift</span> 키를 사용하여 여러 파일을 한 번에 열 수 있습니다. 여러 파일을 선택하는 동안 <span class="highlight">Ctrl</span> 키를 누른 상태에서 [열기]를 클릭하면 선택한 각 파일이 열립니다.
+
+여러 파일을 선택하는 동안 <span class="highlight">Shift</span>를 누르고 있으면 첫 번째 파일과 마지막 파일을 포함하여 선택한 모든 파일이 열립니다.</pre>
+           </div>
+         </div>
+
+       </font>
+     </div><!-- end of Rectangle-->
+
+   </div>   <!-- end of div_root-->
+
+  <footer>
+  <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+  <a href="basic">기본: 파일 열기, 닫기 및 저장</a></font><br><br>
+  <font class="font" style="font-size:14px;line-height:2;"><B>참고</B><br>
+  <a href="close_file">파일 닫기</a> - 사용 중인 파일을 닫습니다.<br>
+  <a href="get_started">시작하기</a> - 텍스트 편집기에 대해 간략히 소개합니다.<br>
+  <a href="open_server">서버의 파일 열기</a> - 다른 컴퓨터에 저장된 파일에 액세스합니다.<br>
+  <a href="reopen">최근에 사용한 파일 다시 열기</a> - 최근에 업데이트한 파일에 액세스합니다.<br>
+  </font>
+  </footer>
+
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+
+</BODY>
+</HTML>
+

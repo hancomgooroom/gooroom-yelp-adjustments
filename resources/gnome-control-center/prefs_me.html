@@ -1,0 +1,147 @@
+<html>
+
+  <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+
+  <body>
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">설정</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">사용자 및 시스템 설정</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->  
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+    <!-- contants  -->
+
+    <!-- for align 30px -->
+    <div class="div_root">
+
+      <!--Title -->
+      <font class="font title">사용자 및 시스템 설정</font>
+      <font class="font text">
+        <pre>사용자 컴퓨터와 연결된 장치의 설정을 관리합니다. 디스플레이, 키보드, 마우스 및 터치패드, 지역 및 언어 및 개인 정보 설정 등을 설정할 수 있습니다.</pre></font>
+      <br>
+
+      <!--sub title-->
+      <font class="font sub_title">장치 설정</font><br>
+
+      <!--display-->
+      <div class="small_rec left">
+        <font class="font text">
+          <pre><a href="prefs-display">디스플레이</a>
+
+사용자의 디스플레이를 설정합니다.
+          </pre>
+        </font>
+
+      </div>
+
+      <!--keyboard-->
+      <div class="small_rec right">
+        <font class="font text">
+          <pre><a href="keyboard">키보드</a>
+
+사용자의 키보드를 설정합니다 키보드 레이아웃, 커서 깜빡임, 키보드 접근성 등을 설정할 수 있습니다.
+          </pre>
+        </font>
+        
+      </div>
+
+      <!--mouse_touchpad-->
+      <div class="small_rec left">
+        <font class="font text">
+          <pre><a href="mouse">마우스 및 터치패드</a>
+
+사용자의 마우스 및 터치패드를 설정합니다. 오른쪽 또는 왼쪽 클릭 변경, 속도 및 감도 조정 등을 설정할 수 있습니다.
+          </pre>
+        </font>
+
+      </div>
+
+      <!--language-->        
+      <div class="small_rec right">
+        <font class="font text">
+          <pre><a href="prefs-language">지역 및 언어</a>
+
+사용자의 컴퓨터에 설정된 언어, 날짜 형식 및 단위를 변경합니다.
+          </pre>
+        </font>
+        
+      </div>
+
+      <!--privacy-->
+      <div class="small_rec left">
+        <font class="font text">
+          <pre><a href="privacy">개인 정보</a>
+
+사용자의 개인 정보를 설정합니다. 화면 잠금, 임시 파일 지우기, 파일 추적 등에 대한 설정을 변경할 수 있습니다.
+          </pre>
+        </font>
+        
+      </div>
+
+      <!--color-->
+      <div class="small_rec right">
+        <font class="font text">
+          <pre><a href="color">색 관리</a>
+
+사용자의 색 프로파일을 설정합니다.
+          </pre>
+        </font>
+        
+      </div>
+
+      <!--power-->
+      <div class="small_rec left">
+        <font class="font text">
+          <pre><a href="power">전원</a>
+
+컴퓨터의 전원과 관련된 설정을 변경합니다. 절전 모드 및 대기 모드로 설정할 수 있습니다.
+          </pre>
+        </font>
+        
+      </div>
+
+    </div>   <!-- end of div_root-->
+
+    <footer>
+      <font class="font ref">추가 정보</font><br>
+      <a href="index">도움말</a>
+    </footer>
+
+    <footer class="info">
+      <a onClick="showMore('name')"
+     class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+     onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+      <div id=name style="display:none; width:90%;">
+        <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+          <tr>
+            <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+          </tr>
+          <tr>
+            <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+          </tr>
+          <tr>
+            <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+          </tr>
+        </table>
+      </div><!--end of name-->
+    </footer>
+
+  </body>
+</html>

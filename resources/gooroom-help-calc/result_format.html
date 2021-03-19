@@ -1,0 +1,91 @@
+<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">계산기</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="index#number">숫자</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">결과 형식</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+   <!-- contants  -->
+
+   <!-- for align 30px -->
+   <div class="div_root">
+
+     <!--sub title-->
+     <font class="font sub_title">결과 형식</font><br>
+
+     <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+         <pre>결과로 나타낼 형식은 계산기 ▸ 기본 설정 메뉴에서 바꿀 수 있습니다.</pre>
+          <div style="margin:30px;">
+           <table class="font text" style="width:80%; border-spacing:10px;">
+             <tr>
+               <td>자동</td><td>결과 값이 길어지면 과학 표기법으로 나타내지만 적은 결과 값은 고정 표기법으로 나타냅니다.</td>
+             </tr>
+             <tr>
+               <td>고정</td><td>결과를 십진수로 표시합니다.</td>
+             </tr>
+             <tr>
+               <td>과학</td><td>결과를 <a href='scientific'>과학 표기법</a>으로 표시합니다</td>
+             </tr>
+             <tr>
+               <td>공학</td><td>결과는 공학 표기법으로 표시합니다. 지수는 항상 3의 제곱입니다.</td>
+             </tr>
+           </table></div>
+           <pre>
+           
+십진수를 나타낼 경우 0을 뒤에 붙일 지 천 단위 쉼표 구분을 넣을 지 설정할 수 있습니다.</pre>
+
+</font>
+     </div>
+
+   </div>   <!-- end of div_root-->
+
+  <footer>
+  <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+  <a href="index#number">숫자</a></font> <br><br>
+  </footer>
+
+  <footer class="info">
+    <a onClick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+</BODY>
+</HTML>
+

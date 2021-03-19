@@ -1,0 +1,87 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+    <!--nav bar-->
+    <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">파일 관리자</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="index#common_task">일반적인 작업</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="#top">파일 및 폴더 찾아보기</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+     
+   <!-- for align 30px -->
+   <div class ="div_root">
+
+    <font class="font" style="font-size:22;">파일 및 폴더 찾아보기</font><br><br>
+    <font class="font text"> <pre>파일 관리자로 컴퓨터에서 파일을 찾고 구성합니다. <br>
+파일 관리자를 사용하면 저장 장치(예: 외장 하드 디스크), 파일 서버 및 네트워크 공유에 있는 파일을 관리할 수도 있습니다.<br>
+파일 관리자를 시작하려면 활동 개요에서 파일을 엽니다. 애플리케이션 검색 방법과 동일하게 개요를 통해 파일과 폴더를 검색할 수도 있습니다.</pre>
+    </font>
+
+    <br><br><br>
+    <!--sub title-->
+    <font class="font sub_title">폴더 내용 탐색</font><br>
+
+     <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class ="font" style="font-size:14px;">
+         <pre>파일 관리자에서 폴더를 두 번 클릭하여 엽니다. 파일을 두 번 클릭하거나 마우스 가운데 버튼 클릭하여 기본 애플리케이션으로 엽니다.
+폴더를 마우스 가운데 버튼으로 클릭하면 새 탭에서 엽니다. 폴더를 마우스 오른쪽 버튼으로 클릭하여 새 탭이나 새 창에서 열 수도 있습니다.
+
+
+- 파일 및 폴더 목록 위의 경로 표시줄에는 현재 폴더가 상위 폴더와 함께 표시됩니다.
+- 경로 표시줄에서 상위 폴더를 클릭하여 해당 폴더로 이동합니다. 
+- 경로 표시줄에서 폴더를 마우스 오른쪽 버튼으로 클릭하여 새 탭 또는 새 창에서 열거나 속성에 액세스합니다.
+- 현재 폴더에서 파일을 빠르게 검색하려면 파일 이름을 입력합니다. 
+- 검색 창은 창의 상단 또는 하단에 나타나고 입력과 일치하는 파일만 표시됩니다. 
+
+
+사이드 바에서 일반적인 위치에 빠르게 액세스할 수 있습니다. 
+사이드 바가 표시되지 않으면 창의 오른쪽 상단에 있는 메뉴 버튼을 누른 다음 [사이드 바]를 선택합니다. 
+자주 사용하는 폴더에 책갈피를 추가하면 사이드 바에 표시됩니다. 
+폴더를 책갈피로 추가하려면 사이드 바로 드래그하거나 [책갈피(B)-책갈피 추가(A)]를 클릭합니다.</pre></font>
+     </div>
+   </div>
+   <!-- end of div_root-->
+
+  <footer>
+  <font class ="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+  <a href="index#common_task">일반적인 작업</a></font><br><br>
+  </footer>
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+ </BODY>
+</HTML>

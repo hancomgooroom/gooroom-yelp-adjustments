@@ -1,0 +1,97 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">텍스트 편집기</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="index#print">인쇄</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="print">문서 인쇄</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="print#multiple_copies">여러 복사본과 지정된 범위 간 인쇄</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">올바른 순서로 인쇄할 복사본 가져오기</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+   <!-- contants  -->
+
+   <!-- for align 30px -->
+   <div class="div_root">
+     <font class="font title">올바른 순서로 인쇄할 복사본 가져오기</font><br>
+
+
+     <font class="font sub_title">인쇄 순서 반전</font>
+     <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+        <pre>프린터는 일반적으로 첫 페이지를 먼저 인쇄하고 마지막 페이지를 마지막으로 인쇄합니다. 인쇄 순서를 반대로 하려면 다음을 수행합니다.
+
+         <div class="discription">1.파일 ▸ 인쇄를 선택합니다.
+
+2. [인쇄] 대화 상자의 [일반] 탭에서 [반전]을 선택합니다.</div>
+
+이렇게 하면 마지막 페이지가 먼저 인쇄됩니다.</pre>     
+       </font>
+     </div><!-- end of Rectangle-->
+     
+     <br><br>
+     <font class="font sub_title">한 부씩 인쇄</font>
+    <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+       <pre>문서의 복사본을 두 개 이상 인쇄하는 경우 인쇄물은 기본적으로 페이지 번호별로 그룹화됩니다. 데이터 정렬을 수행하면 각 사본에 해당 페이지가 함께 그룹화됩니다.
+       
+<div class="discription">1. File ▸ Print(파일 ▸ 인쇄)를 클릭합니다.
+
+2. [인쇄] 대화 상자의 [일반] 탭에서 [복사본]을 선택합니다.</div>
+
+</pre>
+       </font>
+     </div><!-- end of Rectangle-->
+
+   </div>   <!-- end of div_root-->
+
+  <footer>
+    <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+    <a href="print#multiple_copies">여러 복사본과 지정된 범위 간 인쇄</a></font>
+    </footer>
+
+    <footer class="info">
+      <a onclick="showMore('name')"
+      class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+      onMouseOut="this.className='Options';"><B>정보</B></a><br>
+  
+      <div id=name style="display:none; width:90%;">
+        <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+          <tr>
+            <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+          </tr>
+          <tr>
+            <td style="text-align:center;"><pre><B>번역자</B>
+  조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+  조성호</pre></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+          </tr>
+          <tr>
+            <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+          </tr>
+        </table>
+      </div><!--end of name-->
+    </footer>
+
+</BODY>
+</HTML>

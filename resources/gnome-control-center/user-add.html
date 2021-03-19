@@ -1,0 +1,92 @@
+<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+   <!--nav bar-->
+   <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+     <ul>
+       <li><img class="img" src="help.svg">
+       <li><a href="index">설정</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="prefs-details">자세히 보기</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="user-accounts">사용자 계정</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="user-accounts#manage">사용자 계정 관리</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="#top">새 사용자 계정 추가</a>
+     </ul>
+    </nav> <!--end of navbar-->
+    <!-- header -->
+    <header><a name="top"></a></header>
+   <!-- contants  -->
+   <!-- for align 30px -->
+   <div class="div_root">
+     <font class="font title">새 사용자 계정 추가</font>
+     <font class="font text"><pre>컴퓨터에 여러 사용자 계정을 추가할 수 있습니다. 회사나 비즈니스와 같은 조직의 모든 구성원에게 하나의 사용자 계정을 발급합니다. 계정이 있는 모든 사용자는 홈 폴더, 문서 및 설정을 소유하게 됩니다.</pre></font>
+     <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+         <pre>사용자 계정을 추가하려면 <a href="user-admin-explain">관리자 권한</a>이 필요합니다.</pre>
+         <pre><div  class=" discription">1. [설정] 프로그램을 실행합니다. 아래의 4가지 방법 중 하나를 수행합니다.
+<div style="margin:30px;"><pre>- [시작] <img class="img" src="launcher.png" style="background-color:#252525;"> 아이콘 클릭 후 [설정] <img class="img" style="width:24px;" src="control-pannel.png"> 애플리케이션을 선택합니다.
+
+- <a href="shell-introduction">구름 패널</a> 오른쪽 하단의 구름 통합 애플릿 화면에서 [설정] <img class="img" src="setting.svg"style="background-color:#252525;"> 아이콘을 클릭합니다.
+
+- <div class="highlight">Alt</div> + <div class="highlight">F2</div>를 누르면 나타나는 프로그램 실행 화면에서 'gnome-control-center'를 입력합니다.
+
+- 터미널 창을 열어 'gnome-control-center'를 입력합니다.</pre></div>
+2. [자세히 보기-사용자]를 선택합니다.
+
+3. 오른쪽 상단에서 [잠금 해제]를 누르고 메시지가 나타나면 암호를 입력합니다.
+
+4. 암호를 바르게 입력하면 오른쪽 상단의 단추가 변경됩니다. [사용자 추가(A)...] 단추를 클릭합니다.
+
+5. 새 사용자가 컴퓨터에 대한 <a href="user-admin-explain">관리자 권한</a>을 가지려면 계정 유형에 대한 관리자를 선택합니다.
+관리자는 사용자 추가 및 삭제, 소프트웨어 및 드라이버 설치, 날짜 및 시간 변경 등의 작업을 수행할 수 있습니다.
+
+6. 새 사용자의 전체 이름을 입력합니다. 사용자 이름은 전체 이름에 따라 자동으로 입력됩니다. 추천 사용자 이름이 마음에 들지 않으면 변경할 수 있습니다.
+
+7. 새 사용자에 대한 암호를 설정하도록 선택하거나 첫 번째 로그인 시 사용자가 직접 설정하도록 할 수 있습니다. [지금 암호를 설정하도록 선택한 경우] 아이콘을 클릭해 자동으로 임의의 암호를 생성할 수 있습니다.
+
+8. [추가]를 클릭합니다.</div></pre>
+         <pre>계정을 만든 후 암호를 변경하려면 계정을 선택하고 패널을 잠금 해제한 후 현재 암호 상태를 누릅니다.</pre>
+       </font>
+     </div><!-- end of Rectangle-->
+     <br>
+     <font class="font text">사용자 패널 오른쪽에서 사용자 이름 옆에 있는 이미지를 클릭하여 계정에 대한 이미지를 추가할 수 있습니다. 이 이미지는 로그인 창에 표시됩니다. 시스템에서 제공하는 사진 또는 사용자의 사진을 사용하거나 웹캠으로 사진을 찍을 수 있습니다.</font>
+   </div>   <!-- end of div_root-->  
+   <br>
+   <footer>
+     <font class="font ref">추가 정보<br></font>
+     <font class="font text"><a href="user-accounts#manage">사용자 계정 관리</a></font><br><br>
+     <font class="font ref">참고 항목<br></font>
+     <font class="font text"><a href="user-delete">사용자 계정 삭제</a> — 컴퓨터를 더 이상 사용하지 않는 사용자 계정을 삭제합니다.</font><br>
+   </footer>
+   <footer class="info">
+    <a onClick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+ </BODY>
+</HTML>

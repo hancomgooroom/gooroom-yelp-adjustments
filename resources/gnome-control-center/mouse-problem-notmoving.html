@@ -1,0 +1,133 @@
+<html>
+  <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+
+  <body>
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">설정</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="prefs-device">장치</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="mouse#top">마우스 및 터치패드</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="mouse#problems">자주 발생하는 문제</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">마우스 포인터가 움직이지 않음</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+    <!-- contants  -->
+
+    <!-- for align 30px -->
+    <div class="div_root">
+
+      <!--Title -->
+      <font class="font title">마우스 포인터가 움직이지 않음</font>
+      <div class="Rectangle">
+        <font class="font text">
+          <pre>
+- <a href="#plugged-in">마우스가 제대로 연결되었는지 확인</a><br>
+- <a href="#broken">마우스가 고장나지 않았는지 확인</a><br>
+- <a href="#wireless-mice">무선 마우스인지 확인</a>
+          </pre>
+
+        </font>
+      </div>  <!-- end of Rectangle-->
+
+      <a name="plugged-in"></a>
+      <br><br><br>
+
+      <!--sub title-->
+      <font class="font sub_title">마우스 연결 상태 확인</font><br>
+
+      <!--Rectangle-->
+      <div class="Rectangle">
+        <font class="font text">
+          <pre>유선 마우스를 사용하는 경우 컴퓨터에 올바르게 연결되었는지 확인합니다. USB를 사용하는 마우스인 경우 컴퓨터의 다른 USB 포트에 연결해봅니다. PS/2 마우스인 경우, 보라색 키보드 포트가 아닌 초록색 마우스 포트에 연결되었는지 확인합니다. 연결 확인을 위해 컴퓨터를 재시작해야 할 수 있습니다.</pre>
+        </font>
+      </div>  <!-- end of Rectangle-->
+
+      <a name="broken"></a>
+      <br><br><br>
+
+      <!--sub title-->
+      <font class="font sub_title">마우스 고장 여부 확인</font><br>
+
+      <!--Rectangle-->
+      <div class="Rectangle">
+        <font class="font text">
+          <pre>연결하려는 마우스를 다른 컴퓨터에 연결하여 해당 마우스가 정상적으로 동작하는지 확인합니다. 옵티컬 또는 레이저 마우스를 사용하는 경우 마우스가 켜져 있으면 마우스 바닥에서 빛이 나옵니다. 빛이 나오지 않으면 마우스가 켜져 있는지 확인합니다. 마우스가 켜져 있음에도 빛이 나오지 않는다면 마우스가 고장난 것일 수 있습니다.</pre>
+        </font>
+      </div>  <!-- end of Rectangle-->
+
+      <a name="wireless-mice"></a>
+      <br><br><br>
+
+      <!--sub title-->
+      <font class="font sub_title">무선 마우스 사용 여부 확인</font><br>
+
+      <!--Rectangle-->
+      <div class="Rectangle">
+        <font class="font text">
+          <pre>마우스가 켜져 있는지 확인합니다. 마우스 바닥에서 스위치를 확인할 수 있습니다.
+
+블루투스 마우스를 사용하는 경우 마우스가 컴퓨터와 제대로 페어링되어 있는지 확인합니다. 자세한 내용은 <a href="bluetooth-connect-device">컴퓨터에 블루투스 장치 연결</a> 페이지를 참고하세요.
+
+마우스 포인터가 움직인다면 마우스 단추를 눌러 봅니다. 일부 무선 마우스에서는 절전 모드로 인해 단추를 누르기 전까지 작동하지 않을 수 있습니다. 자세한 내용은 <a href="mouse-wakeup">마우스 동작이 지연됨</a> 페이지를 참고하세요.
+
+무선 마우스 배터리가 충전되어 있는지 확인하세요.
+
+컴퓨터 블루투스 수신 장치가 정상적으로 연결되었는지 확인하세요.
+
+마우스와 수신기가 다른 채널에서 동작한다면 두 채널을 동일하게 맞춰주세요.
+
+마우스와 수신기를 설정하기 위해 마우스와 수신기에 있는 단추를 동시에 눌러보세요. 이에 대한 자세한 내용은 마우스 매뉴얼을 확인해 보시기 바랍니다.
+
+대부분의 RF 무선 마우스는 컴퓨터에 연결되면 자동으로 동작합니다. 블루투스 혹은 IR 무선 마우스를 사용하기 위해 사전 설정이 필요할 수 있습니다. 설정 방법은 사용 중인 마우스의 모델에 따라 다릅니다.</pre>
+
+        </font>
+      </div>  <!-- end of Rectangle-->
+
+    </div>  <!-- end of div_root-->
+
+    <footer>
+      <font class="font ref">추가 정보</font><br>
+      <a href="mouse#problems">자주 발생하는 문제</a>
+    </footer>
+
+    <footer class="info">
+      <a onClick="showMore('name')"
+     class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+     onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+      <div id=name style="display:none; width:90%;">
+        <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+          <tr>
+            <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+          </tr>
+          <tr>
+            <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+          </tr>
+          <tr>
+            <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+          </tr>
+        </table>
+      </div><!--end of name-->
+    </footer>
+
+  </body>
+</html>

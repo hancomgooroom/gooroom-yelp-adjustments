@@ -1,0 +1,98 @@
+<HTML>
+ <HEAD>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+   <script src="script.js"></script>
+   <link rel="stylesheet" href="style.css" type="text/css">
+ </HEAD>
+ <BODY>
+   <!--nav bar-->
+   <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+     <ul>
+       <li><img class="img" src="help.svg">
+       <li><a href="index">설정</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="net-wireless">와이파이</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="#top">숨겨진 와이파이에 연결</a>
+     </ul>
+    </nav> <!--end of navbar-->
+
+   <!-- header -->
+   <header><a name="top"></a></header>
+ 
+   <!-- contants  -->
+
+   <!-- for align 30px -->
+   <div class="div_root">
+
+     <!--TiTle -->
+     <font class="font title" id="title">숨겨진 와이파이에 연결</font><br>
+     <font class="font text">와이파이를 숨긴 상태로 설정할 수 있습니다. 숨겨진 네트워크는 와이파이 목록에 표시되지 않습니다. </font><br><br>
+
+     <div class="Rectangle">
+       <pre>와이파이를 숨김 설정하려면 다음 단계를 수행합니다.
+
+<div class="discription">1. 아래의 4가지 방법 중 하나를 수행하여 [설정] 애플리케이션을 실행합니다.
+<div style="margin:30px;"><pre>- [시작] <img class="img" src="launcher.png" style="background-color:#252525;"> 아이콘 클릭 후 [설정] <img class="img" style="width:24px;" src="control-pannel.png"> 애플리케이션을 선택합니다.
+
+- <a href="shell-introduction">구름 패널</a> 오른쪽 하단의 구름 통합 애플릿 화면에서 [설정] <img class="img" src="setting.svg"style="background-color:#252525;"> 아이콘을 클릭합니다.
+
+- <div class="highlight">Alt</div> + <div class="highlight">F2</div>를 누르면 나타나는 프로그램 실행 화면에서 'gnome-control-center'를 입력합니다.
+
+- 터미널 창을 열어 'gnome-control-center'를 입력합니다.</pre></div>
+2. [와이파이 설정]을 클릭합니다.
+
+3. 창의 오른쪽 상단에서 [메뉴] 단추을 누르고 [숨겨진 네트워크에 연결…]을 선택합니다.
+
+4. 목록에서 이전에 연결된 숨겨진 네트워크를 선택하거나 [새로 만들기]를 클릭하여 새 네트워크를 추가합니다.
+
+5. 새로 추가하는 경우 네트워크 이름을 입력하고 네트워크 보안 목록에서 무선 보안 유형을 선택합니다.
+
+6. 비밀번호 또는 기타 보안 세부 사항을 입력합니다.
+
+7. [연결]을 클릭합니다.</div>
+
+네트워크 이름을 확인하려면 무선 액세스 포인트 또는 라우터의 설정을 확인해야 할 수 있습니다. 네트워크 이름(SSID)이 없는 경우 BSSID(기본 서비스 세트 식별자, 액세스 포인트의 MAC 주소)를 사용할 수 있습니다. 이는 02:00:01:02:03:04와 유사하며 일반적으로 액세스 포인트 아래에 있습니다.
+
+무선 액세스 포인트에 대한 보안 설정도 확인해야 합니다. WEP 및 WPA와 같은 항목을 찾아보세요.
+
+**와이파이를 숨기면 모르는 사람이 연결하는 것을 방지하여 보안이 향상될 것이라 생각할 수도 있습니다. 하지만 실제로는 그렇지 않으며 네트워크를 찾는 데 시간이 조금 더 걸릴뿐 숨겨진 네트워크를 여전히 감지할 수 있습니다.</pre>
+     </div>
+   </div> <!-- end of div_root-->
+
+   <footer>
+     <font class="font ref">추가 정보</font><br>
+     <font class="font text"><a href="net-wireless">와이파이</a> - <a class="none" href="net-wireless-connect">와이파이에 연결</a>, <a class="none" href="net-wireless-hidden">숨겨진 네트워크</a>, <a class="none" href="net-wireless-disconnecting">목록에서 와이파이를 찾을 수 없음</a></font>
+
+     <br><br>
+
+     <font class="font ref">참고 항목</font><br>
+     <font class="font text"><a href="net-wireless-find">목록에서 와이파이를 찾을 수 없음</a> — 무선이 꺼져 있거나 연결이 끊어졌거나 네트워크가 숨겨져 있을 수 있습니다.<br><br>
+     </footer>
+
+   <footer class="info">
+    <a onClick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+ </BODY>
+</HTML>

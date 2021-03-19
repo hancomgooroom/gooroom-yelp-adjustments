@@ -1,0 +1,112 @@
+﻿<HTML>
+ <HEAD>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+   <link rel="stylesheet" href="style.css" type="text/css">
+   <script src="script.js"></script>
+ </HEAD>
+ <BODY>
+  <!--nav bar-->
+  <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+    <ul>
+      <li><img class="img" src="help.svg">
+      <li><a href="#top">입력기 설정</a>
+    </ul>
+  </nav> 
+  <!--end of navbar-->
+
+  <!-- header -->
+  <header><a name="top"></a></header>
+
+  <!-- for align 30px -->
+  <div class="div_root">
+
+    <!--TiTle -->
+    <font class="font title" id="title">입력기 설정</font>
+    <br><br>
+
+    <font class = "font text">
+      <pre>입력기 nimf의 설정을 도와줍니다. 기본 설정 및 클라이언트, 언어 엔진에 대한 설정을 하실 수 있습니다.</pre>
+    </font>
+
+    <!-- general -->
+    <a name="general"></a>
+    <br><br><br>
+
+    <font class= "font sub_title">기본 설정</font><br>
+
+    <div class="small_rec left">
+      <font class="font text">
+        <pre><a href='xkb-options'>XKB 옵션</a></pre>
+      </font>
+    </div>
+    <!-- end of general -->
+
+    <!-- client -->
+    <a name="client"></a>
+    <br><br><br>
+
+    <font class= "font sub_title">클라이언트</font><br>
+    
+    <div class="small_rec left">
+      <font class="font text">
+        <pre>클라이언트 설정
+        
+사용자의 클라이언트 환경 (GTK+, Qt4, Qt5에서 마우스 버튼을 클릭할 때 리셋할 지 설정합니다. GTK+ 환경에서는 GDK 키 이벤트 후킹하기 옵션을 선택할 수 있습니다.)</pre>
+      </font>
+    </div>
+    <!-- end of client -->
+
+    <!-- engines -->
+    <a name="engines"></a>
+    <br><br><br>
+
+    <font class= "font sub_title">언어 엔진</font><br>
+    <font class = "font text">
+      <pre>시스템 키보드, 한국어(libhangul) 중 기본 언어 엔진을 선택할 수 있습니다.</pre>
+    </font>
+
+    <div class="small_rec left">
+      <font class="font text">
+        <pre>시스템 키보드
+
+시스템 키보드로 전환하기 위한 단축키를 설정할 수 있습니다.
++ 버튼을 누르고 키 조합을 입력하면 설정한 단축키로 시스템 키보드를 사용할 수 있습니다. 삭제하려면 - 버튼을 이용합니다.
+        </pre>
+      </font>
+    </div>
+    
+    <div class="small_rec right">
+      <font class="font text">
+        <pre><a href='libhangul'>한국어 (libhangul)</a></pre>
+      </font>
+    </div>
+    <!-- end of engines -->
+
+  </div>
+
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+ </BODY>
+</HTML>

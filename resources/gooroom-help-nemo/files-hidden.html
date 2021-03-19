@@ -1,0 +1,100 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+    <!--nav bar-->
+    <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">파일 관리자</a>
+        <li><img class="img" src="grey.svg">
+          <li><a href="index#tips_N_questions">유용한 정보</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="#top">파일 숨기기</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+     
+   <!-- for align 30px -->
+   <div class="div_root">
+
+    <font class="font" style="font-size:22;">파일 숨기기</font><br><br>
+    <font class="font text">
+      <pre>파일 관리자는 숨기기 및 숨기기 취소 기능을 제공합니다. 숨김 파일은 파일 관리자에서 표시되지 않지만 삭제된 것이 아닙니다.
+
+파일을 숨기려면 파일 이름이 . 접두사로 시작하도록 <a href="files-rename">변경</a>합니다. 예를 들어 example.txt라는 파일을 숨기려면 파일 이름을 .example.txt로 변경합니다.
+
+폴더 이름에 . 접두사를 추가하면 폴더를 숨길 수도 있습니다.</pre>
+    </font>
+
+    <br><br><br>
+    <!--sub title-->
+    <font class="font sub_title">숨김 파일 모두 표시</font><br>
+
+    <!-- small box -->
+    <div class="small_rec" style="width:100%; height: fit-content;">
+      <font class="font text">
+        <pre>폴더 내의 모든 숨김 파일을 표시하려면 해당 폴더로 이동한 다음 도구 모음에서 [보기 옵션]을 클릭하고 [숨김 파일 표시]를 선택하거나 <span class="highlight">Ctrl</span>+<span class="highlight">H</span>를 누릅니다. 이렇게 하면 숨김 파일을 포함한 모든 파일이 표시됩니다.
+
+숨김 파일을 다시 표시하지 않으려면 [보기 옵션]을 클릭하고 [숨김 파일 표시]를 선택 해제하거나 <span class="highlight">Ctrl</span>+<span class="highlight">H</span>를 다시 누릅니다.</pre>
+      </font>
+    </div>
+    <!--end of small box-->
+
+    <br><br><br>
+    <!--sub title-->
+    <font class="font sub_title">파일 숨기기 해제</font><br>
+
+    <!-- small box -->
+    <div class="small_rec" style="width:100%; height: fit-content;">
+      <font class="font text">
+        <pre>파일 숨기기를 해제하려면 숨김 파일이 포함된 폴더로 이동한 다음 도구 모음에서 [보기 옵션]을 클릭하고 [숨김 파일 보이기(H)]를 선택합니다. 
+그런 다음 숨김 파일 이름에서 . 접두사를 삭제합니다. 예를 들어 .example.txt 라는 파일을 숨김 해제하려면 파일 이름을 example.txt로 변경합니다.
+
+도구 모음에서 [보기 옵션]을 클릭하고 [숨김 파일 표시]를 선택 해제하거나 <span class="highlight">Ctrl</span>+<span class="highlight">H</span>를 눌러 숨김 파일을 다시 숨길 수 있습니다.
+
+숨김 파일 이름에는 ~ 접미사가 있을 수 있습니다. 이러한 파일은 백업 파일입니다. 자세한 내용은 <a href="files-tilde">접미사 ~가 포함된 파일이 무엇입니까?</a>를 참조합니다.</pre>
+      </font>
+    </div>
+    <!--end of small box-->
+
+   </div>   
+   <!-- end of div_root-->
+
+  <footer>
+  <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+  <a href="index#tips_N_questions">유용한 정보</a><br>
+  <a href="files-tilde">접미사 ~가 포함된 파일이 무엇입니까?</a> - 기본적으로 숨겨져 있는 백업 파일을 알아봅니다.<br><br>
+  </font>
+  </footer>
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+ </BODY>
+</HTML>

@@ -1,0 +1,127 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">텍스트 편집기</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="index#plugins">플러그인</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="plugins">플러그인 구성 및 사용</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="plugins#default">기본 플러그인</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">맞춤법 검사</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+   <!-- contants  -->
+
+   <!-- for align 30px -->
+   <div class="div_root">
+
+     <!--TiTle -->
+     <font class="font title">맞춤법 검사</font><br>
+
+     <font class="font sub_title">맞춤법 검사</font><br>
+     <div class="Rectangle">
+       <pre>맞춤법 검사 기능은 필요에 따라 사용할 수 있는 gedit의 플러그인으로 제공됩니다. 플러그인을 사용하도록 설정하려면 다음을 수행합니다.
+
+<div class="discription">1.gedit ▸ Preferences ▸ Plugins를 선택합니다.
+
+2.플러그인을 사용하려면 철자 검사기를 선택합니다.</div></pre>
+     </div><!-- end of Rectangle-->
+
+     <br><br>
+
+     <font class="font sub_title">텍스트 편집기에서 맞춤법 검사기 사용하기</font><br>
+     <div class="Rectangle">
+       <pre>문서에서 철자가 틀린 단어를 확인하려면 다음을 수행합니다.
+도구 > 철자 검사를 선택합니다.
+
+입력할 때 텍스트 편집기에서 문서에서 철자가 틀린 단어를 자동으로 강조 표시하려면 도구 > 철자가 틀린 단어 강조 표시를 선택합니다.</pre>
+     </div><!-- end of Rectangle-->
+
+     <br><br>
+
+     <font class="font sub_title">맞춤법 검사기 사용하기</font><br>
+     <div class="Rectangle">
+       <pre>철자 검사 대화 상자를 사용하여 철자가 틀린 단어에 대한 올바른 대체 방법을 선택할 수 있습니다. 철자 검사기에서 확인 중인 철자가 틀린 단어 옆에 굵게 표시됩니다. 다음 수정 작업 중에서 선택할 수 있습니다.
+
+
+-<i>추천 단어</i>를 사용하면 단어에서 사용할 수 있는 대체 단어를 나열합니다.
+
+- <i>무시</i>를 사용하면 현재 단어 인스턴스에 대한 맞춤법 검사를 무시할 수 있습니다.
+
+- <i>모두 무시</i>를 사용하면 현재 워드의 모든 인스턴스에 대한 맞춤법 검사를 무시할 수 있습니다.
+
+- <i>바꾸기</i>는 잘못된 단어나 인식되지 않는 단어를 제안: 목록에서 선택한 대체 단어로 대체합니다.
+
+- <i>모두 바꾸기</i> 목록에서 선택한 대체 단어 또는 인식되지 않는 모든 대체 단어를 변경합니다.
+
+- <i>단어 추가</i>를 사용하여 현재 단어를 gedit 사용자 사전에 추가할 수 있습니다. 사용자 사전에 사용자 지정 단어를 추가하면 gedit가 문서의 단어를 인식할 수 있으므로, 철자가 틀린 단어로 강조 표시되지 않습니다.</pre>
+     </div><!-- end of Rectangle-->
+
+     <br><br>
+
+     <font class="font sub_title">맞춤법 검사기 정의</font><br>
+     <div class="Rectangle">
+       <pre>기본적으로 gedit는 현재 언어를 사용하여 문서의 철자를 검사합니다. 다른 언어를 사용해야 하는 경우 도구 ▸ 언어 설정을 선택한 다음 사용할 언어를 선택합니다.</pre>
+     </div><!-- end of Rectangle-->
+
+     <br><br>
+
+     <font class="font sub_title">사전</font><br>
+     <div class="Rectangle">
+       <pre>gedit는 철자 검사를 위해 시스템 유틸리티인 Enchant를 사용합니다. Enchant는 여러 사전을 사용하여 맞춤법을 검사할 수 있습니다(예: Hunspell 및 Aspell 등) .
+    
+사용할 언어를 gedit에서 사용할 수 없는 경우 컴퓨터의 소프트웨어 설치 관리자 또는 패키지 관리자를 사용하여 원하는 사전을 설치합니다.</pre>
+     </div><!-- end of Rectangle-->
+
+     <br><br>
+
+   </div>   <!-- end of div_root-->
+
+  <footer>
+  <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+  <a href="plugins#default">기본 플러그인</a><br><br></font>
+  </footer>
+
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+
+</BODY>
+</HTML>
+

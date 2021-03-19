@@ -1,0 +1,77 @@
+<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+   <!--nav bar-->
+   <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+     <ul>
+       <li><img class="img" src="help.svg">
+       <li><a href="index">설정</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="prefs-details">자세히 보기</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="user-accounts">사용자 계정</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="user-accounts#privileges">사용자 권한</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="#top">관리 제한으로 인한 문제</a>
+     </ul>
+    </nav> <!--end of navbar-->
+    <!-- header -->
+    <header><a name="top"></a></header>
+   <!-- contants  -->
+   <!-- for align 30px -->
+   <div class=" div_root">
+     <font class="font title">관리 제한으로 인한 문제</font>
+     <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+         <pre><a href="user-admin-explain">관리자 권한</a>이 없는 경우 몇 가지 문제가 발생할 수 있습니다. 작업을 수행하려면 다음과 같은 관리 권한이 필요합니다.
+
+ - 네트워크 또는 와이파이에 연결
+ 
+ - 다른 디스크 파티션(예: Windows 파티션)의 내용 보기
+ 
+ - 새 애플리테이션 설치
+
+<a href="user-admin-change">관리자 권한을 가진 사용자를 변경</a>할 수 있습니다.
+</pre>
+       </font>
+     </div><!-- end of Rectangle-->
+     <br>
+   </div>   <!-- end of div_root-->  
+   <br>
+   <footer>
+     <font class="font ref">추가 정보<br></font>
+     <font class="font text"><a href="user-accounts#privileges">사용자 권한</a></font><br><br>
+     <font class="font ref">참고 항목<br></font>
+     <font class="font text"><a href="user-admin-change">관리자 권한이 있는 사용자 변경</a> — 사용자에게 관리자 권한을 부여하여 시스템을 변경하도록 허용합니다.</font><br>
+     <font class="font text"><a href="user-admin-explain">관리자 권한은 어떻게 사용되나요? </a> — 시스템의 중요한 부분을 변경하려면 관리 권한이 필요합니다.</font><br>
+   </footer>
+   <footer class="info">
+    <a onClick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+ </BODY>
+</HTML>

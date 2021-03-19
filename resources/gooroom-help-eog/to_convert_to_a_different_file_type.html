@@ -1,0 +1,118 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+
+    <!--nav bar-->
+    <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">        
+        <li><a href="index">이미지 보기</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="index#edit">사진 편집하기</a></li>
+        <li><img class="img" src="grey.svg">
+        <li><a href="#top"> 다른 파일 형식으로 변환하기</a></li>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+   <!-- contants  -->
+
+   <!-- for align 30px -->
+   <div class="div_root">
+     <!--TiTle -->
+     <font class="font title">다른 파일 형식으로 변환하기</font><br>
+
+     <!--information -->
+     <font class="font text">사진은 JPEG 또는 PNG 등의 특정 파일 형식으로 저장됩니다. 필요에 따라 이러한 파일을 다른 형식으로 변환할 수 있습니다.</font>
+
+     <br><br><br><br>
+     <font class="font sub_title">사진 하나를 다른 파일 형식으로 변환하기</font><br><br>
+     <!--Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+         <div class="discription">
+           <pre>1. [다른 이름으로 저장]을 클릭하면 저장을 위한 새 창이 열립니다.
+           
+2. [이름]에서 변환하려는 형식에 해당하는 파일 확장자를 지정합니다.
+
+    예를 들어 JPEG(.jpg) 형식을 비트맵(.bmp) 형식으로 변환하려면 다음과 같이 지정합니다.
+    
+        원본 파일: image.jpg
+        대상 파일: image.bmp
+        
+3. [저장]을 누르면 지정한 파일 형식으로 새롭게 저장합니다. 원본 파일은 유지됩니다.</pre>
+         </div>
+         <pre>이미지 보기는 선택한 파일 확장자에 따라 사진을 저장할 파일 형식을 인식합니다. 입력한 파일 확장자 또는 사용할 확장자를 인식하지 못하는 경우 [이미지 저장] 창에서 [지원하는 이미지 파일]을 클릭한 다음 드롭다운 상자에서 파일 형식을 선택할 수 있습니다.</pre>
+       </font>
+     </div>
+     
+     <a name="convert"></a>
+     <br><br><br><br>
+
+     <font class="font" style="font-size:18px">여러 사진을 다른 파일 형식으로 변환하기</font><br><br>
+     <!--Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+         <pre>사진 여러 개를 다른 형식으로 한 번에 변환할 수 있습니다.</pre>
+         <div class="discription">
+           <pre>    1. <span class="highlight">Ctrl</span> 키를 누른 채로 <a href="view_the_entire_picture_in_a_folder#image_collaction">이미지 모음</a>에서 변환하려는 이미지를 클릭합니다. 또는 <span class="highlight">Ctrl</span> + <span class="highlight">A</span> 키를 눌러 모든 이미지를 선택합니다.
+    
+    2. [다른 이름으로 저장] 대화 상자가 나타납니다.
+
+       <img class="img border" src="save_as.png">
+
+    3. 변환하는 사진은 기본적으로 현재 폴더에 저장됩니다. 다른 위치에 저장하려면 [저장할 폴더]를 변경합니다.
+
+    4. [파일 이름 형식] 오른쪽 드롭다운 목록에서 대상 파일 형식을 선택합니다.
+
+    5. [다른 이름으로 저장]을 클릭합니다.</pre>
+        </div>
+       </font>
+     </div>
+
+
+  </div>
+
+  <footer>
+  <font class="font ref">참고</font><br>
+  <a href="rename_multiple_pictures_at_once">여러 개의 사진 이름을 한 번에 바꾸기</a> - 여러 개의 사진 이름을 자동으로 바꾸거나 번호를 매깁니다.<br><br><br>
+  <font class="font ref">자세한 정보</font><br>
+  <a href="index#edit">사진 편집하기</a> <br><br>
+  </footer>
+  
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+
+ </BODY>
+</HTML>
+</BODY>
+</HTML>
+

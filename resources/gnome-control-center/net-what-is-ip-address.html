@@ -1,0 +1,85 @@
+<html>
+
+  <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+
+  <body>
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">설정</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="net#top">네트워크</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="net-general#top">네트워크 용어 및 팁</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">IP 주소란?</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->  
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+    <!-- contants  -->
+
+    <!-- for align 30px -->
+    <div class="div_root">
+
+      <!--sub title-->
+      <font class="font sub_title">IP 주소란?</font><br>
+
+      <!-- Rectangle-->
+      <div class="Rectangle">
+        <font class="font text">
+          <pre>IP는 Internet Protocol의 줄임말로 IP 주소는 인터넷 프로토콜 주소를 의미하며 네트워크에 연결된 각 장치는 IP 주소를 가지고 있습니다.
+
+IP 주소는 사용자의 휴대 전화 번호와 비슷합니다. 사용자의 휴대 전화 번호는 고유한 숫자 조합으로 구성되어 있어 사용자를 구별할 수 있기 때문에 다른 사용자에게 전화를 걸 수 있습니다. IP 주소도 이와 유사하게 고유한 숫자 조합으로 구성되어 사용자의 컴퓨터를 구별할 수 있고 데이터를 송신할 수 있습니다.
+
+대부분의 IP 주소는 숫자로 구성된 네 개의 조합으로 구성되며 각 조합은 마침표로 구분됩니다. IP 주소는 192.168.1.42와 같습니다.
+
+IP 주소는 유동적 혹은 고정적일 수 있습니다. 유동 IP 주소는 사용자의 컴퓨터가 네트워크에 연결될 때마다 임시적으로 할당됩니다. 고정 IP 주소는 고정되어 있어 변하지 않습니다. 일반적으로 유동 IP 주소가 사용되며, 고정 IP 주소는 서버 관리자와 같이 특수한 경우에 사용됩니다.</pre>
+
+        </font>         
+      </div>  <!-- end of Rectangle-->
+
+    </div>  <!-- end of div_root-->
+
+    <footer>
+      <font class="font ref">추가 정보</font><br>
+      <a href="net-general">네트워크 용어 및 팁</a><br><br>
+
+      <font class="font ref">참고 항목</font><br>
+      <a href="net-findip">IP 주소 찾기</a></font>
+    </footer>
+
+    <footer class="info">
+      <a onClick="showMore('name')"
+     class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+     onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+      <div id=name style="display:none; width:90%;">
+        <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+          <tr>
+            <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+          </tr>
+          <tr>
+            <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+          </tr>
+          <tr>
+            <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+          </tr>
+        </table>
+      </div><!--end of name-->
+    </footer>
+
+  </body>
+</html>

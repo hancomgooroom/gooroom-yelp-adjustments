@@ -1,0 +1,69 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+
+    <!--nav bar-->
+    <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index">이미지 보기</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="index#edit">사진 편집하기</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="#top">사진 복사하고 붙여넣기</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+   <!-- for align 30px -->
+   <div class="div_root">
+     <!--TiTle -->
+     <font class="font title">사진 복사하고 붙여넣기</font>
+
+     <!--Rectangle-->
+     <div class="Rectangle">
+       <font class="font text"><pre>이미지 보기에서 이미지를 다른 애플리케이션으로 복사하려면 이미지를 마우스 오른쪽 단추로 클릭한 다음 [복사]를 선택합니다.
+
+이미지가 클립보드로 복사됩니다. 해당 이미지를 LibreOffice 문서, GIMP 또는 다른 애플리케이션에 붙여넣을 수 있습니다.</pre>
+       </font>
+     </div>
+  </div>
+     <br><br>
+
+  <footer>
+  <font class="font ref">자세한 정보<br></font>
+  <a href="index#edit">사진 편집하기</a> <br>
+  <a href="index#q&a">자주 묻는 질문</a> <br>
+  <a href="index#hints">힌트</a> <br>
+  </footer>
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+ </BODY>
+</HTML>

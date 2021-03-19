@@ -1,0 +1,85 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">텍스트 편집기</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="index#configure">구성</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">색 구성표 변경</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+   <!-- contants  -->
+
+   <!-- for align 30px -->
+   <div class="div_root">
+     <font class="font" style="font-size:22px;">색 구성표 변경</font>
+     <font class="font text"><pre>텍스트 편집기에는 기본 텍스트 창의 모양을 변경할 수 있는 색 구성표가 포함되어 있습니다.</pre></font>
+
+     <font class="font sub_title">색 구성표(Color Scheme) 변경하기</font>
+     <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+        <pre>색 구성표를 변경하려면 다음을 수행합니다.
+         <div class="discription"><pre>1. 창의 오른쪽 상단 메뉴 버튼을 누르고 Preferences ▸ Font & Colors를 선택합니다.
+         
+2. 원하는 색 구성표를 선택하면 해당 색 구성표가 바로 적용됩니다.</div>      
+       </font>
+     </div><!-- end of Rectangle-->
+     
+     <br><br>
+     <font class="font sub_title">사용자 지정 색 구성표 사용하기</font>
+    <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+       <pre>다른 사용자가 만든 색 구성표를 사용하거나 색 구성표를 만들어 사용할 수도 있습니다.
+
+사용자 지정 색 구성표를 설치하는 방법과 다운로드하여 사용할 수 있는 색 구성표 예제는 <a href="https://wiki.gnome.org/Projects/GtkSourceView/StyleSchemes">gedit wiki</a>에서 확인합니다.</pre>
+       </font>
+     </div><!-- end of Rectangle-->
+   </div>   <!-- end of div_root-->
+
+  <footer>
+    <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+    <a href="index#configure">구성</a></font>
+    </footer>
+
+    <footer class="info">
+      <a onclick="showMore('name')"
+      class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+      onMouseOut="this.className='Options';"><B>정보</B></a><br>
+  
+      <div id=name style="display:none; width:90%;">
+        <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+          <tr>
+            <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+          </tr>
+          <tr>
+            <td style="text-align:center;"><pre><B>번역자</B>
+  조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+  조성호</pre></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+          </tr>
+          <tr>
+            <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+          </tr>
+        </table>
+      </div><!--end of name-->
+    </footer>
+
+</BODY>
+</HTML>

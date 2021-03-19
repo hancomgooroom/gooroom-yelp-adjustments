@@ -1,0 +1,85 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">텍스트 편집기</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="index#plugins">플러그인</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="plugins">플러그인 구성 및 사용</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="plugins#add">플러그인 추가 편집</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">git</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+   <!-- contants  -->
+
+   <!-- for align 30px -->
+   <div class="div_root">
+
+     <!--TiTle -->
+     <font class="font title">git</font><br>
+     <font class="font text">git 플러그인은 마지막 커밋 이후 변경된 행을 강조 표시합니다.</font><br>
+     <br><br>
+     <div class="Rectangle"><pre>플러그인을 사용하도록 설정하려면 gedit ▸ Preferences ▸ Plugins ▸ Git을 선택합니다.
+변경 사항은 문서 여백에 세 가지 색상으로 표시됩니다.
+
+Green
+문서에 추가된 새 행을 표시합니다.
+
+Orange
+문서에서 수정된 행을 표시합니다.
+
+Red
+삭제된 문서의 일부를 표시합니다.
+
+마우스 포인터를 빨간색 또는 주황색 여백에 놓으면 도구 팁의 원래 텍스트가 표시됩니다.</pre></div><!-- end of Rectangle-->
+
+   </div>   <!-- end of div_root-->
+
+  <footer>
+  <font class="font ref">자세한 정보</font><br>
+  <a href="plugins#add">플러그인 추가 편집</a><br><br>
+  </footer>
+
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+
+</BODY>
+</HTML>
+

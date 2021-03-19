@@ -1,0 +1,129 @@
+<html>
+
+  <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+
+  <body>
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">설정</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="net#top">네트워크</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">네트워크 문제</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->  
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+    <!-- contants  -->
+
+    <!-- for align 30px -->
+    <div class="div_root">
+
+      <!--sub title-->
+      <font class="font sub_title">네트워크 문제</font><br>
+
+      <!--wireless-find-->
+      <div class="small_rec left">
+        <font class="font text">
+          <pre><a href="net-wireless-find">목록에서 와이파이를 찾을 수 없음</a>
+
+와이파이가 꺼져 있거나 연결이 끊어졌거나 숨겨진 네트워크에 연결하려고 시도합니다.
+          </pre>
+        </font>
+
+      </div>
+
+      <!--othersedit-->
+      <div class="small_rec right">
+        <font class="font text">
+          <pre><a href="net-othersedit">다른 사용자가 네트워크 연결을 변경할 수 없음</a>
+
+네트워크 연결 설정에서 모든 사용자가 접근 가능하도록 관련 옵션을 선택해야 합니다.
+          </pre>
+        </font>
+
+      </div>
+
+      <!--net-wrongnetwork-->
+      <div class="small_rec left">
+        <font class="font text">
+          <pre><a href="net-wrongnetwork">컴퓨터가 잘못된 네트워크에 연결됨</a>
+
+사용자의 네트워크 연결 설정을 변경하고 잘못된 연결 옵션을 해제합니다.
+          </pre>
+        </font>
+
+      </div>
+
+      <!--net-slow-->
+      <div class="small_rec right">
+        <font class="font text">
+          <pre><a href="net-slow">인터넷 속도가 느림</a>
+
+다른 콘텐츠를 다운로드하는 중이거나 연결 상태가 불량하거나 사용량이 많을 수 있습니다.
+          </pre>
+        </font>
+
+      </div>
+
+      <!--net-othersconnect-->
+      <div class="small_rec left">
+        <font class="font text">
+          <pre><a href="net-othersconnect">다른 사용자가 인터넷에 연결할 수 없음</a>
+
+컴퓨터에 접근하는 모든 사용자가 네트워크에 연결 가능하도록 설정할 수 있습니다.
+          </pre>
+        </font>
+
+      </div>
+
+      <!--net-wireless-disconnecting-->
+      <div class="small_rec right">
+        <font class="font text">
+          <pre><a href="net-wireless-disconnecting">와이파이 연결이 계속 끊어짐</a>
+
+와이파이 신호가 약하거나 네트워크가 제대로 연결되지 않았을 수 있습니다.
+          </pre>
+        </font>
+      </div>
+    </div>  <!-- end of div_root-->
+
+    <footer>
+      <font class="font ref">추가 정보</font><br>
+      <a href="net">네트워크</a><br><br>
+      <font class="font ref">참고 항목</font><br>
+      <a href="net-wireless">와이파이</a></font>
+    </footer>
+    <footer class="info">
+      <a onClick="showMore('name')"
+     class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+     onMouseOut="this.className='Options';"><B>정보</B></a><br>
+      <div id=name style="display:none; width:90%;">
+        <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+          <tr>
+            <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+          </tr>
+          <tr>
+            <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+          </tr>
+          <tr>
+            <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+          </tr>
+        </table>
+      </div><!--end of name-->
+    </footer>
+  </body>
+</html>

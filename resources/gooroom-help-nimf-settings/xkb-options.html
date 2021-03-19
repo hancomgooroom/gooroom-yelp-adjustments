@@ -1,0 +1,76 @@
+<HTML>
+ <HEAD>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+   <link rel="stylesheet" href="style.css" type="text/css">
+   <script src="script.js"></script>
+ </HEAD>
+ <BODY>
+  <!--nav bar-->
+  <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+    <ul>
+      <li><img class="img" src="help.svg">
+      <li><a href="index#top">입력기 설정</a>
+      <li><img class="img" src="grey.svg">
+      <li><a href="index#general">기본 설정</a>
+      <li><img class="img" src="grey.svg">
+      <li><a href="#top">XKB 옵션</a>
+    </ul>
+  </nav> 
+  <!--end of navbar-->
+
+  <!-- header -->
+  <header><a name="top"></a></header>
+
+  <!-- for align 30px -->
+  <div class="div_root">
+
+    <!--TiTle -->
+    <font class="font title">XKB 옵션</font><br>
+    <font class="font text"> <pre>여러 키보드 레이아웃을 사용할 수있는 X Window System의 일부인 XKB 설정을 하실 수 있습니다.</pre>
+
+    <!-- Rectangle-->
+    <div class="Rectangle">
+      <font class ="font" style="font-size:14px;">
+        <pre><b>사용 예시</b>
+          
+한/영 키, 한자 키가 있는 한글 키보드를 사용하시는 경우 특별한 설정없이 사용하실 수 있습니다.
+그러나 노트북 키보드나 외산 키보드의 경우, 오른쪽 Alt 키에 한/영을  오른쪽 Ctrl 키에 한자를 인쇄해 놓은 경우가 많습니다.
+
+이러한 키보드의 경우 키 설정을 해야 합니다.
+<img class="img" src="xkb-options.png" style="width: 40%;"><br>
+다음과 같이 XKB 옵션 메뉴에 한국어 한/영, 한자 키에서 오른쪽 Alt 키를 한/영, 오른쪽 Ctrl 키를 한자 키로 항목을 선택할 수 있습니다.
+</pre></font>
+        </div>
+      <!-- end of Rectangle-->
+
+  </div>
+
+  <footer>
+  <font class ="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+  <a href="index#top">입력기 설정</a></font><br><br>
+  </footer>
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+ </BODY>
+</HTML>

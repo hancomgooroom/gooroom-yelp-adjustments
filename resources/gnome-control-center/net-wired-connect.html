@@ -1,0 +1,80 @@
+<html>
+
+  <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+
+  <body>
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">설정</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="net#top">네트워크</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="net-wired#top">유선 네트워크</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">유선 인터넷 연결</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->  
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+    <!-- contants  -->
+
+    <!-- for align 30px -->
+    <div class="div_root">
+
+      <!--sub title-->
+      <font class="font sub_title">유선 인터넷 연결</font><br>
+
+      <!-- Rectangle-->
+      <div class="Rectangle">
+        <font class="font text">
+          <pre>유선 네트워크 연결을 설정하기 위해서는 네트워크 케이블이 연결되어 있어야 합니다. 유선 네트워크가 연결된 경우 상단에 네트워크 케이블 포트 모양의 아이콘이 표시되며, 연결되지 않은 경우 네트워크 케이블 포트 모양의 아이콘 아래 x가 표시됩니다.
+
+네트워크 케이블 한쪽 끝을 컴퓨터의 네트워크 포트에 연결하고, 반대쪽 끝을 인터넷 연결을 제공하는 네트워크 허브, 라우터 또는 스위치에 연결해야 합니다. 별도의 설정이 없는 한 두 대의 컴퓨터를 하나의 네트워크 케이블로 직접 연결할 수 없습니다.
+
+여전히 인터넷에 연결되지 않는 경우 네트워크가 자동 설정(DHCP)을 지원하지 않을 수 있습니다. 이 경우 <a href="net-manual">수동 네트워크 설정</a>을 참고하세요.</pre>
+
+        </font>         
+      </div>  <!-- end of Rectangle-->
+
+    </div>  <!-- end of div_root-->
+
+    <footer>
+      <font class="font ref">추가 정보</font><br>
+      <a href="net-wired#top">유선 네트워크</a>
+    </footer>
+
+    <footer class="info">
+      <a onClick="showMore('name')"
+     class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+     onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+      <div id=name style="display:none; width:90%;">
+        <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+          <tr>
+            <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+          </tr>
+          <tr>
+            <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+          </tr>
+          <tr>
+            <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+          </tr>
+        </table>
+      </div><!--end of name-->
+    </footer>
+
+  </body>
+</html>

@@ -1,0 +1,91 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+    <!--nav bar-->
+    <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">파일 관리자</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="index#file_related_task">더 많은 파일 관련 작업</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="#top">다른 애플리케이션으로 파일 열기</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+     
+   <!-- for align 30px -->
+   <div class="div_root">
+
+    <font class="font" style="font-size:22;">다른 애플리케이션으로 파일 열기</font><br><br>
+    <font class="font text">
+      <pre>파일 관리자에서 파일을 두 번 클릭(또는 가운데 버튼 클릭)하면 해당 파일 유형에 대해 설정된 기본 애플리케이션으로 파일을 엽니다. 파일을 다른 애플리케이션에서 열거나 온라인에서 애플리케이션을 검색하거나 동일한 유형의 모든 파일에 대한 기본 애플리케이션 설정을 변경할 수 있습니다.
+
+파일을 다른 애플리케이션으로 열려면 파일을 마우스 오른쪽 버튼으로 클릭한 다음 원하는 애플리케이션을 선택합니다. 원하는 애플리케이션이 표시되지 않으면 [다른 프로그램으로 열기]를 선택합니다. 
+파일 관리자는 기본적으로 파일 처리 애플리케이션으로 알려진 항목만 표시합니다. 
+시스템에 설치된 모든 애플리케이션을 목록을 보려면 [모든 프로그램 보기(V)]를 선택합니다.</pre>
+    </font>
+
+    <br><br><br>
+    <!--sub title-->
+    <font class="font sub_title">기본 애플리케이션 변경</font><br>
+
+    <!-- Rectangle-->
+    <div class="Rectangle">
+        <font class="font" style="font-size:14px;">
+          <pre>특정 파일 유형을 여는 데 사용되는 기본 애플리케이션을 변경할 수 있습니다. 이렇게 하면 원하는 애플리케이션으로 파일을 열 수 있습니다. 예를 들어 MP3 파일을 두 번 클릭하는 경우 특정 음악 플레이어가 실행되도록 할 수 있습니다.
+          <div class="discription">
+1. 기본 애플리케이션을 변경하려는 파일 유형을 선택합니다. 예를 들어 MP3 파일을 여는 데 사용되는 애플리케이션을 변경하려면 .mp3 파일을 선택합니다.
+
+2. 파일을 마우스 오른쪽 버튼으로 클릭하고 메뉴에서 [속성]을 선택합니다.
+
+3. [열 프로그램] 탭을 선택합니다.
+
+4. 원하는 애플리케이션을 선택하고 [기본으로 설정]을 클릭합니다.
+
+해당 파일 유형에 대해 간혹 다른 프로그램을 사용하지만 기본 애플리케이션으로 설정하고 싶지는 않은 경우 해당 애플리케이션을 선택하고 [추가(A)]를 클릭하여 추천 프로그램에 추가합니다. 이렇게 하면 파일을 마우스 오른쪽 버튼으로 클릭한 다음 해당 애플리케이션으로 열기를 선택할 수 있습니다.
+          </div>
+위 절차를 수행하면 선택한 파일 뿐만 아니라 동일한 유형의 모든 파일에 대한 기본 애플리케이션이 변경됩니다.</pre>
+      </div>
+   </div>   
+   <!-- end of div_root-->
+
+  <footer>
+  <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+    <a href="index#file_related_task">더 많은 파일 관련 작업</a></font><br><br>
+  </footer>
+  
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+ </BODY>
+</HTML>
+

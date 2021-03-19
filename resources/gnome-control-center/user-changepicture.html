@@ -1,0 +1,85 @@
+<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+   <!--nav bar-->
+   <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+     <ul>
+       <li><img class="img" src="help.svg">
+       <li><a href="index">설정</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="prefs-details">자세히 보기</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="user-accounts">사용자 계정</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="user-accounts#manage">사용자 계정 관리</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="#top">로그인 화면 사진 변경</a>
+     </ul>
+    </nav> <!--end of navbar-->
+    <!-- header -->
+    <header><a name="top"></a></header>
+   <!-- contants  -->
+   <!-- for align 30px -->
+   <div class="div_root">
+     <font class="font title">로그인 화면 사진 변경</font>
+     <font class="font text"><pre>로그인하거나 사용자를 전환하면 로그인 사진과 함께 사용자 목록이 표시됩니다. 기본 사진 또는 본인의 사진으로 변경할 수 있습니다. 웹캠을 사용하여 사진을 바로 찍을 수도 있습니다.</pre></font>
+     <br><br>
+     <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+         <pre>다른 사용자 계정을 변경하려면 <a href="user-admin-explain">관리자 권한</a>이 필요합니다.</pre>
+         <pre><div  class="discription">1. [설정] 프로그램을 실행합니다. 아래의 4가지 방법 중 하나를 수행합니다.
+<div style="margin:30px;"><pre>- [시작] <img class="img" src="launcher.png" style="background-color:#252525;"> 아이콘을 클릭한 후 [설정] <img class="img" style="width:24px;" src="control-pannel.png"> 아이콘을 클릭합니다.
+
+- <a href="shell-introduction">구름 패널</a> 우측의 구름 통합 애플릿에서 [설정] <img class="img" src="setting.svg"style="background-color:#252525;"> 아이콘을 클릭합니다.
+
+- <div class="highlight">Alt</div> + <div class="highlight">F2</div>를 누르면 나타나는 프로그램 실행 화면에서 'gnome-control-center'를 입력합니다.
+
+- 터미널 창을 열어 'gnome-control-center'를 입력합니다.</pre></div>
+2. [자세히 보기-사용자]를 선택합니다.
+
+3. 다른 사용자 계정을 편집하려면 오른쪽 상단의 [잠금 해제]를 누르고 메시지가 표시되면 암호를 입력합니다.
+
+4. 이름 옆의 사진을 클릭합니다. 기본 사진과 함께 갤러리가 표시됩니다. 원하는 사진을 선택하여 사용합니다.
+
+- 컴퓨터에 저장된 사진을 사용하려면 [파일 선택]을 클릭합니다.
+
+- 웹캠이 있는 경우 [사진 찍기]를 클릭하여 새 사진을 찍습니다. 사진의 크기를 조정하고 불필요한 영역을 잘라냅니다.</div></pre>
+       </font>
+     </div><!-- end of Rectangle-->   
+     <br>
+   </div>   <!-- end of div_root-->  
+   <footer>
+     <font class="font ref">추가 정보<br></font>
+     <font class="font text"><a href="user-accounts#manage">사용자 계정 관리</a></font><br><br>
+     <font class="font ref">참고 항목<br></font>
+     <font class="font text"><a href="user-admin-explain">관리 권한은 어떻게 사용되나요?</a> — 시스템의 중요한 부분을 변경하려면 관리 권한이 필요합니다.</font><br>
+   </footer>
+   <footer class="info">
+    <a onClick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+ </BODY>
+</HTML>

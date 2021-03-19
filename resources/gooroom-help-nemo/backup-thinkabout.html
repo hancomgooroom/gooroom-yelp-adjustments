@@ -1,0 +1,86 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+    <!--nav bar-->
+    <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">파일 관리자</a>
+        <li><img class="img" src="grey.svg">
+          <li><a href="index#backup">백업</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="#top">백업 대상 파일</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+     
+   <!-- for align 30px -->
+   <div class="div_root">
+
+    <font class="font" style="font-size:22;">백업 대상 파일</font><br><br>
+    <font class="font text">
+      <pre>백업을 수행할 때 백업 대상 파일을 결정하고 찾는 단계가 중요합니다. 다음은 일반적인 백업 대상 주요 파일 및 설정이 있는 위치입니다.</pre>
+    </font>
+
+     <br><br><br>
+     <!-- small box -->
+     <div class="small_rec" style="width:100%; height: fit-content;">
+       <font class="font text">
+         <pre> - 개인 파일(문서, 음악, 사진 및 비디오)<br>
+일반적으로 홈 폴더(/home/사용자_이름)에 저장됩니다. 바탕 화면, 문서, 사진, 음악, 비디오와 같은 하위 폴더에 있을 수 있습니다.<br>
+백업 매체에 충분한 공간이 있는 경우(예: 외장 하드 디스크) 전체 홈 폴더를 백업하는 것이 좋습니다. 디스크 사용량 분석기를 사용하여 홈 폴더가 차지하는 디스크 공간을 확인할 수 있습니다.<br><br>
+
+ - 숨김 파일<br>
+마침표(.)로 시작하는 모든 파일 또는 폴더 이름은 기본적으로 숨겨집니다. 숨김 파일을 보려면 파일 관리자의 오른쪽 상단에 있는 메뉴 버튼을 눌러 [숨긴 파일 보이기(H)]를 누르거나 <div class="highlight">Ctrl</div>+<div class="highlight">H</div>를 누릅니다. 다른 파일과 마찬가지로 백업 위치에 복사할 수 있습니다.<br><br>
+
+ - 개인 설정 (데스크탑 기본 설정, 테마 및 소프트웨어 설정)<br>
+대부분의 애플리케이션은 설정을 홈 폴더 내의 숨겨진 폴더에 저장합니다 (숨김 파일에 대한 정보는 위 참조).<br>
+대부분의 애플리케이션 설정은 홈 폴더 의 숨겨진 폴더 .config 및 .local 에 저장됩니다.<br><br>
+
+ - 시스템 전체 설정<br>
+시스템의 중요 영역에 대한 설정은 주로 홈 폴더 대신 /etc 폴더에 저장됩니다. 일반적으로 이러한 파일은 가정용 컴퓨터에 백업할 필요가 없습니다. 그러나 서버를 실행 중인 경우 실행 중인 서비스에 대한 파일을 백업해야 합니다.</pre>
+       </font>
+     </div>
+     <!--end of small box-->
+
+   </div>   
+   <!-- end of div_root-->
+
+  <footer>
+  <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+  <a href="index#backup">백업</a><br><br>
+  </font>
+  </footer>
+
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+ </BODY>
+</HTML>

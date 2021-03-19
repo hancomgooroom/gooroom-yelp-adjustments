@@ -1,0 +1,139 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+    <!--nav bar-->
+    <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">파일 관리자</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="index#file_related_task">더 많은 파일 관련 작업</a>
+        <li><img class="img" src="grey.svg">
+          <li><a href="nautilus-prefs">파일 관리자 환경 설정</a>
+          <li><img class="img" src="grey.svg">
+        <li><a href="#top">파일 목록 열 환경 설정</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+     
+   <!-- for align 30px -->
+   <div class="div_root">
+
+    <font class="font" style="font-size:22;">파일 목록 열 환경 설정</font><br><br>
+    <font class="font text">
+      <pre>파일 목록 보기에서 표시할 수 있는 정보 열은 14개입니다. 창의 오른쪽 상단에 있는 메뉴 버튼을 클릭하고 [기본 설정]을 선택한 다음 [목록 열] 탭을 선택하여 표시할 열을 선택합니다.
+
+[기본값으로 재설정]을 클릭하면 기본 열 표시로 돌아갑니다.</pre>
+    </font>
+
+    <br><br><br>
+
+    <!-- Rectangle-->
+    <div class="Rectangle">
+      <font class="font" style="font-size:14px;">
+        <pre><b>이름</b>
+폴더 및 파일의 이름입니다. ※이름 열은 숨길 수 없습니다.<br>
+
+<b>크기</b>
+폴더 크기는 폴더에 포함된 항목 개수로 제공됩니다. 파일 크기는 Bytr, KB 또는 MB로 표시됩니다.<br>
+
+<b>형식</b>
+PDF 문서, JPEG 이미지, MP3 오디오 등과 같은 폴더 또는 파일 형식으로 표시됩니다.<br>
+
+<b>수정한 날짜</b>
+파일이 마지막으로 수정된 날짜를 제공합니다.<br>
+
+<b>자세한 형식</b>
+자세한 형식을 표시합니다.<br>
+
+<b>접근한 날짜</b>
+파일이 마지막으로 열린 날짜 또는 해당 시간을 제공합니다.<br>
+
+<b>소유자</b>
+폴더 또는 파일을 소유한 사용자 이름을 제공합니다.<br>
+
+<b>그룹</b>
+파일을 소유한 그룹을 표시합니다. 각 사용자는 일반적으로 자신의 그룹에 속하지만 하나의 그룹에 여러 사용자가 있을 수 있습니다. 예를 들어 팀 그룹에는 여러 팀 구성원이 포함될 수 있습니다.<br>
+
+<b>권한</b>
+파일 액세스 권한을 표시합니다(예: drwxrw-r--)
+
+ - 첫 번째 문자는 파일 유형입니다. -는 일반 파일을 의미하고 d는 디렉터리(폴더)를 의미합니다.
+
+ - 다음 문자 3개(rwx)는 파일을 소유한 사용자의 권한을 지정합니다.
+
+ - 그 다음 문자 3개(rw-)는 파일을 소유한 그룹의 모든 구성원에 대한 권한을 지정합니다.
+
+ - 마지막 문자 3개(r--)는 시스템의 다른 모든 사용자에 대한 권한을 지정합니다.
+
+각 권한에는 다음과 같은 의미가 있습니다.
+
+ - r: 읽기 가능. 파일 또는 폴더를 열 수 있습니다.
+
+ - w: 쓰기 가능. 변경 사항을 저장할 수 있습니다.
+
+ - x: 실행 가능. 프로그램 또는 스크립트 파일인 경우 실행할 수 있고 폴더인 경우 하위 폴더 및 파일에 액세스할 수 있음을 의미합니다.
+
+ - -: 권한이 설정되지 않았습니다.<br>
+
+<b>8진수 접근 권한</b>
+권한을 8진수로 표시합니다.<br>
+
+<b>MIME 형식</b>
+항목의 MIME 유형을 표시합니다.<br>
+
+<b>SE리눅스 컨텍스트</b>
+<br>
+
+<b>위치</b>
+파일 경로입니다.<br>
+
+<b>수정 — 시각</b>
+파일이 마지막으로 수정된 날짜와 해당 시간을 제공합니다.<br>
+
+</pre>
+      </font>
+    </div>
+   </div>   
+   <!-- end of div_root-->
+
+   <footer>
+      <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+        <a href="index#file_related_task">더 많은 파일 관련 작업</a><br>
+        <a href="nautilus-prefs">파일 관리자 설정</a> - 파일 브라우저 기본 설정을 확인하고 변경합니다.<br>
+  </footer>
+
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+ </BODY>
+</HTML>
+

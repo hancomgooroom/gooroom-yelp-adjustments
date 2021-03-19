@@ -1,0 +1,163 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">텍스트 편집기</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="index#plugins">플러그인</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="plugins">플러그인 구성 및 사용</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="plugins#default">기본 플러그인</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">관용구</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+   <!-- contants  -->
+
+   <!-- for align 30px -->
+   <div class="div_root">
+
+     <!--TiTle -->
+     <font class="font title">관용구</font><br>
+     <font class="font text">관용구 플러그인을 사용하여 반복되는 코드 조각(Snippet)을 쉽게 빠르게 삽입할 수 있습니다.</font><br>
+
+     <br><br>
+
+     <font class="font sub_title">플러그인 초기 설정</font><br>
+       <div class="Rectangle">
+         <pre>관용구 플러그인을 사용하도록 설정하려면 다음을 수행합니다.
+
+<div class="discription">메뉴 ▸ 기본 설정 ▸ 플러그인을 선택합니다.
+
+플러그인을 사용하도록 설정하려면 [관용구]를 선택합니다.</div></pre>
+     </font>
+     </div><!-- end of Rectangle-->
+
+     <font class="font sub_title">관용구 찾기</font><br>
+       <div class="Rectangle">
+         <pre>사용 가능한 관용구을 찾아보려면 다음을 수행합니다.
+
+         1. 메뉴 ▸ 관용구 관리
+
+<div class="discription">구문이 적절하게 설정되어 있는지 확인합니다.하단의 상태 표시줄에 현재 언어 설정이 표시됩니다. 이 언어 설정은 텍스트 편집기가 적절한 관용구를 삽입할 수 있도록 하는 것입니다. 일반적으로 사용 중인 파일의 언어 또는 구문을 자동으로 감지하지만 경우에 따라 설정을 변경해야 할 수 있습니다.
+
+<img calss="img border" src="info_line.png">
+
+이 예에서는 언어가 HTML로 설정됩니다.</div>
+
+2. 언어 또는 구문에 사용할 수 있는 코드 조각을 찾습니다.</pre>
+     </font>
+     </div><!-- end of Rectangle-->
+
+     <br><br>
+
+     <font class="font sub_title">관용구 사용</font><br>
+       <div class="Rectangle">
+         <pre>현재 문서에 관용구를 삽입하려면 다음을 수행합니다.
+
+<div class="discription">1. 현재 문서에서 원하는 관용구 이름을 입력합니다.
+
+2. <span class="highlight">Tab</span>을 눌러 입력 내용과 관련된 관용구를 삽입합니다.</div></pre>
+     </font>
+     </div><!-- end of Rectangle-->
+
+     <br><br>
+
+     <font class="font sub_title">관용구 사용 예시</font><br>
+       <div class="Rectangle">
+         <pre>예를 들어 구문을 HTML로 설정한 경우 head를 입력하고 <span class="highlight">Tab</span>을 누르면 다음과 같이 관용구로 자동 완성됩니다.
+
+<div class="discription">&lt;head&gt;
+&lt;meta http-equiv="Content-type" content="text/html; charset=utf-8" /&gt;
+&lt;title&gt;Page Title&lt;/title&gt;
+&lt;/head&gt;</div></pre>
+     </font>
+     </div><!-- end of Rectangle-->
+
+     <br><br>
+
+     <font class="font sub_title">관용구 추가</font><br>
+       <div class="Rectangle">
+         <pre>1. Tools ▸ Manage Snippets를 선택합니다.
+
+2. Snipets 관리 사이드바에서 원하는 구문을 선택하고 "+" 버튼을 클릭하여 선택한 구문에 대한 기존 구문을 나열합니다.
+
+<div class="discription">전체적으로 작동하는 관용구(즉, 문서에 대해 특정 구문이나 언어가 설정되지 않은 경우)을 추가하려면 코드 조각 관리 사이드바에서 글로벌을 선택합니다.</div>
+
+3. 새 관용구를 추가하려면 관용구 관리 사이드바에서 "plus" 아이콘을 클릭합니다.
+
+4. 새 관용구의 이름을 입력합니다. 관용구의 이름은 추가할 관용구와 다를 수 있습니다.
+
+5. Activation(활성화) 섹션에서 Tab 트리거: textarea(텍스트 영역)에 대한 항을 입력해야 합니다. 이 용어를 사용하여 관용구를 삽입합니다.
+
+<div class="discription">바로 가기 키가 있는 관용구를 삽입하려면 바로 가기 키: 텍스트 영역에서 마우스 포인터를 클릭하고 원하는 키 조합을 누릅니다. 키를 눌렀다 놓으면 바로 가기 키가 설정됩니다.</div>
+
+6. 텍스트 영역에서 관용구에 대해 원하는 텍스트를 입력합니다. ${n}를 사용하여 변수를 나타낼 수 있습니다. 여기서 n은 포함된 변수의 숫자 순서를 나타내는 숫자로 대체됩니다.</pre>
+     </font>
+     </div><!-- end of Rectangle-->
+
+     <br><br>
+
+     <font class="font sub_title">새로운 관용구 예제</font><br>
+       <div class="Rectangle">
+         <pre>텍스트 영역에는 다음이 포함됩니다.
+<div class="discription">&lt;greetings&gt;Hello ${1:wonderful}${2:amazing} world!
+&lt;/greetings&gt;</div>
+
+문서에 <i>greeting</i>을 입력하고 <span class="highlight">Tab</span>을 눌러 이 조각을 삽입할 수 있습니다. 다음 관용구가 삽입됩니다.
+
+<div class="discription">&lt;greetings&gt;Hello wonderfulamazing world!&lt;/greetings&gt;</div>
+
+원하는 경우 "wonderful"과 "amazing"이라는 단어를 유지하거나 삭제할 수 있습니다. 이렇게 하려면 <span class="highlight">Tab</span>을 눌러 "wonderful"과 "amazing" 중 하나를 선택하고 Del을 눌러 원하지 않는 옵션을 삭제합니다.</pre>
+     </font>
+     </div><!-- end of Rectangle-->
+
+
+   </div>   <!-- end of div_root-->
+
+  <footer>
+  <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+  <a href="plugins#default">기본 플러그인</a><br><br></font>
+  </footer>
+
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+
+</BODY>
+</HTML>
+

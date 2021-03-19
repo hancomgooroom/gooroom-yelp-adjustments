@@ -1,0 +1,98 @@
+﻿<html>
+  <head>
+    <script src="script.js"></script>
+      <link rel="stylesheet" href="style.css" type="text/css">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body>
+    <!--nav bar-->
+    <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="#top">네트워크</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->  
+    <!-- header -->
+    <header><a name="top"></a></header>
+    <!-- contants  -->
+    <!-- for align 30px -->
+    <div class="div_root">
+      <!--Title -->
+      <img class="img" src="network-management.svg">
+      <font class="font title" id= "title">네트워크</font>
+      <font class="font text">
+        <pre>사용자 네트워크 연결 확인 및 연결 정보를 변경할 수 있습니다. 연결된 네트워크를 제거하거나 새로운 네트워크에 연결할 수 있습니다. </pre></font>
+      <!-- small box -->
+      <div class="small_rec left">
+        <font class="font text">
+          <pre><a href="use-network">네트워크 사용</a>
+		  
+네트워크 사용 여부를 변경합니다. 물리적으로 네트워크가 연결되어 있어도 네트워크 제거가 가능합니다. 
+          </pre>
+        </font>
+      </div>
+      <!-- small box -->
+      <div class="small_rec right">
+        <font class="font text">
+          <pre><a href="use-wifi">와이파이 사용</a>
+
+와이파이 사용 여부를 변경합니다. 와이파이 사용 가능한 환경에서만 수행할 수 있습니다.
+          </pre>
+        </font>
+      </div>
+      <!-- small box -->
+      <div class="small_rec left">
+        <font class="font text">
+          <pre><a href='prefs-connection'>연결 편집</a>
+
+기존에 연결된 네트워크 혹은 새로 연결한 네트워크를 설정, 변경할 수 있습니다.
+          </pre>
+        </font>
+      </div>
+      <div class="small_rec right">
+        <font class="font text">
+          <pre><a href="connection-info">연결 정보</a>
+
+기존에 연결된 네트워크 정보를 확인할 수 있습니다.
+          </pre>
+        </font>
+      </div>
+      <div class="small_rec left" style="background-color:#ffffff;">
+      </div>
+      <div class="small_rec right" style="background-color:#ffffff;">
+      </div>
+      <div class="small_rec left" style="background-color:#ffffff;">
+      </div>
+      <div class="small_rec right" style="background-color:#ffffff;">
+      </div>
+    </div>   <!-- end of div_root-->
+    <footer>
+      <font class="font ref">추가 정보</font><br>
+      <a href="../gnome-control-center/net">설정 - 네트워크</a><br><br>
+    </footer>
+    <footer class="info">
+      <a onclick="showMore('name')" 
+     class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+     onMouseOut="this.className='Options';"><B>정보</B></a><br>
+      <div id=name style="display:none; width:90%;">
+        <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+          <tr>
+            <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+          </tr>
+          <tr>
+            <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+          </tr>
+          <tr>
+            <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+          </tr>
+        </table>
+      </div><!--end of name-->
+    </footer>
+  </body>
+</html>

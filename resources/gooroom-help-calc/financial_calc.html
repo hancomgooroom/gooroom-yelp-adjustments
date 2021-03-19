@@ -1,0 +1,110 @@
+<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">계산기</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="index#financial">재무 계산</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="#top">재무 기능</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+   <!-- contants  -->
+
+   <!-- for align 30px -->
+   <div class="div_root">
+
+     <!--sub title-->
+     <font class="font sub_title">재무 기능</font><br>
+
+     <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+         <pre>재무 모드로 변경하면 다음과 같은 단추가 나타납니다.</pre>
+         
+         <div style="margin:30px;">
+           <table class="font text" style="width:99%; border-spacing:10px;">
+             <tr>
+               <td>Ctrm</td><td>현재 투자 비용이 향후 비용만큼 증가하는 데 필요한 복리 기간을 복리 기간 당 고정 이율로 계산합니다.</td>
+             </tr>
+             <tr>
+               <td>Ddb</td><td>이중정률법을 적용하여 지정 기간의 자산에 대한 감가상각 허용치를 계산합니다.</td>
+             </tr>
+             <tr>
+               <td>Fv</td><td>정기 납입에 기반한 미래 투자 가치 비용을 기간별 납입 주기 당 정기 이율로 계산합니다.</td>
+             </tr>
+             <tr>
+               <td>Gpm</td><td>제품 가격과 희망 매상 총 수입에 따라 제품의 재판매 비용을 계산합니다.</td>
+             </tr>
+               <td>Pmt</td><td>매 주기별 대출 상환 액수를 계산하며, 매 주기의 마지막 날에 상환한다고 가정합니다.</td>
+             </tr>
+             <tr>
+               <td>Pv</td><td>정기 납입을 기반으로 한 현재 투자 가치 비용을 기간별 납입 주기 당 정기 이율만큼 할인하여 계산합니다.</td>
+             </tr>
+             <tr>
+               <td>Rate</td><td>복리 기간동안 투자액을 미래 가치 비용으로 끌어올리는 데 필요한 정기 이자를 계산합니다.</td>
+             </tr>
+             <tr>
+               <td>Sln</td><td>일정 기간 동안 자산의 정액 감가상각을 계산합니다. 감가상각 정액법은 감가상각할 수 있는 비용을 자산의 수명으로 균등하게 나눕니다. 자산의 유효 기간이란 자산을 감가 상각하는 기간(일반적으로 년수)을 말합니다.</td>
+             </tr>
+             <tr>
+               <td>Syd</td><td>연수합계법을 적용하여 일정 기간동안 자산의 감가상각 허용치를 계산합니다. 이 감가상각 방식은 감가상각율을 올려, 이후 기간보다 앞선 기간에 더 많은 감가상각 비용이 나오게 합니다. 유효 기간은 자산의 가치가 감소하는 연 단위 기간입니다.</td>
+             </tr>
+             <tr>
+               <td>Term</td><td>일반 연금 적용 기간동안 향후 비용을 누적하는 데 필요한 예금 기간을 주기 금리 조건으로 계산합니다.</td>
+             </tr>
+           </table>
+           <br><br><br>
+           재무 함수 계산은 키보드로 처리할 수 없습니다.
+         </div>
+       </font>
+     </div>
+
+   </div>   <!-- end of div_root-->
+
+  <footer>
+  <font class="font ref">자세한 정보</font><br>
+  <a href="index#user_interface">사용자 인터페이스</a><br><br>
+  </footer>
+
+  <footer class="info">
+    <a onClick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+ </BODY>
+</HTML>
+</BODY>
+</HTML>
+

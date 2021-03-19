@@ -1,0 +1,81 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+    <!--nav bar-->
+    <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">파일 관리자</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="index#backup">백업</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="backup-why">중요한 파일 백업</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="#top">백업 방법</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+   <!-- for align 30px -->
+   <div class="div_root">
+
+    <font class="font" style="font-size:22;">백업 방법</font><br><br>
+    <font class="font text">
+      <pre>파일 및 설정을 백업하는 가장 쉬운 방법은 백업 애플리케이션으로 백업 프로세스를 관리하는 것입니다. 사용하는 백업 애플리케이션 도움말에서 백업 기본 설정과 데이터 복원 방법을 확인하십시오.</pre>
+    </font>
+
+    <br><br><br>
+    <!-- small_rec -->
+    <div class="small_rec" style="width:100%; height:fit-content;">
+        <font class="font" style="font-size:14px;">
+          <pre>백업 애플리케이션을 사용하는 방법 외에도 외장 하드 드라이브, 네트워크의 다른 컴퓨터 또는 USB 드라이브와 같은 안전한 위치에 <a href="files-copy">파일을 복사</a>할 수 있습니다. <a href="backup-thinkabout">개인 파일</a> 및 설정은 일반적으로 홈 폴더에 있으므로 해당 위치에서 복사하면 됩니다.
+
+백업 가능한 데이터의 양은 저장 장치의 크기에 따라 제한됩니다. 저장 장치에 여유 공간이 충분하다면 전체 홈 폴더를 백업하는 것이 가장 좋습니다. 단, 다음과 같은 데이터는 필요하지 않을 수 있으므로 제외하는 것이 좋습니다.
+
+ - CD, DVD 또는 기타 이동식 미디어와 같은 다른 위치에 이미 저장되어 있는 파일
+
+ - 쉽게 다시 만들 수 있는 파일(예: 컴파일 시 생성되는 파일)
+
+ - 휴지통 폴더에 있는 모든 파일(휴지통 폴더 위치: ~/.local/share/Trash)</pre>
+    </div>
+   </div>   
+   <!-- end of div_root-->
+
+  <footer>
+  <font class="font" style="font-size:14px;line-height:2;"><B>자세한 정보</B><br>
+    <a href="index#backup">백업</a><br>
+    <a href="backup-why">중요한 파일 백업</a><br><br>
+  </font>
+  </footer>
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+ </BODY>
+</HTML>

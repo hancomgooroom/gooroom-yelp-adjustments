@@ -1,0 +1,70 @@
+﻿<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+
+    <!--nav bar-->
+    <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index">이미지 보기</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="#top">소개</a>
+     </ul>
+    </nav>
+    <!--end of navbar-->
+
+   <!-- header -->
+   <header><a name="top"></a></header>
+ 
+   <!-- contants  -->
+
+   <!-- for align 30px -->
+   <div class="div_root">
+     <!--TiTle -->
+     <font class="font title">소개</font><br><br>
+
+     <!--information -->
+     <div class="Rectangle">
+
+      <font class="font text">[이미지 보기]로 <a href="supported_format">거의 모든 종류의 사진</a>을 볼 수 있습니다. <a href="view_the_entire_picture_in_a_folder#image_collaction">사진 여러 개</a>를 한 번에 처리할 수도 있고 <a href="slideshow">슬라이드 쇼</a>를 표시할 수도 있습니다. <a href="flip_or_rotate_a_picture">회전 또는 뒤집기</a>와 같은 기초적인 변경 사항을 적용하거나 <a href="to_convert_to_a_different_file_type">다른 파일 형식으로 변환</a>할 수도 있습니다.</font><br>
+
+     </div>
+
+     <br><br>
+  </div>
+
+  <footer>
+  <font class="font ref">자세한 정보</font><br>
+  <a href="index">이미지 보기</a> - 이미지 보기 도움말
+  </footer>
+
+  <footer class="info">
+    <a onclick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+
+ </BODY>
+</HTML>

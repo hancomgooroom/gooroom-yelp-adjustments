@@ -1,0 +1,105 @@
+<html>
+  <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <!--nav bar-->
+    <nav class="navbar-fixed-top" style="top:10px;margin:30px;">
+      <ul>
+        <li><img class="img" src="help.svg">
+        <li><a href="index#top">설정</a>
+        <li><img class="img" src="grey.svg">
+        <li><a href="net#top">네트워크</a>
+        <li><img class="img" src="grey.svg">
+        </li><li><a href="#top">유선 네트워크</a>
+      </ul>
+    </nav>
+    <!--end of navbar-->  
+
+    <!-- header -->
+    <header><a name="top"></a></header>
+
+    <!-- contants  -->
+
+    <!-- for align 30px -->
+    <div class="div_root">
+
+      <!--sub title-->
+      <font class="font sub_title">유선 네트워크</font><br>
+
+      <!--display-->
+      <div class="small_rec left">
+        <font class="font text">
+          <pre><a href="net-wired-connect">유선 인터넷 연결</a>
+
+네트워크 케이블이 연결된 경우 유선 네트워크 연결을 설정합니다.
+          </pre>
+        </font>
+
+      </div>
+
+      <!--keyboard-->
+      <div class="small_rec right">
+        <font class="font text">
+          <pre><a href="net-vpn-connect">VPN 연결</a>
+
+인터넷을 통해 로컬 네트워크로 연결할 수 있도록 VPN을 설정합니다.
+          </pre>
+        </font>
+
+      </div>
+
+      <!--display-->
+      <div class="small_rec left">
+        <font class="font text">
+          <pre><a href="net-fixed-ip-address">고정 IP 연결</a>
+
+고정 IP 주소를 사용하여 사용자 컴퓨터에서 보다 쉽게 네트워크 서비스를 제공합니다.
+          </pre>
+        </font>
+      </div>
+
+      <!--keyboard-->
+      <div class="small_rec right">
+        <font class="font text">
+          <pre><a href="net-manual">수동 네트워크 설정</a>
+
+네트워크 설정이 자동으로 할당되지 않는 경우 사용자가 직접 설정할 수 있습니다.
+          </pre>
+        </font>
+      </div>
+
+    </div>  <!-- end of div_root-->
+
+    <footer>
+      <font class="font ref">추가 정보</font><br>
+      <a href="net">네트워크</a><br><br>
+      <font class="font ref">참고 항목</font><br>
+      <a href="net-wireless">와이파이</a></font>
+    </footer>
+    <footer class="info">
+      <a onClick="showMore('name')"
+     class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+     onMouseOut="this.className='Options';"><B>정보</B></a><br>
+      <div id=name style="display:none; width:90%;">
+        <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+          <tr>
+            <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+          </tr>
+          <tr>
+            <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+          </tr>
+          <tr>
+            <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+          </tr>
+        </table>
+      </div><!--end of name-->
+    </footer>
+  </body>
+</html>

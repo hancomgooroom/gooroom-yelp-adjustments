@@ -1,0 +1,82 @@
+<HTML>
+  <HEAD>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+   <!--nav bar-->
+   <nav class="navbar navbar-fixed-top" style="top:10px;margin:30px;">
+     <ul>
+       <li><img class="img" src="help.svg">
+       <li><a href="index">설정</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="prefs-details">자세히 보기</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="user-accounts">사용자 계정</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="user-accounts#manage">사용자 계정 관리</a>
+       <li><img class="img" src="grey.svg">
+       <li><a href="#top">자동으로 로그인</a>
+     </ul>
+    </nav> <!--end of navbar-->
+    <!-- header -->
+    <header><a name="top"></a></header>
+   <!-- contants  -->
+   <!-- for align 30px -->
+   <div  class="div_root">
+     <font class="font title">자동으로 로그인</font><br>
+     <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+         <pre>컴퓨터를 시작할 때 계정에 자동으로 로그인되도록 설정을 변경할 수 있습니다.</pre>
+         <pre><div  class="discription">1. [설정] 프로그램을 실행합니다. 아래의 4가지 방법 중 하나를 수행합니다.
+<div style="margin:30px;"><pre>- [시작] <img class="img" src="launcher.png" style="background-color:#252525;"> 아이콘을 클릭한 후 [설정] <img class="img" style="width:24px;" src="control-pannel.png"> 아이콘을 클릭합니다.
+
+- <a href="shell-introduction">구름 패널</a> 우측의 구름 통합 애플릿에서 [설정] <img class="img" src="setting.svg"style="background-color:#252525;"> 아이콘을 클릭합니다.
+
+- <div class="highlight">Alt</div> + <div class="highlight">F2</div>를 누르면 나타나는 프로그램 실행 화면에서 'gnome-control-center'를 입력합니다.
+
+- 터미널 창을 열어 'gnome-control-center'를 입력합니다.</pre></div>
+2. [자세히 보기-사용자]를 선택합니다.
+
+3. 시작할 때 자동으로 로그인할 사용자 계정을 선택합니다.
+
+4. 오른쪽 상단에서 [잠금 해제]를 누르고 메시지가 나타나면 암호를 입력합니다.
+
+5. 자동 로그인 스위치를 켭니다.
+ </div></pre>
+   <pre>다음에 컴퓨터를 시작하면 자동으로 로그인됩니다. 이 옵션을 사용하도록 설정한 경우 계정에 로그인하기 위해 암호를 입력할 필요가 없습니다. 즉, 다른 사용자가 컴퓨터를 시작하면 계정과 파일 및 브라우저 기록을 포함한 개인 데이터에 액세스할 수 있습니다.</pre> 
+<pre>계정 유형이 표준인 경우 이 설정을 변경할 수 없습니다. 이 설정을 변경할 수 있는 시스템 관리자에게 문의해야 합니다.</pre>
+       </font>
+     </div><!-- end of Rectangle-->
+   <br>
+   </div>   <!-- end of div_root-->
+   <footer>
+     <font class="font ref">추가 정보<br></font>
+     <font class="font text"><a href="user-accounts#manage">사용자 계정 관리</a></font><br><br>
+   </footer>
+   <footer class="info">
+    <a onClick="showMore('name')"
+    class="Options none" onMouseOver="this.className='OptionsOnMouse';"
+    onMouseOut="this.className='Options';"><B>정보</B></a><br>
+    <div id=name style="display:none; width:90%;">
+      <table class="font text" style="display:inline-block;" cellspacing="7px" cellpadding="3px">
+        <tr>
+          <td colspan="2" style="text-align:center">© 2014, 2016, 2017, 2018 조성호<br></td>
+        </tr>
+        <tr>
+          <td style="text-align:center;"><pre><B>번역자</B>
+조성호</pre></td> <td style="text-align:center;"><pre><B>작성자</B>
+조성호</pre></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><B>Creative Commons</B></td>
+        </tr>
+        <tr>
+          <td colspan="2"><pre>이 문서는 <a href=https://creativecommons.org/licenses/?lang=ko>크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</a>에 따른 활용을 허가합니다.</pre></td>
+        </tr>
+      </table>
+    </div><!--end of name-->
+  </footer>
+ </BODY>
+</HTML>
