@@ -21,14 +21,29 @@
 TARGET_DIR=/usr/share/help/ko/
 GOOROOM_DIR=/usr/share/gooroom-yelp-adjustments/resources
 
-for src in $(ls $GOOROOM_DIR/)
+resources=(
+gnome-control-center
+gooroom-guide
+gooroom-help-calc
+gooroom-help-eog
+gooroom-help-gcsr
+gooroom-help-gedit
+gooroom-help-gnome-mpv
+gooroom-help-gooroom-browser
+gooroom-help-gooroom-update
+gooroom-help-nemo
+gooroom-help-network
+gooroom-help-nimf-settings
+gooroom-help-screen-shot
+gooroom-help-software-center
+gooroom-sysinfo
+grac-editors
+index
+live-installer
+)
+
+rm -rf $TARGET_DIR/*
+for res in "${resources[@]}"
 do
-	if [ -e ${TARGET_DIR}/${src} ]
-	then
-		rm -rf ${TARGET_DIR}/${src}/*
-    	cp ${GOOROOM_DIR}/${src}/* ${TARGET_DIR}/${src}/
-	else
-		mkdir -p ${TARGET_DIR}/${src}
-    	cp ${GOOROOM_DIR}/${src}/* ${TARGET_DIR}/${src}/
-	fi
+    cp -r ${GOOROOM_DIR}/${res} ${TARGET_DIR}/
 done
