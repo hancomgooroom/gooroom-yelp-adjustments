@@ -1,0 +1,5 @@
+help:eog,help:gooroom-help-eog
+help:gnome-help/files,help:gooroom-help-nemo
+help:gnome-calculator,help:gooroom-help-calc
+help:gedit,help:gooroom-help-gedit
+help:gnome-help/screen-shot-record,help:gooroom-help-screen-shot
