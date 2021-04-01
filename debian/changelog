@@ -1,3 +1,13 @@
+gooroom-yelp-adjustments (0.1.1+han2u1) unstable; urgency=medium
+
+  [ donghun ]
+  * [675da460] Added yelp resource
+
+  [ jongkyung.woo ]
+  * [c0299762] Updated resources after emptying the target directory
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Thu, 01 Apr 2021 10:16:36 +0900
+
 gooroom-yelp-adjustments (0.1.0+grm2u1) unstable; urgency=medium
 
   * Initial Release 
