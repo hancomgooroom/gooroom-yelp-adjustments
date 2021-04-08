@@ -14,3 +14,29 @@ function showMore(id) {
         else
             obj.style.display = 'none';
 }
+
+window.onload = function() {
+  var ulTag = document.getElementsByTagName("ul");
+
+  if (ulTag == null || ulTag == "undefined")
+    return;
+
+  var liTag = ulTag[0].children[1];
+
+  if (liTag == null || liTag == "undefined")
+    return;
+
+  var aTag = document.createElement("a");
+  aTag.href = "../index/index";
+  aTag.text = "도움말";
+
+  var imgTag = document.createElement("img");
+  imgTag.className = "img";
+  imgTag.src = "grey.svg";
+
+  var liTag1 = document.createElement("li");
+  liTag1.appendChild (aTag);
+  liTag1.appendChild (imgTag);
+
+  ulTag[0].insertBefore(liTag1, liTag);
+}
