@@ -63,7 +63,6 @@
         position:fixed;
         right:7;left:7;
         z-index:1030;
-	width:fit-content;
      }
 
      .Rectangle {
@@ -71,7 +70,6 @@
       padding: 20px;   
       background-color: #e8e8e8;   
       width: auto;
-      min-height: 286px;
       position: relative;
       border-radius: 10px;
      }

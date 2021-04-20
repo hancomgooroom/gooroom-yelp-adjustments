@@ -30,13 +30,27 @@
 
      <br><br><br>
 
+     <font class="font sub_title">인쇄창 열기</font>
+     <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+        <pre>인쇄와 관련된 모든 작업은 인쇄창을 통해 이뤄집니다. 인쇄창은 아래의 절차에 따라 열 수 있습니다.
+
+         <div class="discription">1. 텍스트 편집기 상단 <img src="view-more-symbolic.svg" style="background-color: gainsboro;">버튼 클릭 혹은 <div class="highlight">F10</div>키보드
+        
+2. <img src="printer-symbolic.symbolic.png" width="20"> 버튼을 클릭하여 인쇄창을 엽니다</div>
+단축키 <div class="highlight">Ctrl</div> + <div class="highlight">P</div> 를 사용하여 인쇄창을 열 수 있습니다.</pre>     
+       </font>
+     </div><!-- end of Rectangle-->
+     
+     <br><br>
      <font class="font sub_title">미리 보기</font>
      <!-- Rectangle-->
      <div class="Rectangle">
        <font class="font text">
-        <pre>문서를 인쇄하기 전에 인쇄 미리 보기를 사용하여 인쇄될 문서의 모양을 미리 볼 수 있습니다. 문서를 미리 보려면 다음을 수행합니다.
+        <pre>문서를 인쇄하기 전에 인쇄 미리 보기를 사용하여 인쇄될 문서의 모양을 미리 볼 수 있습니다. 문서를 미리 확인하기 위해서는 인쇄창 상단의 [미리보기(V)] 버튼을 클릭합니다.
 
-         <div class="discription">1. File ▸ Print Preview(파일 ▸ 인쇄 미리 보기)를 선택합니다. 또는 <span class="hifhlight">Shift</span> + <span class="hifhlight">Ctrl</span> + <span class="hifhlight">P</span>를 누릅니다.</div>
+<center><img class="img border" src="printer_window.png"></center>
 
 문서 미리 보기는 파일과 동일한 탭에서 열립니다. 문서 미리 보기 탭의 맨 위에 있는 도구 모음에서 탐색 단추 및 도구를 사용하여 이 미리 보기를 확인할 수 있습니다. 문서로 돌아가려면 [미리 보기 닫기]를 누릅니다.</pre>     
        </font>
@@ -49,11 +63,11 @@
        <font class="font text">
        <pre>로컬 또는 원격 프린터를 사용하여 문서를 용지에 인쇄할 수 있습니다. 파일을 인쇄하려면 다음을 수행합니다.
        
-<div class="discription">1. File ▸ Print ▸ General을 선택합니다.
+<div class="discription">1. 인쇄창에서 [일반] 탭을 선택합니다.
 
 2. 사용 가능한 프린터 목록에서 원하는 프린터를 선택합니다.
 
-3. Print Preview(인쇄 미리 보기)를 사용하여 파일을 미리 볼 수 있으며, 설정이 완료되면 Print(인쇄)를 클릭하여 파일을 프린터로 보냅니다.</div>
+3. 상단의 [미리보기(V)] 버튼을 사용하여 파일을 미리 볼 수 있으며, 설정이 완료되면 [인쇄(P)]를 클릭하여 파일을 프린터로 보냅니다.</div>
 
 [페이지 설정] 탭에서 레이아웃 및 용지 옵션을 선택할 수도 있습니다. 이 설정은 GNOME 프로그램 전체에서 사용할 수 있으므로 레이아웃 및 용지 옵션 도움말을 참조하시기 바랍니다.</pre>
        </font>
@@ -66,7 +80,7 @@
      <!--small rectangle-->
      <div class="small_rec left">
        <font class="font text">
-         <pre><a href="get_copies">올바른 순서로 인쇄할 복사본 가져오기</a>
+         <pre><a href="get_copies">인쇄 순서 정하기</a>
     
 인쇄할 페이지를 일정한 순서로 설정합니다.</pre>
        </font>
@@ -74,7 +88,7 @@
 
      <div class="small_rec right">
        <font class="font text">
-         <pre><a href="certain_pages">특정 페이지만 인쇄</a>
+         <pre><a href="certain_pages">특정 페이지 인쇄</a>
        
 인쇄할 페이지를 지정합니다.</pre>
        </font>
@@ -87,7 +101,7 @@
        <font class="font text">
        <pre>텍스트 편집기를 사용하여 파일로 인쇄할 수도 있습니다. 문서를 다른 형식의 파일로 인쇄하려면 다음을 수행합니다.
        
-<div class="discription">1. File ▸ Print ▸ Print to File을 선택합니다.
+<div class="discription">1. 인쇄창의 [일반]탭에서 [파일로 인쇄]를 선택합니다.
 
 2. 다음 파일 형식에 대해 인쇄 옵션을 선택합니다.
 
@@ -100,7 +114,25 @@
 3. [인쇄]를 클릭하여 문서를 파일로 인쇄합니다.</div></pre>
        </font>
      </div><!-- end of Rectangle-->
+<br><br>
 
+<font class="font sub_title">PDF 인쇄</font>
+<!-- Rectangle-->
+ <div class="Rectangle">
+   <font class="font text">
+   <pre>텍스트 편집기를 사용하여 pdf 문서를 생성할 수 있습니다. 문서를 pdf형식의 파일로 인쇄하려면 다음을 수행합니다.
+   
+<div class="discription">1. 터미널에서 아래의 명령어를 사용해 pdf 프린터를 설치합니다.
+
+<div style="background-color: cornsilk; text-align: center; padding: 15;">sudo apt install cups-pdf                    
+sudo apt install system-config-printer
+</div>
+
+2. 인쇄창을 열고 [일반] 탭을 확인하면 <B>PDF</B> 프린터가 생성된 것을 확인할 수 있습니다.
+
+3. 원하시는 설정을 마친 후, [인쇄]를 클릭하여 문서를 파일로 인쇄합니다.</div></pre>
+   </font>
+ </div><!-- end of Rectangle-->
 
    </div>   <!-- end of div_root-->
 
