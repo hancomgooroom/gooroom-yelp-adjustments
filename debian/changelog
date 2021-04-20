@@ -1,3 +1,15 @@
+gooroom-yelp-adjustments (0.1.2+han2u1) unstable; urgency=medium
+
+  [ donghun ]
+  * [fcda89bc] Modified Gooroom yelp contents
+
+  [ boyeon.choi ]
+  * [e9b4851f] [Bug:3397,3398]Changed gooroom-guide for hancom2.2
+  * [9413ecb9] Changed live-installer for hancom2.2
+  * [509ac17b] [Bug:3391] Fixed an issue where buttons and content overlapped and outputted
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Fri, 09 Apr 2021 11:42:38 +0900
+
 gooroom-yelp-adjustments (0.1.1+han2u1) unstable; urgency=medium
 
   [ donghun ]
