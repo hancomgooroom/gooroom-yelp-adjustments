@@ -28,7 +28,7 @@ window.onload = function() {
 
   var aTag = document.createElement("a");
   aTag.href = "../index/index";
-  aTag.text = "도움말";
+  aTag.text = "구름 도움말";
 
   var imgTag = document.createElement("img");
   imgTag.className = "img";

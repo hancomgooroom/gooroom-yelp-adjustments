@@ -6,16 +6,8 @@
    <link rel="stylesheet" href="style.css" type="text/css">
  </HEAD>
  <BODY>
-   <!--nav bar-->
-   <nav class="navbar navbar-fixed-top" style="top:20px;margin-left:30px;margin-right:30px;">
-     <ul>
-       <li><img class="img" src="help.svg">
-       <li><a href="#top">도움말</a>
-     </ul>
-    </nav> <!--end of navbar-->
-
    <!-- header -->
-   <header><a name="top"></a></header>
+   <header style="height:0px !important;"><a name="top"></a></header>
  
    <!-- contants  -->
 
@@ -23,8 +15,10 @@
    <div class="div_root">
 
      <!--TiTle -->
-     <img class="img" src="help.svg">
-     <font class="font title" id="title">구름 도움말 목록</font><br>
+     <div style="display:block;margin-bottom:20px;">
+       <img class="img" src="help.svg">
+       <font class="font title" style="margin-left:5px; line-height:0;" id="title">구름 도움말</font>
+     </div>
 
      <!--1st-->
      <div class="list_rec left" style="float:left">
