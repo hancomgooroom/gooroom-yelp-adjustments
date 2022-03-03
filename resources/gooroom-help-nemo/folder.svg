@@ -1,12 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
     <defs>
-        <linearGradient id="elj9nda1wa" x1="0%" x2="100%" y1="0%" y2="100%">
-            <stop offset="0%" stop-color="#9A9A9A"/>
-            <stop offset="100%" stop-color="#515151"/>
+        <linearGradient x1="0%" y1="23.111%" x2="100%" y2="76.889%" id="mptiksx5za">
+            <stop stop-color="#F540B7" offset="0%"/>
+            <stop stop-color="#783BFE" offset="100%"/>
         </linearGradient>
     </defs>
     <g fill="none" fill-rule="evenodd">
-        <path fill="url(#elj9nda1wa)" d="M16 0h16c8.837 0 16 7.163 16 16v16c0 8.837-7.163 16-16 16H16C7.163 48 0 40.837 0 32V16C0 7.163 7.163 0 16 0z"/>
-        <path fill="#FFF" d="M38 17v16c0 2.21-1.79 4-4 4H14c-2.21 0-4-1.79-4-4V12h15v2H12v19c0 1.105.895 2 2 2h20c1.105 0 2-.895 2-2V19H16v-2h22z"/>
+        <path d="M14 0h20c7.732 0 14 6.268 14 14v20c0 7.732-6.268 14-14 14H14C6.268 48 0 41.732 0 34V14C0 6.268 6.268 0 14 0z" fill="#FFF"/>
+        <path d="M9 16h30v19a3 3 0 0 1-3 3H12a3 3 0 0 1-3-3V16z" fill="url(#mptiksx5za)" fill-rule="nonzero"/>
+        <path fill="#9713FE" d="M9 11h12l3 5H9z"/>
     </g>
 </svg>

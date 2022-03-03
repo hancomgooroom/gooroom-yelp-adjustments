@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
     <defs>
-        <linearGradient id="4bsminu6ga" x1="0%" x2="102%" y1="0%" y2="101%">
-            <stop offset="0%" stop-color="#AB0F0F"/>
-            <stop offset="100%" stop-color="#760BBE"/>
+        <linearGradient x1="14.03%" y1="0%" x2="85.97%" y2="100%" id="qyd6ns745a">
+            <stop stop-color="#FFA919" offset="0%"/>
+            <stop stop-color="#EE006B" offset="100%"/>
         </linearGradient>
     </defs>
     <g fill="none" fill-rule="evenodd">
-        <path fill="url(#4bsminu6ga)" d="M16 0h16c8.837 0 16 7.163 16 16v16c0 8.837-7.163 16-16 16H16C7.163 48 0 40.837 0 32V16C0 7.163 7.163 0 16 0z"/>
-        <path fill="#FFF" d="M8.5 2.5L18.5 19.167 -1.5 19.167z" transform="rotate(90 10 26.333)"/>
+        <path d="M14 0h20c7.732 0 14 6.268 14 14v20c0 7.732-6.268 14-14 14H14C6.268 48 0 41.732 0 34V14C0 6.268 6.268 0 14 0z" fill="#FFF"/>
+        <path d="M18.57 12.857 1.515 23.091A1 1 0 0 1 0 22.234V1.766A1 1 0 0 1 1.514.91l17.057 10.234a1 1 0 0 1 0 1.714z" transform="translate(15 12)" fill="url(#qyd6ns745a)"/>
     </g>
 </svg>

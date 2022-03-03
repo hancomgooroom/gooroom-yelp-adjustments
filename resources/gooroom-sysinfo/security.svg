@@ -1,20 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
     <defs>
-        <linearGradient id="0c6gbe1zsa" x1="27.743%" x2="100%" y1="27.743%" y2="100%">
-            <stop offset="0%" stop-color="#1851B0"/>
-            <stop offset="100%" stop-color="#007EFF"/>
+        <linearGradient x1="42.89%" y1="0%" x2="57.11%" y2="100%" id="mzu6pn8tda">
+            <stop stop-color="#5FEF34" offset="0%"/>
+            <stop stop-color="#048820" offset="100%"/>
         </linearGradient>
     </defs>
     <g fill="none" fill-rule="evenodd">
-        <g>
-            <g>
-                <g fill="url(#0c6gbe1zsa)" transform="translate(-454 -1038) translate(454 1038)">
-                    <path d="M16 0h16c8.837 0 16 7.163 16 16v16c0 8.837-7.163 16-16 16H16C7.163 48 0 40.837 0 32V16C0 7.163 7.163 0 16 0z"/>
-                </g>
-                <path fill="#FFF" fill-rule="nonzero" d="M24 9v31.821L12 33.75V9h12zm0 2H14v21.607L24 38.5V11z" transform="translate(-454 -1038) translate(454 1038)"/>
-                <path fill="#FFF" fill-rule="nonzero" d="M24 11L14 11 14 32.607 24 38.5z" opacity=".2" transform="translate(-454 -1038) translate(454 1038)"/>
-                <path fill="#FFF" fill-opacity=".6" fill-rule="nonzero" d="M36 9v31.821L24 33.75V9h12zm0 2H26v21.607L36 38.5V11z" transform="translate(-454 -1038) translate(454 1038) matrix(-1 0 0 1 60 0)"/>
-            </g>
-        </g>
+        <path d="M14 0h20c7.732 0 14 6.268 14 14v20c0 7.732-6.268 14-14 14H14C6.268 48 0 41.732 0 34V14C0 6.268 6.268 0 14 0z" fill="#FFF"/>
+        <path fill-opacity=".7" fill="url(#mzu6pn8tda)" d="M24 9v31.821L12 33.75V9z"/>
+        <path fill="url(#mzu6pn8tda)" transform="matrix(-1 0 0 1 60 0)" d="M36 9v31.821L24 33.75V9z"/>
     </g>
 </svg>
