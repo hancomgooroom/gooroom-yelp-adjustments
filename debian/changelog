@@ -1,3 +1,41 @@
+gooroom-yelp-adjustments (0.3.0+han3u1) unstable; urgency=medium
+
+  [ subin.kim ]
+  * [b4fe51bb] [Bug:3465]Fixed typo in gnome-mpv
+  * [eb37e37f] [Bug:3464]Added title of some pages in gnome-mpv
+  * [f690cc68] [Bug:3440]Fixed typo in gooroom-update
+  * [66082379] [Bug:3433]Enlarged image size in nimf-settings
+  * [23858ad1] [Bug:3460]Updated UI of thunderbolt.html in gnome-control-center
+  * [03d20981] [Bug:3427]Added anchor in nautilus-behavior.html
+  * [b78d6018] [Bug:3422,3423]Fixed typo in nemo
+  * [d099901b] [Bug:3482]Fixed mal-linked hypertext
+
+  [ heejun.jang ]
+  * [41d2ee41] [Bug:3466,3467]Added network connection add page and Fixed typo
+  * [a85651e1] [Bug:3446,3445,3443,3452,3444]Updated gnome control center wifi contents
+  * [62aa7a60] [Bug:3449,3454,3453]Updated gnome control center device display contents
+  * [51b632fd] [Bug:3450,3451,3453]Updated gnome control center power contents
+  * [014901d5] [Bug:3459,3458,3457,3447]Updated gnome control center device mouse contents
+  * [ff40edcb] [Bug:3456,3455]Updated gnome control center device keyboard contents
+  * [1a077a33] [Bug:3447,3455,3457]Updated gnome control center device a11y contents
+  * [0899f3f4] Updated gnome control center contents title
+  * [4abf3c83] Updated gnome control center device display hyperlink
+  * [8e60b417] [Bug:3496]Added gnome control center power missing contents
+  * [aeac9a9a] [Bug:3509]Updated gnome control center shell keyboard shortcuts hyperlink
+  * [5145b704] [Bug:3510]Updated gnome control center wacom digitizer image
+  * [0ee7df35] [Bug:3508]Updated gnome control panel power suspend option description
+
+  [ boyeon.choi ]
+  * [26f75f02] Fixed some issues & Changed style.css file
+  * [a2cbb427] [Bug:3473] Deleted navigation bar from index.html
+  * [c325f74b] [Bug:3399,3473,3499,3500,3501,3502,3504,3507] Fixed the issues
+  * [890d2362] Removed some path to gnome-control-center
+  * [114cdfb4] [Bug:3435,3469,3471]Fixed typo in eog & Updated gooroom-browser contents
+  * [a9393d6b] [Bug:3492] Modified term: 파일 관리자 to 파일
+  * [cf8f60c8] Hancom Gooroom 3.0 Initialization
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Fri, 11 Mar 2022 21:45:21 +0900
+
 gooroom-yelp-adjustments (0.1.2+han2u1) unstable; urgency=medium
 
   [ donghun ]
