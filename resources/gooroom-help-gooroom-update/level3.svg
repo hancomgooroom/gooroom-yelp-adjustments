@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>870C3C9E-1E94-45DF-8482-944DE48A5C5E</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#3023AE" offset="0%"></stop>
+            <stop stop-color="#C86DD7" offset="100%"></stop>
+        </linearGradient>
+        <path d="M8.33333333,0 L11.6666667,0 C16.2690396,0 20,3.73096042 20,8.33333333 L20,11.6666667 C20,16.2690396 16.2690396,20 11.6666667,20 L8.33333333,20 C3.73096042,20 0,16.2690396 0,11.6666667 L0,8.33333333 C0,3.73096042 3.73096042,0 8.33333333,0 Z" id="path-2"></path>
+        <filter x="-10.0%" y="-10.0%" width="120.0%" height="120.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="2" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="1" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.2 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="구름-3.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="업데이트-관리자" transform="translate(-1881.000000, -1218.000000)">
+            <g id="Write-feedback" transform="translate(1800.000000, 665.000000)">
+                <g id="내용" transform="translate(25.000000, 75.000000)">
+                    <g id="업데이트-종류" transform="translate(0.000000, 301.000000)">
+                        <g id="Group" transform="translate(0.000000, 163.000000)">
+                            <g id="Group-6-Copy-5" transform="translate(56.000000, 14.000000)">
+                                <g id="Rectangle">
+                                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                </g>
+                                <path d="M8.58289142,4.83090046 L3.86254488,12.4560756 C3.69940911,12.7196027 3.61298679,13.0233982 3.61298679,13.3333333 C3.61298679,14.2538079 4.35917887,15 5.27965346,15 L14.7203465,15 C15.0302816,15 15.3340772,14.9135777 15.5976042,14.7504419 C16.3802517,14.2659459 16.6219512,13.2387231 16.1374551,12.4560756 L11.4171086,4.83090046 C11.2813532,4.61160328 11.0965549,4.42680496 10.8772577,4.29104957 C10.0946102,3.80655353 9.06738747,4.048253 8.58289142,4.83090046 Z M10.4386288,4.99960386 C10.5482774,5.06748156 10.6406766,5.15988072 10.7085543,5.2695293 L15.4289008,12.8947045 C15.6711489,13.2860282 15.5502991,13.7996396 15.1589754,14.0418876 C15.0272119,14.1234555 14.8753141,14.1666667 14.7203465,14.1666667 L5.27965346,14.1666667 C4.81941617,14.1666667 4.44632012,13.7935706 4.44632012,13.3333333 C4.44632012,13.1783658 4.48953128,13.026468 4.57109917,12.8947045 L9.29144571,5.2695293 C9.53369373,4.87820557 10.0473051,4.75735584 10.4386288,4.99960386 Z" id="Triangle" fill="#FFFFFF" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>1DDFB04B-55ED-4080-A670-60EF30ED7F00</title>
+    <defs>
+        <path d="M8.33333333,0 L11.6666667,0 C16.2690396,0 20,3.73096042 20,8.33333333 L20,11.6666667 C20,16.2690396 16.2690396,20 11.6666667,20 L8.33333333,20 C3.73096042,20 0,16.2690396 0,11.6666667 L0,8.33333333 C0,3.73096042 3.73096042,0 8.33333333,0 Z" id="path-1"></path>
+        <filter x="-10.0%" y="-10.0%" width="120.0%" height="120.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="1" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M8.33333333,0 L11.6666667,0 C16.2690396,0 20,3.73096042 20,8.33333333 L20,11.6666667 C20,16.2690396 16.2690396,20 11.6666667,20 L8.33333333,20 C3.73096042,20 0,16.2690396 0,11.6666667 L0,8.33333333 C0,3.73096042 3.73096042,0 8.33333333,0 Z" id="path-3"></path>
+        <path d="M4.77670901,12.3064901 C6.01535518,12.3064901 7.04360731,13.2072941 7.24209384,14.3895306 L24.776709,14.3898234 L24.776709,15.2231568 L6.44337567,15.2231568 L6.44337567,14.8064901 C6.44337567,13.8860155 5.69718359,13.1398234 4.77670901,13.1398234 C3.85623442,13.1398234 3.11004234,13.8860155 3.11004234,14.8064901 L3.11004234,15.2231568 L-4.38995766,15.2231568 L-4.38995766,14.3898234 L2.31132417,14.3895306 C2.50981071,13.2072941 3.53806283,12.3064901 4.77670901,12.3064901 Z M17.5,8.47475991 C19.6605617,8.47475991 21.4370418,10.1192088 21.6460936,12.2247599 L24.5833333,12.2247599 L24.5833333,13.0580932 L20.8333333,13.0580932 L20.8333333,12.6414265 C20.8333333,10.8004774 19.3409492,9.30809325 17.5,9.30809325 C15.6590508,9.30809325 14.1666667,10.8004774 14.1666667,12.6414266 L14.1666667,13.0580932 L7.47072602,13.0580932 C7.28927714,12.7444223 7.05818272,12.4630631 6.788187,12.2247599 L13.3539064,12.2247599 C13.5629582,10.1192088 15.3394383,8.47475991 17.5,8.47475991 Z M2.37847967,12.2247599 C2.10848422,12.4630628 1.87738998,12.7444217 1.69594119,13.0580932 L-4.58333333,13.0580932 L-4.58333333,12.2247599 L2.37847967,12.2247599 Z M11.3691243,3.47676386 C14.4944111,3.47676386 17.1732225,5.28774182 18.3001153,7.86243547 C18.0774462,7.83370836 17.8501145,7.81886912 17.6191243,7.81886912 C17.5351156,7.81886912 17.4515908,7.82083191 17.3685983,7.82471172 C16.2879036,5.71820981 14.0074973,4.26623754 11.3691243,4.26623754 C7.687226,4.26623754 4.70245766,7.09391281 4.70245766,10.582027 L4.70245766,10.9767639 L-4.46420901,10.9767639 L-4.46420901,10.1872902 L3.88050282,10.1872902 C4.09670353,6.44676818 7.36680415,3.47676386 11.3691243,3.47676386 Z M24.7024577,10.1872889 L24.7024577,10.9767639 L22.3346148,10.9767639 C22.2317278,10.7009905 22.1026499,10.436938 21.9502125,10.1872889 L24.7024577,10.1872889 Z" id="path-5"></path>
+        <filter x="-6.8%" y="-8.5%" width="113.6%" height="134.1%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="구름-3.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="업데이트-관리자" transform="translate(-1881.000000, -1119.000000)">
+            <g id="Write-feedback" transform="translate(1800.000000, 665.000000)">
+                <g id="내용" transform="translate(25.000000, 75.000000)">
+                    <g id="업데이트-종류" transform="translate(0.000000, 301.000000)">
+                        <g id="Group" transform="translate(0.000000, 63.000000)">
+                            <g id="Group" transform="translate(56.000000, 15.000000)">
+                                <g id="Rectangle">
+                                    <use fill="#0099FF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                </g>
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <g id="Mask"></g>
+                                <g id="Combined-Shape" mask="url(#mask-4)" transform="translate(10.096688, 9.349960) rotate(-30.000000) translate(-10.096688, -9.349960) ">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
