@@ -1,3 +1,10 @@
+gooroom-yelp-adjustments (0.3.2+han3u1) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [96a0fb5a] Added new contents
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Mon, 20 Jun 2022 16:35:15 +0900
+
 gooroom-yelp-adjustments (0.3.1+han3u1) unstable; urgency=medium
 
   [ subin.kim ]
