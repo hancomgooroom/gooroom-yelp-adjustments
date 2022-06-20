@@ -29,17 +29,16 @@ gooroom-help-eog
 gooroom-help-gcsr
 gooroom-help-gedit
 gooroom-help-gnome-mpv
-gooroom-help-gooroom-browser
 gooroom-help-gooroom-update
 gooroom-help-nemo
 gooroom-help-network
 gooroom-help-nimf-settings
 gooroom-help-screen-shot
 gooroom-help-software-center
-gooroom-sysinfo
 grac-editors
 index
 live-installer
+gooroom-security-status-tool
 )
 
 rm -rf $TARGET_DIR/*

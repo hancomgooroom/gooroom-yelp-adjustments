@@ -31,39 +31,9 @@
      <!-- Rectangle-->
      <div class="Rectangle">
        <font class="font text">
-        <img class="img" src ="iptables.png">
-         <pre>네트워크 정책은 '방화벽' 부분에서 적용할 수 있습니다.
-
-<div  style="margin:30">
-  <B>네트워크 정책 추가 및 편집</B><br>
-  <pre>
-  <i>추가</i> 혹은 <i>편집</i> 버튼을 클릭하면 아래와 같은 창이 열립니다.
-
-  <table class="font text" style="width:80%; border-spacing:10px;">
-    <tr>
-      <td>DIRECTION</td><td>신호의 방향을 선택할 수 있습니다.  로컬로 들어오는 신호일 경우 [INPUT]을, 로컬에서 외부로 나가는 신호일 경우 [OUTPUT]을, 두 경우 모두 일 때는 [ALL]을 선택해주세요.</td>
-    </tr>
-    <tr>
-      <td>PROTOCOL</td><td>통신 방식을 선택할 수 있습니다. 종류에 맞춰 [TCP], [UDP], [ICMP] 중 선택해 주세요. </td>
-    </tr>
-    <tr>
-      <td>ADDRESS</td><td>DIRECTION의 경우에 따라 달라집니다. DIRECTION이 [INPUT]인 경우 source ip 주소를, DIRECTION이 OUTPUT일 경우 destination ip를, ALL인 경우는 상대의 ip 주소를 입력해주세요. </td>
-    </tr>
-    <tr>
-      <td>SRC PORT</td><td>source가 이용하는 포트 번호를 의미합니다. </td>
-    </tr>
-    <tr>
-      <td>DST PORT</td><td>목적지에서 이용하는 포트 번호 입니다.</td>
-    </tr>
-    <tr>
-      <td>STATE</td><td>상태를 나타냅니다. 화이트 리스트를 구성하려는 경우 [ACCEPT]를, 블랙리스트를 구성하는 경우 [DROP]을 선택해주세요.</td>
-    </tr>
-    </table>
-
-최종적으로 왼쪽 상단 메뉴의 <i>저장</i>버튼까지 클릭하셔야 반영됩니다. </div></pre>
-</div><!--end of sub rectangle-->
-         </pre>
-         
+         <pre>네트워크 정책은 '방화벽' 부분에서 적용할 수 있습니다. iptables명령어를 활용할 수 있습니다.
+    
+자세한 사항은 공식페이지를 참고하세요.<a href="https://git.netfilter.org/iptables/">https://git.netfilter.org/iptables/</a></pre>
        </font>
      </div>
 

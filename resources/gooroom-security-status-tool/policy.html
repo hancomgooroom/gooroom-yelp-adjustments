@@ -9,11 +9,11 @@
    <nav class="navbar navbar-fixed-top" style="top:20px;margin-left:30px;margin-right:30px;">
     <ul>
       <li><img class="img" src="help.svg">
-      <li><a href="index">매체제어 편집기</a>
+      <li><a href="index">구름 보안상태 도구</a>
       <li><img class="img" src="grey.svg">
-      <li><a href="index#start">매체제어 편집기 시작하기</a>
+      <li><a href="index#page">페이지</a>
       <li><img class="img" src="grey.svg">
-      <li><a href="#top">시작하기</a>
+      <li><a href="#top">정책</a>
     </ul>
    </nav> <!--end of navbar-->
 
@@ -26,47 +26,89 @@
    <div class="div_root">
 
      <!--sub title-->
-     <font class="font Title">매체제어 편집기 소개</font><br>
+     <font class="font Title">정책</font><br>
 
-     <font class="font sub_title">도입배경</font><br>
+     <font class="font sub_title">권한 정책 정보</font><br>
      <!-- Rectangle-->
      <div class="Rectangle">
        <font class="font text">
-         <pre>USB 메모리, 외장형 하드디스크 등 저장 매체는 누구나 하나쯤 가지고 있을 정도로 보편적으로 사용 중입니다. 이러한 저장 매체는 정보 관리 차원에서 편의성을 제공하지만, 해당 매체를 분실한 경우에는 대량의 정보 유출로 인한 피해를 발생시키는 원인이 되고 있습니다. 또한, 저장 매체가 바이러스나 악성코드 침투를 위한 새로운 경로로 악용되는 사례도 나타나고 있어 저장 매체의 안전한 이용 및 관리를 위한 대책마련이 요구되는 상황입니다.
+         <pre>브라우저 정책을 확인할 수 있습니다. 브라우저 정책은 접속 사이트를 신뢰/비신뢰 사이트로 구분하고, 브라우저에서 사용할 수 있는 정책들을 제어하는 정책입니다. 구름 브라우저에서 선택하는 정책이 아닌, GPMS에서 내려주는 정책을 반영합니다.</pre>
+       </font>
+     </div>
+     <br><br>
+     <font class="font sub_title">매체 제어 정책</font><br>
+     <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+        <pre>USB 메모리, CD/DVD, 무선인터넷 등 주변기기와 시스템, 네트워크의 사용을 제어합니다. 단말의 [매체 제어 편집기]에서 편집한 내용이 아닌, GPMS에서 내려주는 정책을 반영합니다. </pre>
+       </font>
+     </div>
+     <br><br>
+     <font class="font sub_title">보안</font><br>
+      <!--Rectangle-->
+      <div class="Rectangle">
+        <font class="font text">
+          <pre>보안 상태 정보 탭으로 들어가면 다음과 같은 3가지 상태를 확인할 수 있습니다. 
 
- 저장 매체를 통한 정보유출 피해를 최소화하기 위한 대책으로 저장 매체에 보안 솔루션을 적용하거나, 보안기능을 갖는 보안 매체를 이용하는 방법이 있습니다.
+
+<B>보안 상태</B>
+
+신뢰부팅, 실행파일 검증, 운영체제 보호, 매체제어의 상태를 판단하여 안전/취약으로 현재 상태를 나타냅니다. <i>안전 조치 실행</i>버튼은 [취약] 상태에서 활성화 됩니다. 
+
+
+<B>활성화된 보안 기능</B>
+
+신뢰부팅, 실행파일 검증, 운영체제 보호, 메체제어가 활성화 되어 있는지 나타냅니다. 정보를 표시하는 기능일 뿐 편집할 수 없습니다. <a href="../grac-editors/index">매체제어 편집기 </a>를 통해 <i>매체제어</i>를 활성화 할 수 있습니다.
+
+
+<B>단말 보안 정책</B>
+
+계정의 패스워드 변경 주기, 화면보호기 설정 시간, 패키지 추가/삭제 차단 기능의 사용 여부를 나타냅니다. </pre>
+     </div>
+<br><br>
+<font class="font sub_title">네트워크</font><br>
+     <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+         <pre>GPMS에서 설정한 네트워크 정책과 방화벽 정책을 보여줍니다.</pre>
+       </font>
+     </div>
+<br><br>
+<font class="font sub_titleㅈ">알림</font><br>
+     <!-- Rectangle-->
+     <div class="Rectangle">
+       <font class="font text">
+        <pre><B>알림창 표시 조건 (로그 레벨)</B>
+
+ 구름 플랫폼은 구름 보안프레임워크가 제공하는 4단계 보안 기술을 제공합니다.</pre>
         
- 이를 위해 구름 플랫폼에서는  자체적으로 매체제어 에디터를 제공하고 있습니다.</pre>
+          <table class="font text" style="border-spacing: 16px;">
+            <tr>
+              <td>신뢰부팅</td><td>부트로더 및 커널에 대한 무결성 검증 수행으로, 해커에 의해 시스템이 변조되었을 경우 구름 플랫폼의 부팅을 차단합니다.</td>
+            </tr>
+            <tr>
+              <td>운영체제 보호</td><td>동적 커널 보호 기술로서, 악성코드가 실행중인 커널을 변조할 때, 커널보다 높은 수준(하이퍼바이저)에서 악성행위를 탐지합니다.</td>
+            </tr>
+            <tr>
+              <td>실행파일 보호</td><td>실행파일에 대한 무결성 검증 수행으로, 악성 프로그램이 단말에 유입되었을 경우에도 근본적인 실행을 차단합니다.</td>
+            </tr>
+            <tr>
+              <td>브라우저 보호</td><td>접속처에 따라 신뢰브라우저와 비신뢰브라우저로 격리된 브라우징 환경을 제공하고 차등화된 보안정책을 적용할 수 있습니다.</td>
+            </tr>
+          </table>
+        
+        <pre>알림창 표시 조건은 위의 기술 3가지(1. 신뢰부팅 / 2.실행파일 검증 / 3.운영체제 보호)과 <a href="../grac-editors/index">매체제어</a> 기술을 이용하여 로그를 기록합니다. 각 영역의 체크박스는 로그를 기록하는 범위를 나타내며, 구름 시스템 보안 상태 자세히 보기 프로그램을 이용해 수정할 수는 없습니다.
+
+
+<B>중복 로그인 알림 허용</B>
+원격 계정으로 중복 로그인을 한 경우 알림창을 띄울지 설정할 수 있습니다.</pre>
        </font>
      </div>
-
-     <br><br>
-     <font class="font sub_title">도입효과</font><br>
-     <!-- Rectangle-->
-     <div class="Rectangle">
-       <font class="font text">
-        - 기업/조직 내의 데이터 도난 방지<br><br>
-        - 우발적 데이터 손실 및 유출 방지<br><br>
-        - Stuxnet, Confiker등과 같은 USB 기반 악성코드로부터 보호<br><br>
-       </font>
-     </div>
-
-     <br><br>
-     <font class="font sub_title">주요기능</font><br>
-     <!-- Rectangle-->
-     <div class="Rectangle">
-       <font class="font text">
-        - 서버 없이 PC에 설치되어 접속되는 주요 포트 및 저장 매체 통제<br><br>
-        - USB 메모리, CD/DVD, 무선인터넷 등 주변기기 사용 제어<br><br>
-        - 네트워크 주소, 포트 및 프로토콜 등 으로 필터링 하여 화이트리스트, 블랙 리스트 작성
-       </font>
-     </div>
-
    </div>   <!-- end of div_root-->
 
   <footer>
   <font class="font" style="font-size:14px;line-height:2;"><B>참고</B><br>
-  <a href="index#start">매체제어 편집기 시작하기</a></font> <br>
+  <a href="index#start">구름 보안상태 도구 시작하기</a></font> <br>
   <a href="start">시작하기</a></font> <br><br>
   </footer>
 
