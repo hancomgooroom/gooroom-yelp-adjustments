@@ -32,3 +32,4 @@ help:gedit,help:gooroom-help-gedit
 help:gedit/gedit-plugins-insert-date-time,help:gooroom-help-gedit/time_date
 help:gnome-help/screen-shot-record,help:gooroom-help-screen-shot
 help:gedit/gedit-spellcheck,help:gooroom-help-gedit/spell_check
+help:gooroom-help-gcsr,help:gooroom-security-status-tool/gcsr
