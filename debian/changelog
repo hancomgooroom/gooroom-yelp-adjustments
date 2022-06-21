@@ -1,3 +1,10 @@
+gooroom-yelp-adjustments (0.3.3+han3u1) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [d90f83c0] gooroom-security-status-tool Initialization
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 21 Jun 2022 16:54:24 +0900
+
 gooroom-yelp-adjustments (0.3.2+han3u1) unstable; urgency=medium
 
   [ boyeon.choi ]
