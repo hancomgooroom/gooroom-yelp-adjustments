@@ -1,21 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
     <defs>
-        <path id="a" d="M4 0h16a4 4 0 0 1 4 4v16a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4z"/>
+        <linearGradient x1="0%" y1="3.772%" x2="100%" y2="96.228%" id="brzv3w4hla">
+            <stop stop-color="#5FEF34" offset="0%"/>
+            <stop stop-color="#048820" offset="100%"/>
+        </linearGradient>
     </defs>
     <g fill="none" fill-rule="evenodd">
-        <rect width="24" height="24" fill="#FFF" rx="8"/>
-        <mask id="b" fill="#fff">
-            <use xlink:href="#a"/>
-        </mask>
-        <path stroke="#D3D3D3" d="M4 .5A3.5 3.5 0 0 0 .5 4v16A3.5 3.5 0 0 0 4 23.5h16a3.5 3.5 0 0 0 3.5-3.5V4A3.5 3.5 0 0 0 20 .5H4z"/>
-        <g mask="url(#b)">
-            <path fill="#55B6FF" d="M11.808 21L30.03 10.48l.5.866-19.052 11-.25-.433a2 2 0 0 0-3.464 2l.25.433-7.794 4.5-.5-.866 6.964-4.021A3 3 0 0 1 11.808 21z"/>
-            <path fill="#299FFF" d="M25.728 10.077l3.052-1.762.5.866-3.897 2.25-.25-.433a4 4 0 1 0-6.928 4l-.866.5a5 5 0 0 1 8.389-5.421z"/>
-            <path fill="#2E70BE" d="M19.405 7.44a6.054 6.054 0 0 0-.992.518A8 8 0 0 0 6.996 18.582l-.866.5A9 9 0 0 1 19.405 7.442z"/>
-            <path fill="#299FFF" d="M5.704 21.637c-.137.41-.208.841-.209 1.276l-6.525 3.768-.5-.866 7.234-4.178zm4.583-2.645l7.668-4.427.5.866-6.958 4.017a4.018 4.018 0 0 0-1.21-.456z"/>
-            <path fill="#2E70BE" d="M6.746 18.15l.5.866-9.526 5.5-.5-.866 9.526-5.5zM24.67 7.8l2.86-1.65.5.866-2.46 1.42a5.97 5.97 0 0 0-.9-.635z"/>
-            <path fill="#FFF" fill-opacity=".5" d="M3.47 34.475l30.31-17.5.5.866-30.31 17.5z"/>
-        </g>
-        <path fill="#4A4A4A" d="M8 2h8a1 1 0 0 1 0 2H8a1 1 0 1 1 0-2z"/>
+        <path d="M14 0h20c7.732 0 14 6.268 14 14v20c0 7.732-6.268 14-14 14H14C6.268 48 0 41.732 0 34V14C0 6.268 6.268 0 14 0z" fill="#FFF"/>
+        <path d="M11 16h26v20a5 5 0 0 1-5 5H16a5 5 0 0 1-5-5V16z" fill="url(#brzv3w4hla)"/>
+        <path d="M20 21h8v-8a4 4 0 1 0-8 0v8zm-2-8a6 6 0 1 1 12 0v8H18v-8z" fill="#255503" fill-rule="nonzero"/>
     </g>
 </svg>
