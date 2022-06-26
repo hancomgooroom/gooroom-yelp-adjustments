@@ -1,3 +1,11 @@
+gooroom-yelp-adjustments (0.3.4+han3u1) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [895b82f8] Fixed issues: #66, #62, #63, #64, #83, #87, #88
+  * [1642852a] Update 2022.06.24
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Mon, 27 Jun 2022 08:18:56 +0900
+
 gooroom-yelp-adjustments (0.3.3+han3u1) unstable; urgency=medium
 
   [ boyeon.choi ]
