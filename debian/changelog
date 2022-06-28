@@ -1,3 +1,11 @@
+gooroom-yelp-adjustments (0.3.5+han3u1) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [8294a28d] Update 2022.06.28
+  * [438afe70] [Bug:116] Changed the word: keyboard -> keyrboard shortcut
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 28 Jun 2022 11:54:25 +0900
+
 gooroom-yelp-adjustments (0.3.4+han3u1) unstable; urgency=medium
 
   [ boyeon.choi ]
