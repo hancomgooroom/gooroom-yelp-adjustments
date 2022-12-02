@@ -1,7 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-    <g fill="#FFF" fill-rule="evenodd">
-        <path d="M9 8c1.38 0 2.63.56 3.536 1.464L9 13 5.463 9.465C6.368 8.56 7.62 8 9 8z" transform="translate(3 6)"/>
-        <path d="M9 4c2.485 0 4.735 1.007 6.364 2.636l-2.121 2.121C12.157 7.672 10.657 7 9 7c-1.657 0-3.157.672-4.243 1.757L2.636 6.636C4.265 5.007 6.515 4 9 4z" transform="translate(3 6)"/>
-        <path d="M18 4l-1.929 1.929C14.261 4.119 11.761 3 9 3S3.739 4.12 1.929 5.929L0 4C4.97-.97 13.03-.97 18 4z" transform="translate(3 6)"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1.1">
+ <path style="fill:#444444" d="M 0,4 C 2.0806,2.0732 4.9494,1 8,1 c 3.051,0 5.919,1.0731 8,3 L 8,15 Z"/>
 </svg>
