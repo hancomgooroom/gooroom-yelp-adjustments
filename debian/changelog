@@ -1,3 +1,20 @@
+gooroom-yelp-adjustments (0.3.6+han3u1) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [ae300799] [HGOOROOM-922] Deleted 화면 잠금 on gnome-control-center/index.html
+  * [9c964b60] [HGOOROOM-851] Replace image
+  * [d05f3599] [HGOOROOM-811] Modified the description of gedit
+  * [ca68a2c1] [HGOOROOM-1015] Removed gedit plugins
+  * [13bdf604] [HGOOROOM-335->1012] Modified gooroom-help-network
+  * [692f13b9] [HGOOROOM-1004] Deleted font's function
+  * [1408a61c] [HGOOROOM-800] Fixed gooroom-guide typo
+  * [934bf617] [HGOOROOM-788] text align center for grac-editors
+  * [33273719] [HGOOROOM-787] Fixed typo:grac-editors
+  * [489c95ee] [HGOOROOM-584] update text align center
+  * [a608313e] Added start_default.png for gnome-control-center
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Fri, 03 Feb 2023 16:44:27 +0900
+
 gooroom-yelp-adjustments (0.3.5+han3u1) unstable; urgency=medium
 
   [ boyeon.choi ]
