@@ -15,6 +15,11 @@ help:gnome-control-center/theme,help:gnome-control-center/themes
 help:gnome-help/prefs-language,help:gnome-control-center/prefs-language
 help:gnome-help/a11y,help:gnome-control-center/a11y
 help:gnome-help/privacy,help:gnome-control-center/privacy
+help:gnome-help/camera,help:gnome-control-center/privacy
+help:gnome-help/microphone,help:gnome-control-center/privacy
+help:gnome-help/privacy-location,help:gnome-control-center/privacy-location
+help:gnome-help/privacy-purge,help:gnome-control-center/privacy-purge
+help:gnome-help/privacy-screen-lock,help:gnome-control-center/privacy-screen-lock
 help:gnome-help/media#sound,help:gnome-control-center/media
 help:gnome-help/power,help:gnome-control-center/power
 help:gnome-help/net,help:gnome-control-center/net
@@ -26,7 +31,10 @@ help:gnome-help/wacom,help:gnome-control-center/wacom
 help:gnome-help/prefs,help:gnome-control-center/prefs-device
 help:gnome-help/color,help:gnome-control-center/color
 help:gnome-help/clock,help:gnome-control-center/clock
+help:gnome-help/file-autorun,help:gnome-control-center/file-autorun
+help:gnome-help/thunderbolt,help:gnome-control-center/thunderbolt
 help:gnome-help/user-accounts,help:gnome-control-center/user-accounts
+help:gnome-help/details-information,help:gnome-control-center/details-information
 help:gnome-calculator,help:gooroom-help-calc
 help:gedit,help:gooroom-help-gedit
 help:gedit/gedit-plugins-insert-date-time,help:gooroom-help-gedit/time_date
