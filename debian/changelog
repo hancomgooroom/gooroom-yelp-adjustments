@@ -1,3 +1,10 @@
+gooroom-yelp-adjustments (0.3.7+han3u1) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [3e7ed59d] [HGOOROOM-1340]Fixed the wrong link
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 21 Feb 2023 09:40:10 +0900
+
 gooroom-yelp-adjustments (0.3.6+han3u1) unstable; urgency=medium
 
   [ boyeon.choi ]
