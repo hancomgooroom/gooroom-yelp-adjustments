@@ -1,3 +1,10 @@
+gooroom-yelp-adjustments (0.3.8+han3u1) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [a79ded2a] [HGOOROOM-1399] Modified the index.html of gnome-control-center to synchronize with the document
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Thu, 23 Feb 2023 18:48:09 +0900
+
 gooroom-yelp-adjustments (0.3.7+han3u1) unstable; urgency=medium
 
   [ boyeon.choi ]
