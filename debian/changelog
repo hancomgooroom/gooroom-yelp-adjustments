@@ -1,3 +1,11 @@
+gooroom-yelp-adjustments (0.3.9+han3u1) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [351b5b9e] Fixed HGOOROOM-1408 & HGOOROOM-1411
+  * [6068c57e] [HGOOROOM-786]Change the therm:앱정보 →  앱 상세화면
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Fri, 30 Jun 2023 19:03:39 +0900
+
 gooroom-yelp-adjustments (0.3.8+han3u1) unstable; urgency=medium
 
   [ boyeon.choi ]
