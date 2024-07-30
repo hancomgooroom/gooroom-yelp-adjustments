@@ -18,6 +18,7 @@ help:gnome-help/privacy,help:gnome-control-center/privacy
 help:gnome-help/camera,help:gnome-control-center/privacy
 help:gnome-help/microphone,help:gnome-control-center/privacy
 help:gnome-help/privacy-location,help:gnome-control-center/privacy-location
+help:gnome-help/location,help:gnome-control-center/privacy-location
 help:gnome-help/privacy-purge,help:gnome-control-center/privacy-purge
 help:gnome-help/privacy-screen-lock,help:gnome-control-center/privacy-screen-lock
 help:gnome-help/media#sound,help:gnome-control-center/media
