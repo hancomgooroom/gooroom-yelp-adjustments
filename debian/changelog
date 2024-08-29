@@ -1,3 +1,10 @@
+gooroom-yelp-adjustments (0.4.0+han4u1) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [06a24299] Init Hancom v4
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Fri, 30 Aug 2024 06:59:46 +0900
+
 gooroom-yelp-adjustments (0.3.10+han3u1) unstable; urgency=medium
 
   [ boyeon.choi ]
